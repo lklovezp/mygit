@@ -1,0 +1,678 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="../easyui_jz/accordion_jz_zx.css" rel="stylesheet" type="text/css" />
+<link href="../easyui_jz/panel_jz_zx.css" rel="stylesheet" type="text/css" />
+<link href="../app/hnjz.css" rel="stylesheet" type="text/css" />
+<link href="../easyui/themes/icon.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../jquery/jquery.js"></script>
+<script type="text/javascript" src="../easyui/jquery.easyui.min.js"></script>
+</head>
+
+<body>
+ <div class="top1">
+  <label for="weifa" class="label">违法类型：</label>
+  <select name="" class="select" >
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  </select>
+  
+  <label for="weifa" class="label1">陪同人：</label>
+  <select name="" class="select1" >
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  </select>
+  
+  <label for="weifa" class="label1">记录人：</label>
+  <select name="" class="select1" >
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  </select>
+  <a href="" target="_blank">任务详情</a>
+ </div>
+ <div class="top1">
+  <input type="submit" class="btn-select em a1" value="上报移交" />
+  <input type="submit" class="btn-select em a1" value="打包下载资料" />
+  <input type="submit" class="btn-select em a1" value="查看全部资料" />
+ </div>
+
+
+
+
+<div class="top3">
+        <div id="aa" class="easyui-accordion a2" fit="true">
+            <div title="询问笔录(1)" class="a3">
+              <table  class="table1" >
+  <tr>
+    <td class="b1"></td>
+    <td class="b2">文件名称</td>
+    <td class="b3">文件描述</td>
+    <td class="b4">文件大小（k）</td>
+    <td class="b5">文件管理</td>
+
+  </tr>
+  <tr>
+    <td class="td">1</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"><img src="images/a3.png" class="tdimg" /><a class="tda" href="" target="_blank">删除</a><img src="images/a4.png" class="tdimg" /><a class="tda" href="" target="_blank">下载</a></td>
+
+  </tr>
+  <tr>
+    <td class="td1">2</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">3</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+   
+  </tr>
+  <tr>
+    <td class="td1">4</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">5</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+  <tr>
+    <td class="td1">6</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td" >7</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+</table>
+      
+      <span class="btn btn-ok b6">
+<input type="button" onclick="" value="上传文件" >
+</span>      
+               
+            </div>
+            <div title="勘查笔录" class="a4">
+                   <table class="table1">
+  <tr>
+    <td class="b1"></td>
+    <td class="b2">文件名称</td>
+    <td class="b3">文件描述</td>
+    <td class="b4">文件大小（k）</td>
+    <td class="b5">文件管理</td>
+
+  </tr>
+  <tr>
+    <td class="td">1</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+
+  </tr>
+  <tr>
+    <td class="td1">2</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">3</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+   
+  </tr>
+  <tr>
+    <td class="td1">4</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">5</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+  <tr>
+    <td class="td1">6</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td" >7</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+</table>
+      <span class="btn btn-ok b6">
+<input type="button" onclick="" value="上传文件" >
+</span> 
+            </div>
+            <div title="书证等证据信息" class="a4">
+                   <table class="table1">
+  <tr>
+    <td class="b1"></td>
+    <td class="b2">文件名称</td>
+    <td class="b3">文件描述</td>
+    <td class="b4">文件大小（k）</td>
+    <td class="b5">文件管理</td>
+
+  </tr>
+  <tr>
+    <td class="td">1</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+
+  </tr>
+  <tr>
+    <td class="td1">2</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">3</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+   
+  </tr>
+  <tr>
+    <td class="td1">4</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">5</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+  <tr>
+    <td class="td1">6</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td" >7</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+</table>
+      <span class="btn btn-ok b6">
+<input type="button" onclick="" value="上传文件" >
+</span> 
+            </div>
+            <div title="现场勘查示意图" class="a4">
+               <table class="table1">
+               <tr>
+    <td class="td2">勘查人</td>
+    <td class="td2">绘图人</td>
+    <td class="td2">绘图时间</td>
+    <td class="td2">当事人</td>
+    <td class="td2">见证人</td>
+    <td class="td3">拒签理由</td>
+
+  </tr>
+  <tr>
+    <td class="td4" ></td>
+    <td class="td4"></td>
+    <td class="td4"></td>
+    <td class="td4"></td>
+    <td class="td4"></td>
+    <td class="td4"></td>
+  </tr>
+               
+               </table><br />
+               <table class="table1">
+  <tr>
+    <td class="b1"></td>
+    <td class="b2">文件名称</td>
+    <td class="b3">文件描述</td>
+    <td class="b4">文件大小（k）</td>
+    <td class="b5">文件管理</td>
+
+  </tr>
+  <tr>
+    <td class="td">1</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+
+  </tr>
+  <tr>
+    <td class="td1">2</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">3</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+   
+  </tr>
+  <tr>
+    <td class="td1">4</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">5</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+  <tr>
+    <td class="td1">6</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td" >7</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+</table>
+      <span class="btn btn-ok b6">
+<input type="button" onclick="" value="上传文件" >
+</span> 
+            </div>
+            <div title="视听资料" class="a4">
+            <span class="label">图片资料：</span>
+               <table class="table1">
+               <tr>
+    <td class="td2">拍摄时间</td>
+    <td class="td2">拍摄地点</td>
+    <td class="td2">设备型号</td>
+    <td class="td2">天气</td>
+    <td class="td2">执法证号</td>
+    <td class="td3">拍摄内容</td>
+
+  </tr>
+  <tr>
+    <td class="td4" ></td>
+    <td class="td4"></td>
+    <td class="td4"></td>
+    <td class="td4"></td>
+    <td class="td4"></td>
+    <td class="td4"></td>
+  </tr>
+               
+               </table><br />
+               <table class="table1">
+  <tr>
+    <td class="b1"></td>
+    <td class="b2">文件名称</td>
+    <td class="b3">文件描述</td>
+    <td class="b4">文件大小（k）</td>
+    <td class="b5">文件管理</td>
+
+  </tr>
+  <tr>
+    <td class="td">1</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+
+  </tr>
+  <tr>
+    <td class="td1">2</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">3</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+   
+  </tr>
+  <tr>
+    <td class="td1">4</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">5</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+  <tr>
+    <td class="td1">6</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td" >7</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+</table>
+     <span class="btn btn-ok b6">
+<input type="button" onclick="" value="上传文件" >
+</span> 
+      <br />
+      <span class="label">音频资料：</span>
+      <table class="table1">
+  <tr>
+    <td class="b1"></td>
+    <td class="b2">文件名称</td>
+    <td class="b3">文件描述</td>
+    <td class="b4">文件大小（k）</td>
+    <td class="b5">文件管理</td>
+
+  </tr>
+  <tr>
+    <td class="td">1</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+
+  </tr>
+  <tr>
+    <td class="td1">2</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">3</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+   
+  </tr>
+  <tr>
+    <td class="td1">4</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">5</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+  <tr>
+    <td class="td1">6</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td" >7</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+</table>
+      <span class="btn btn-ok b6">
+<input type="button" onclick="" value="上传文件" >
+</span> 
+      <br />
+      
+      <span class="label">视频资料：</span>
+      <table class="table1">
+  <tr>
+    <td class="b1"></td>
+    <td class="b2">文件名称</td>
+    <td class="b3">文件描述</td>
+    <td class="b4">文件大小（k）</td>
+    <td class="b5">文件管理</td>
+
+  </tr>
+  <tr>
+    <td class="td">1</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+
+  </tr>
+  <tr>
+    <td class="td1">2</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">3</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+   
+  </tr>
+  <tr>
+    <td class="td1">4</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">5</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+  <tr>
+    <td class="td1">6</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td" >7</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+</table>
+      <span class="btn btn-ok b6">
+<input type="button" onclick="" value="上传文件" >
+</span> 
+            </div>
+        <div title="其他" class="a4">
+                <table width="100%" border="1" bordercolor="#DDDDDD" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td class="b1"></td>
+    <td class="b2">文件名称</td>
+    <td class="b3">文件描述</td>
+    <td class="b4">文件大小（k）</td>
+    <td class="b5">文件管理</td>
+
+  </tr>
+  <tr>
+    <td class="td">1</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+
+  </tr>
+  <tr>
+    <td class="td1">2</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">3</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+   
+  </tr>
+  <tr>
+    <td class="td1">4</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td">5</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+  <tr>
+    <td class="td1">6</td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    <td class="td1"></td>
+    
+  </tr>
+  <tr>
+    <td class="td" >7</td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    <td class="td"></td>
+    
+  </tr>
+</table>
+      <span class="btn btn-ok b6">
+<input type="button" onclick="" value="上传文件" >
+</span> 
+            </div>    
+            
+        </div>
+ </div>
+
+
+
+
+
+
+
+</body>
+</html>

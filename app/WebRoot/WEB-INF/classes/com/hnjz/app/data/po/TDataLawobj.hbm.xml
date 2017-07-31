@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataLawobj" table="T_DATA_LAWOBJ">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+
+		<property column="LAWOBJTYPE_" name="lawobjtype" not-null="true" type="string" />
+		<property column="COLUMN_1" name="column1" not-null="false" type="string" />
+		<property column="COLUMN_2" name="column2" not-null="false" type="string" />
+		<property column="COLUMN_3" name="column3" not-null="false" type="string" />
+		<property column="COLUMN_4" name="column4" not-null="false" type="string" />
+		<property column="COLUMN_5" name="column5" not-null="false" type="string" />
+		<property column="COLUMN_6" name="column6" not-null="false" type="string" />
+		<property column="COLUMN_7" name="column7" not-null="false" type="string" />
+		<property column="COLUMN_8" name="column8" not-null="false" type="string" />
+		<property column="COLUMN_9" name="column9" not-null="false" type="string" />
+		<property column="COLUMN_10" name="column10" not-null="false" type="string" />
+		<property column="COLUMN_11" name="column11" not-null="false" type="string" />
+		<property column="COLUMN_12" name="column12" not-null="false" type="string" />
+		<property column="COLUMN_13" name="column13" not-null="false" type="string" />
+		<property column="COLUMN_14" name="column14" not-null="false" type="string" />
+		<property column="COLUMN_15" name="column15" not-null="false" type="string" />
+		<property column="COLUMN_16" name="column16" not-null="false" type="string" />
+		<property column="COLUMN_17" name="column17" not-null="false" type="string" />
+		<property column="COLUMN_18" name="column18" not-null="false" type="string" />
+		<property column="COLUMN_19" name="column19" not-null="false" type="string" />
+		<property column="COLUMN_20" name="column20" not-null="false" type="string" />
+		<property column="COLUMN_21" name="column21" not-null="false" type="string" />
+		<property column="COLUMN_22" name="column22" not-null="false" type="string" />
+		<property column="COLUMN_23" name="column23" not-null="false" type="string" />
+		<property column="COLUMN_24" name="column24" not-null="false" type="string" />
+		<property column="COLUMN_25" name="column25" not-null="false" type="string" />
+		<property column="COLUMN_26" name="column26" not-null="false" type="string" />
+		<property column="COLUMN_27" name="column27" not-null="false" type="string" />
+		<property column="COLUMN_28" name="column28" not-null="false" type="string" />
+		<property column="COLUMN_29" name="column29" not-null="false" type="string" />
+		<property column="COLUMN_30" name="column30" not-null="false" type="string" />
+		<property column="COLUMN_31" name="column31" not-null="false" type="string" />
+		<property column="COLUMN_32" name="column32" not-null="false" type="string" />
+		<property column="COLUMN_33" name="column33" not-null="false" type="string" />
+		<property column="COLUMN_34" name="column34" not-null="false" type="string" />
+		<property column="COLUMN_35" name="column35" not-null="false" type="string" />
+		<property column="COLUMN_36" name="column36" not-null="false" type="string" />
+		<property column="COLUMN_37" name="column37" not-null="false" type="string" />
+		<property column="COLUMN_38" name="column38" not-null="false" type="string" />
+		<property column="COLUMN_39" name="column39" not-null="false" type="string" />
+		<property column="COLUMN_40" name="column40" not-null="false" type="string" />
+		<property column="COLUMN_41" name="column41" not-null="false" type="string" />
+		<property column="COLUMN_42" name="column42" not-null="false" type="string" />
+		<property column="COLUMN_43" name="column43" not-null="false" type="string" />
+		<property column="COLUMN_44" name="column44" not-null="false" type="string" />
+		<property column="COLUMN_45" name="column45" not-null="false" type="string" />
+		<property column="COLUMN_46" name="column46" not-null="false" type="string" />
+		<property column="COLUMN_47" name="column47" not-null="false" type="string" />
+		<property column="COLUMN_48" name="column48" not-null="false" type="string" />
+		<property column="COLUMN_49" name="column49" not-null="false" type="string" />
+		<property column="COLUMN_50" name="column50" not-null="false" type="string" />
+		<property column="AREAID_" name="areaid" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="false" type="string" />
+		<property column="UPDATED_" name="updated" not-null="false" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="created" not-null="false" type="timestamp" />
+		<many-to-one name="createby" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

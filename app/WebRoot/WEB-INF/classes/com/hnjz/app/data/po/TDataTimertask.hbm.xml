@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataTimertask" table="T_DATA_TIMERTASK">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+
+		<property column="NAME_" name="name" not-null="false" type="string" />
+		<property column="CONTENT_" name="content" not-null="false" type="string" />
+		<property column="SOURCE_" name="source" not-null="false" type="string" />
+		<property column="SECURITY_" name="security" not-null="false" type="string" />
+		<property column="EMERGENCY_" name="emergency" not-null="false" type="string" />
+		<many-to-one name="register" column="REGISTER_" class="com.hnjz.sys.po.TSysUser" lazy="false" not-null="false"></many-to-one>
+		<many-to-one name="hander" column="HANDER_" class="com.hnjz.sys.po.TSysUser" lazy="false" not-null="false"></many-to-one>
+		<many-to-one name="accepter" column="ACCEPTER_" class="com.hnjz.sys.po.TSysUser" lazy="false" not-null="false"></many-to-one>
+		<property column="OPINION_" name="opinion" not-null="false" type="string" />
+		<property column="TYPE_" name="type" not-null="false" type="string" />
+		<property column="TIMES_" name="times" not-null="false" type="integer" />
+		<property column="TASKSTARTED_" name="taskstarted" not-null="false" type="timestamp" />
+		<property column="TASKENDED_" name="taskended" not-null="false" type="timestamp" />
+		<property column="LAWOBJTYPE_" name="lawobjtype" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="false" type="string" />
+		<property column="UPDATED_" name="updated" not-null="false" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="created" not-null="false" type="timestamp" />
+		<many-to-one name="createby" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

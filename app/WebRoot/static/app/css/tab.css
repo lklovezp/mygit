@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tabType1{width:620px; margin:0px auto; padding:30px 0px 0px;}
+.tabType1 .th{ border-bottom:1px solid #2a8dff;}
+.tabType1 .th ul li{ width:94px; height:33px; line-height:33px; float:left; text-align:center; background:url(../images/tabBg01.png) repeat-x; border-style:solid; border-color:#d1d1d1; border-width:1px 1px 0px; border-top-left-radius:5px; border-top-right-radius:5px; margin-right:4px; cursor:pointer;}
+.tabType1 .th ul li.cur{ background:url(../images/tabBg01_cur.png) repeat-x; border-color:#a4c8ff; color:#ffffff;}
+.tabType1 .td ul li.tdli{ margin-top:18px; height:357px; display:none; overflow:auto; position:relative;}
+
+
+
+.tabType2{ margin:0px auto;}
+.tabType2 .th{ padding:28px 50px 0px; background:#f8f8f8; border-bottom:1px solid #d7d7d7;}
+.tabType2 .th ul li{ width:94px; height:33px; line-height:33px; float:left; text-align:center; background:#eeeeee; border-style:solid; border-color:#d7d7d7; border-width:1px 1px 0px; margin-right:4px; cursor:pointer;}
+.tabType2 .th ul li.cur{ background:#eeeeee;  color:#0256da;}
+.tabType2 .td ul li.tdli{ margin-top:18px; padding:0px 50px 0px; height:245px; display:none; overflow:auto; position:relative;}
+
+
+
+
+
+
+
+

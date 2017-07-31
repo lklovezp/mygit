@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+	<SheetObj key="param" name="各部门任务统计" beginx="0" beginy="0" span="0" clazz="Map">
+		<ColnumObj x="1" y="1" name="riqi" />
+		<ColnumObj x="2" y="1" name="jjcd" />
+		<ColnumObj x="3" y="1" name="rwly" />
+	
+		<!--  任务类型 -->
+		<ColnumObj x="4" y="7" name="title1" />
+		<ColnumObj x="4" y="12" name="title2" />
+		<ColnumObj x="4" y="17" name="title3" />
+		<ColnumObj x="4" y="22" name="title4" />
+		<ColnumObj x="4" y="27" name="title5" />
+	</SheetObj>		
+	<SheetObj key="list" name="各部门任务统计" beginx="6" beginy="0" span="1" clazz="com.hnjz.app.work.beans.WorkDeptStatisticsArrayBean">
+		<ColnumObj x="0" y="0" name="forgName" />
+		<ColnumObj x="0" y="1" name="orgName" />
+		
+		<ColnumObj x="0" y="2" name="xd0" />
+		<ColnumObj x="0" y="3" name="wc0" />
+		<ColnumObj x="0" y="4" name="yqwc0" />
+		<ColnumObj x="0" y="5" name="zx0" />
+		<ColnumObj x="0" y="6" name="yqwwc0" />
+		
+		<ColnumObj x="0" y="7" name="xd1" />
+		<ColnumObj x="0" y="8" name="wc1" />
+		<ColnumObj x="0" y="9" name="yqwc1" />
+		<ColnumObj x="0" y="10" name="zx1" />
+		<ColnumObj x="0" y="11" name="yqwwc1" />
+		
+		<ColnumObj x="0" y="12" name="xd2" />
+		<ColnumObj x="0" y="13" name="wc2" />
+		<ColnumObj x="0" y="14" name="yqwc2" />
+		<ColnumObj x="0" y="15" name="zx2" />
+		<ColnumObj x="0" y="16" name="yqwwc2" />
+		
+		<ColnumObj x="0" y="17" name="xd3" />
+		<ColnumObj x="0" y="18" name="wc3" />
+		<ColnumObj x="0" y="19" name="yqwc3" />
+		<ColnumObj x="0" y="20" name="zx3" />
+		<ColnumObj x="0" y="21" name="yqwwc3" />
+		
+		<ColnumObj x="0" y="22" name="xd4" />
+		<ColnumObj x="0" y="23" name="wc4" />
+		<ColnumObj x="0" y="24" name="yqwc4" />
+		<ColnumObj x="0" y="25" name="zx4" />
+		<ColnumObj x="0" y="26" name="yqwwc4" />
+		
+		<ColnumObj x="0" y="27" name="xd5" />
+		<ColnumObj x="0" y="28" name="wc5" />
+		<ColnumObj x="0" y="29" name="yqwc5" />
+		<ColnumObj x="0" y="30" name="zx5" />
+		<ColnumObj x="0" y="31" name="yqwwc5" />
+	</SheetObj>
+</ConfingObj>

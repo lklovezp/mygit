@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataJsxm" table="T_DATA_JSXM">
+
+<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)"  not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+        
+
+      <property column="ISACTIVE_" name="isActive" not-null="false" type="string" />
+     <!--  <property column="FID_" name="fid"  type="string" /> -->
+             
+      <many-to-one column="FID_" name="lawobjf" class="com.hnjz.app.data.po.TDataLawobjf" />
+      
+      <property column="JLDW_" name="jldw"  type="string" />
+             
+      
+      
+      <property column="JSGM_" name="jsgm"  type="string" />
+             
+      
+      
+      <property column="JSJDJSCZT_" name="jsjdjsczt"  type="string" />
+             
+      
+      
+      <property column="SSZFDXID_" name="sszfdxid"  type="string" />
+             
+      
+      
+      <property column="SPJG_" name="spjg"  type="string" />
+             
+      
+      
+      <property column="JSDD_" name="jsdd"  type="string" />
+             
+      
+      
+      <property column="XMKGSJ_" name="xmkgsj"  type="timestamp" />
+             
+      
+      
+      <property column="HYLX_" name="hylx"  type="string" />
+             
+      
+      
+      <property column="JCSJ_" name="jcsj"  type="timestamp" />
+             
+      
+      
+      <property column="TCSJ_" name="tcsj"  type="timestamp" />
+             
+      
+      
+      <property column="CN_" name="cn"  type="string" />
+             
+      
+      
+      <property column="JSNR_" name="jsnr"  type="string" />
+             
+      
+      
+      <property column="JSXZ_" name="jsxz"  type="string" />
+             
+     <property column="UPDATED_" name="updated" not-null="false" type="timestamp" />   
+	
+	</class>
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+
+
+
+

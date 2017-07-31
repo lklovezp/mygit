@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+	<SheetObj key="Vzfdx" name="随机抽查样本统计表" beginx="0" beginy="0" span="1" clazz="com.hnjz.app.data.po.Vzfdx" >
+		<ColnumObj x="4" y="0" name="dwmc" />
+		<ColnumObj x="4" y="1" name="lawobjType" />
+		<ColnumObj x="4" y="2" name="address" />
+		<ColnumObj x="4" y="3" name="regionName" />
+		<ColnumObj x="4" y="4" name="orgName" />
+		<ColnumObj x="4" y="5" name="fddbr" />
+		<ColnumObj x="4" y="6" name="fddbrlxdh" />
+		<ColnumObj x="4" y="7" name="qyzt" />
+	</SheetObj>
+</ConfingObj>

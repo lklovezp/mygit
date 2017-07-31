@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataFsaqjcxx" table="T_DATA_FSAQJCXX">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+	    <property column="LAWOBJID_" name="lawobjId" not-null="false" type="string" />
+        <property column="LAWOBJTYPEID_" name="lawobjTypeId" not-null="false" type="string" />
+        <property column="HBFZRCZ_" name="hbfzrcz" not-null="false" type="string" />
+        <property column="HBFZREMAIL_" name="hbfzremail" not-null="false" type="string" />
+        <property column="YZBM_" name="yzbm" not-null="false" type="string" />
+        <property column="XKZH_" name="xkzh" not-null="false" type="string" />
+        <property column="XKZLFW_" name="xkzlfw" not-null="false" type="string" />
+        <property column="AQFH_ " name="aqfh" not-null="false" type="string" />
+        <property column="AQFHJGMC_ " name="aqfhjgmc" not-null="false" type="string" />
+        <property column="FZR_" name="fzr" not-null="false" type="string" />
+        <property column="XL_" name="xl" not-null="false" type="string" />
+        <property column="ZY_" name="zy" not-null="false" type="string" />
+        <property column="DH_" name="dh" not-null="false" type="string" />
+        <property column="GZRYSL_" name="gzrysl" not-null="false" type="integer" />
+        <property column="HGZRS_" name="hgzrs" not-null="false" type="integer" />
+        <property column="YXQNRS_" name="yxqnrs" not-null="false" type="integer" />
+        <property column="JLJCRS_" name="jljcrs" not-null="false" type="integer" />
+        <property column="FSYZS_" name="fsyzs" not-null="false" type="integer" />
+        <property column="FSYYIL_" name="fsyyil" not-null="false" type="integer" />
+        <property column="FSYERL_" name="fsyerl" not-null="false" type="integer" />
+        <property column="FSYSANL_" name="fsysanl" not-null="false" type="integer" />
+        <property column="FSYSIL_" name="fsysil" not-null="false" type="integer" />
+        <property column="FSYWUL_" name="fsywul" not-null="false" type="integer" />
+        <property column="FJFSYSANL_" name="fjfsysanl" not-null="false" type="integer" />
+        <property column="FJFSYLSQK_" name="fjfsylsqk" not-null="false" type="string" />
+        <property column="FJFSYSIL_" name="fjfsysil" not-null="false" type="integer" />
+        <property column="FJFSYSILWZHD_" name="fjfsysilwzhd" not-null="false" type="integer" />
+        <property column="FJFSYSILLSQK_" name="fjfsysillsqk" not-null="false" type="string" />
+        <property column="ZYSXZZZS_" name="zysxzzzs" not-null="false" type="integer" />
+        <property column="ZYSXZZYIL_" name="zysxzzyil" not-null="false" type="integer" />
+        <property column="ZYSXZZERL_" name="zysxzzerl" not-null="false" type="integer" />
+        <property column="ZYSXZZSANL_" name="zysxzzsanl" not-null="false" type="integer" />
+        <property column="AREAID_" name="areaId" not-null="false" type="string" />
+       	<property column="ISACTIVE_" name="isActive" not-null="true" type="string" />
+		<property column="UPDATED_" name="updateTime" not-null="true" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="createTime" not-null="true" type="timestamp" />
+		<many-to-one name="creater" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

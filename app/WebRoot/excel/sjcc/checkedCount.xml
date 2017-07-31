@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+	<SheetObj key="checkedCountForm" name="随机抽查情况统计表" beginx="0" beginy="0" span="1" clazz="com.hnjz.app.data.xxgl.tslawobj.CheckedCountForm" >
+		<ColnumObj x="4" y="0" name="danwei" />
+		<ColnumObj x="4" y="1" name="wryzs" />
+		<ColnumObj x="4" y="2" name="ybwry" />
+		<ColnumObj x="4" y="3" name="zdwry" />
+		<ColnumObj x="4" y="4" name="tswry" />
+		
+		<ColnumObj x="4" y="5" name="jcrysl" />
+		<ColnumObj x="4" y="6" name="zjc" />
+		<ColnumObj x="4" y="7" name="ybjc" />
+		
+		<ColnumObj x="4" y="8" name="zdjc" />
+		<ColnumObj x="4" y="9" name="tsjc" />
+		<ColnumObj x="4" y="10" name="gksl" />
+		
+		<ColnumObj x="4" y="11" name="wfsl" />
+	</SheetObj>
+</ConfingObj>

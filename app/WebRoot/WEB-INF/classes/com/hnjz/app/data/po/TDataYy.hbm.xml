@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataYy" table="T_DATA_YY">
+
+<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true"/>
+			<generator class="uuid.hex" />
+		</id>
+      
+             
+      <many-to-one column="FID_" name="lawobjf" class="com.hnjz.app.data.po.TDataLawobjf" />
+      
+      
+       <property column="ISACTIVE_" name="isActive" not-null="false" type="string" />      
+      
+      
+      <property column="PWXKZ_" name="pwxkz"  type="string" />
+             
+      
+      
+      <property column="WRYFZSSSL_" name="wryfzsssl"  type="string" />
+             
+      
+      
+      <property column="ZZJGDM_" name="zzjgdm"  type="string" />
+             
+      
+      
+      <property column="QYGM_" name="qygm"  type="string" />
+             
+      
+      
+      <property column="TCRQ_" name="tcrq"  type="timestamp" />
+             
+      
+      
+      <property column="YZBM_" name="yzbm"  type="string" />
+             
+      
+      
+      <property column="SXZZ_" name="sxzz"  type="string" />
+             
+      
+      
+      <property column="ZYZZZ" name="zyzzz"  type="string" />
+             
+      
+      
+      <property column="FSAQXKZ_" name="fsaqxkz"  type="string" />
+             
+      
+      
+      <property column="FSYSL_" name="fsysl"  type="string" />
+             
+      
+      
+      <property column="CWS_" name="cws"  type="string" />
+      
+           
+      <property column="UPDATED_" name="updated" not-null="false" type="timestamp" />  
+	
+	</class>
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+
+
+
+

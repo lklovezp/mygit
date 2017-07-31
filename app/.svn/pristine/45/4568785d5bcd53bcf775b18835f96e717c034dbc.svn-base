@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataFwy" table="T_DATA_FWY">
+
+<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+        
+      
+      
+     <many-to-one column="FID_" name="lawobjf" class="com.hnjz.app.data.po.TDataLawobjf" />
+             
+      
+      
+      <property column="RY_" name="ry"  type="string" />
+             
+      
+      
+      <property column="SF_" name="sf"  type="string" />
+             
+      
+      
+      <property column="ZZ_" name="zz"  type="string" />
+             
+      
+      
+      <property column="TRQ_" name="trq"  type="string" />
+             
+      
+      
+      <property column="XCJ_" name="xcj"  type="string" />
+             
+      
+      
+      <property column="FJ__" name="fj"  type="string" />
+             
+      
+      
+      <property column="GL_" name="gl"  type="string" />
+             
+      
+      
+      <property column="DJGNGL_" name="djgngl"  type="string" />
+             
+      
+      
+      <property column="GZ_" name="gz"  type="string" />
+             
+      
+      
+      <property column="SGJ_" name="sgj"  type="string" />
+             
+      
+      
+      <property column="CW_" name="cw"  type="string" />
+             
+      
+      
+      <property column="LYT_" name="lyt"  type="string" />
+             
+      
+      
+      <property column="JZGR_" name="jzgr"  type="string" />
+             
+      
+      
+      <property column="KT_" name="kt"  type="string" />
+             
+      
+      
+      <property column="PMJ_" name="pmj"  type="string" />
+             
+      
+      
+      <property column="DRSQ_" name="drsq"  type="string" />
+             
+      
+      
+      <property column="ZWHJ_" name="zwhj"  type="string" />
+             
+      
+      
+      <property column="MJ_" name="mj"  type="string" />
+             
+      
+      
+      <property column="DS_" name="ds"  type="string" />
+             
+      
+      
+      <property column="FZSJ_" name="fzsj"  type="timestamp" />
+             
+      
+      
+      <property column="WYJC_" name="wyjc"  type="string" />
+             
+      <property column="BZ_" name="bz"  type="string" />
+	<property column="UPDATED_" name="updated" not-null="false" type="timestamp" />
+	<property column="ISACTIVE_" name="isActive" not-null="false" type="string" />
+	</class>
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+
+
+
+

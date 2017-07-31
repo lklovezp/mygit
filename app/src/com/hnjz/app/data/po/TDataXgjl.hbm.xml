@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataXgjl" table="T_DATA_XGJL">
+
+<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+        
+      
+      <property column="ZFDXID_" name="zfdxid"  type="string" />
+             
+      
+      
+      <property column="XGR_" name="xgr"  type="string" />
+             
+      
+      
+      <property column="XGSJ_" name="xgsj" type="timestamp" />
+             
+      
+      
+      <property column="XGNR_" name="xgnr" type="string" />
+             
+      
+      
+      <property column="CJR_" name="cjr"  type="string" />
+             
+      
+      
+      <property column="CJSJ_" name="cjsj" type="timestamp" />
+             
+      
+      
+      <property column="ISACTIVE_" name="isactive" type="string" />
+             
+        
+	
+	</class>
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+
+
+
+

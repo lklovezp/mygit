@@ -1,0 +1,149 @@
+.mt25 {
+    margin-top: 25px;
+}
+.ht60{
+    height: 60px;
+    line-height: 24px;
+    overflow: auto;
+}
+.defined_h3 {
+    padding-left: 2.5%;
+}
+
+.system_authority {
+    width: 510px;
+    margin: 0 auto;
+}
+
+.y-author {
+    margin-top: 20px;
+}
+
+.autor_border {
+    border: 1px solid #d4d4d4;
+    margin-top: 20px;
+}
+/*文件夹图标*/
+.ztree li span.button.ico_close{
+	background-position:0px 2px;
+}
+.ztree li span.button.ico_open{
+	background-position:0px 1px;
+}
+/*ztree折叠按钮*/
+.ztree li span.button.noline_open{
+	background-position:2px 5px;
+}
+.ztree li span.button.noline_close{
+	background-position:5px 2px;
+}
+
+/*复选框*/
+.ztree li span.button.chk {
+    display: inline-block;
+    height: 15px;
+    margin-top:0px;
+}
+
+.ztree li span.button.chk.checkbox_false_full, .ztree li span.button.chk.checkbox_false_full_focus{/*没选中*/
+    background-image: url(../images/shr/tree_checkbox.png);
+    background-position: 0px 0px;
+}
+
+.ztree li span.button.chk.checkbox_true_full, .ztree li span.button.chk.checkbox_true_full_focus{/*选中*/
+    background-image: url(../images/shr/tree_checkbox_on.png);
+    background-position: 0px 0px;
+}
+.ztree li span.button.chk.checkbox_true_part, .ztree li span.button.chk.checkbox_true_part_focus{/*半选中*/
+	background-image: url(../images/shr/tree_checkbox_hrefOn.png);
+    background-position: 0px 0px;
+}
+
+
+/*检查模块管理页面*/
+#checkTable th {
+    font-weight: normal;
+}
+
+#checkTable td {
+    padding: 4px 5px;
+}
+
+#checkTable .pannel-title {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    background-color: #cff1ff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+#checkTable .namevisiable {
+    margin-top: -1px;
+}
+
+/*检查模块弹窗页面*/
+.input-length {
+    width: 480px;
+}
+.datagrid-header-row {
+    background:#cff1ff;
+}
+.validatebox-invalid{
+    background-image: none;
+}
+.h2_1 span{
+    margin-left: 0;
+}
+
+/*后台终极权限*/
+.system_authorbg{
+    background: url("../images/system_authorbg.png") no-repeat;
+    width: 160px;
+    height: 37px;
+}
+.tabletree4j-gird td{
+    border: 1px solid #d4d4d4;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 5px;
+}
+
+/*tabletree图标替换*/
+.arrow-tt-node-icon{
+	width:20px;
+}
+.arrow-tt-node-click-open{
+    background: url("../images/tree_arrow_open.png") no-repeat;
+    margin-top: 10px;
+}
+.arrow-tt-node-click-close{
+    background: url("../images/tree_arrow_close.png") no-repeat;
+    margin-top:6px;
+}
+.arrow-tt-node-icon-folder{
+    background: url("../images/tree_folder_c.png") no-repeat;
+    margin-top:8px;
+    margin-right: 5px;
+}
+.arrow-tt-node-icon-folderOpen{
+    background: url("../images/tree_folder_o.png") no-repeat;
+    margin-top:8px;
+    margin-right: 5px;
+}
+
+.arrow-tt-node-icon-leaf{
+    background: url("../images/tree_leaf.png") no-repeat;
+    margin-top:6px;
+}
+
+.arrow-tt-node-click-last-close{
+    background: url("../images/tree_arrow_close.png") no-repeat;
+    margin-top:7px;
+}
+.arrow-tt-node-click-last-open{
+    background: url("../images/tree_arrow_open.png") no-repeat;
+    margin-top:9px;
+}
+.y-author .combo{
+    *+margin-top: -17px;
+}

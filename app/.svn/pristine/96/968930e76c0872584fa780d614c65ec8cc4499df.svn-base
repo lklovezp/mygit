@@ -1,0 +1,54 @@
+.mt25{ margin-top: 5px;}
+.red{ color:red}
+a:hover{ text-decoration: none;cursor: pointer}
+textarea{ font-family: "Microsoft Yahei";}
+.task_step{  width: 720px;  height:33px;  margin: 0 auto;  position: relative;  border-bottom: 4px solid #d1d1d1; }
+.task_step ul{ width:100%; position: absolute; z-index: 1; bottom: -4px; left: 0;  }
+.task_step ul li{ width: 33.33%;  float: left;  text-align: center;  line-height: 28px;  font-size: 18px; color: #262626;  border-bottom: 4px solid #d1d1d1;   }
+.task_step ul li.for_cur{ border-bottom: 4px solid #00a2d9; color: #00a2d9; font-weight: bold}
+.task_h3{padding-left:25px;  height: 22px; line-height: 22px;  font-size: 16px; color: #262626;}
+ /*.task_h3 span{width: 6px; height: 22px; background: #00a2d9; display: block;  float: left; margin-right: 25px;}*/
+/*获取离线信息样式*/
+.getInfo{width:20px; background: #00a3d8; border-radius: 5px; position: fixed; z-index:1;top: 60px;  right: 0; color: #fff; padding: 6px 3px 6px 7px; display: block}
+.getInfo:hover{color: #fff; text-decoration: none}
+
+
+.f_operate{text-align:center;padding: 20px 0; margin-bottom: 30px; background: #f6f6f6; border-bottom: 1px solid #d4d4d4;border-top: 1px solid #d4d4d4}
+/*任务办理*/
+.o_btn.opm{padding: 5px 16px; margin-left: 20px;}
+.annex_header{ position: relative}
+.annex_header .annexselect{ position: absolute;  top: 7px;+*top:0px; left: 100px;}
+/*进行检查*/
+.checkup{width:90%; min-width: 1000px;/*-webkit-box-shadow: 0 0 12px #bbb ;-moz-box-shadow: 0 0 12px #bbb ;box-shadow: 0 0 12px #bbb;*/ margin: 0 auto;}
+#checkup_header{ text-align: center; height: 80px;  line-height: 80px; color: #262626;  font-size: 18px;}
+#checkup_con_l{ width: 30%; border: 1px solid #d4d4d4; float:left; overflow: scroll;}
+
+#checkup_con_r{ width: 67%; border: 1px solid #d4d4d4; float:right;}
+.check_btn{color: #00a2d9; display: block;
+    float: left; padding: 4px 10px; border: 1px solid #00a2d9; margin-left: 20px;+*margin-left :15px; border-radius: 5px;}
+.check_btn:hover{ color:#00a2d9 }
+#checkup_footer{ height: 80px;}
+
+
+/*任务分工弹窗*/
+.taskTable{ position: fixed; top: 30%; z-index:3; width: 80%; }
+.r_closeBtn{ width: 40px; position: absolute; top: -15px; right: -15px; cursor: pointer; height: 40px; background: url("../images/checkClose.png") no-repeat}
+
+
+
+/*信息管理-批量调整企业的所属监管部门*/
+#dapartment h3{ background: #00a2d9; height: 38px; color: #fff;
+    line-height: 38px; text-align: center}
+.dapartment_l{ width: 45%; float: left}
+.dapartment_r{ width: 45%; float: right}
+
+
+
+/*工业污染源查看*/
+a:focus{outline: none;-moz-outline-style:none;}
+ul.lookupinfo_a{ padding-top: 30px;border-bottom: 1px solid #00a2d9;}
+ul.lookupinfo_a li{width: 96px; height: 36px;
+    line-height: 36px; text-align: center; margin-bottom: -1px; float: left; background: url("../images/lookup_icon.png" ) left center no-repeat;margin-right: 5px;}
+ul.lookupinfo_a li.cur{background: url("../images/lookup_icon_on.png" ) left center no-repeat;}
+ul.lookupinfo_a li.cur a{ color: #fff;}
+ul.lookupinfo_a li a{ display: block}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process key="general_task" name="general_task" xmlns="http://jbpm.org/4.4/jpdl">
+   <start g="160,110,48,48" name="开始">
+      <transition to="派发"/>
+   </start>
+   <end g="645,211,48,48" name="结束"/>
+   <task g="139,210,92,52" name="派发">
+      <assignment-handler class="com.hnjz.app.work.wf.handler.AcceptAssignmentHandler">
+      	<field name="workProcess">
+      		<string value="pf"/>
+      	</field>
+      </assignment-handler>
+      <transition to="派发中转"/>
+   </task>
+   <decision g="164,304,48,48" name="派发中转">
+   	  <handler class="com.hnjz.app.work.wf.handler.TransferHandler">
+   	  	<field name="workTransfer">
+      		<string value="pfzz"/>
+      	</field>
+   	  </handler>
+      <transition g="86,329;85,236:-33,0" name="转派" to="派发"/>
+      <transition g="-18,-18" name="接受" to="办理"/>
+      <transition name="下派" to="结束2" g="-53,-4"/>
+   </decision>
+   <task g="306,301,92,52" name="办理">
+   	  <assignment-handler class="com.hnjz.app.work.wf.handler.AcceptAssignmentHandler">
+      	<field name="workProcess">
+      		<string value="zx"/>
+      	</field>
+      </assignment-handler>
+      <transition to="审核"/>
+   </task>
+   <task g="307,205,92,52" name="审核">
+   	  <assignment-handler class="com.hnjz.app.work.wf.handler.AcceptAssignmentHandler">
+      	<field name="workProcess">
+      		<string value="sh"/>
+      	</field>
+      </assignment-handler>
+      <transition to="审核中转"/>
+   </task>
+   <decision g="503,210,48,48" name="审核中转">
+   	  <handler class="com.hnjz.app.work.wf.handler.TransferHandler">
+   	  	<field name="workTransfer">
+      		<string value="shzz"/>
+      	</field>
+   	  </handler>
+      <transition g="-26,-23" name="审核通过" to="结束"/>
+      <transition g="524,150;352,147:-25,-19" name="上级审核" to="审核"/>
+      <transition g="524,327:-95,-24" name="退回执行" to="办理"/>
+   </decision>
+   <end name="结束2" g="166,415,48,48"/>
+</process>

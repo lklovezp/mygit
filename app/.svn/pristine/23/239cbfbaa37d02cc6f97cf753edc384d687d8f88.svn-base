@@ -1,0 +1,65 @@
+.ztree {padding:0;width : 198px;font-family:"Microsoft YaHei";}
+.ztree * {font-size: 10pt;font-family:"Microsoft Yahei",Verdana,Simsun,"Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","Helvetica Neue",Arial}
+
+.ztree.showIcon li a span.button.switch {visibility:visible}
+
+.ztree li {line-height:30px;width:200px;background-color:#f8f8f8;border-bottom:1px solid #D0D0D0;}
+
+.ztree li ul{ margin:0; padding:0}
+.ztree li ul li{border-top:1px solid #e1e1e1;border-bottom:none;}
+
+.ztree li a {padding : 0;width : 200px;}
+.ztree li a:hover {text-decoration : none;}
+.ztree li a span {line-height:33px;margin-left:3px;font-size:15px;}
+.ztree li a span.button.switch {visibility:hidden;margin-top:-4px;}
+.ztree li a.curSelectedNode {background-color:#D4D4D4;border:0;height:30px;}
+.ztree li a.level0 {width:100%;height: 35px; text-align: left; display:block; background-color: #E8F7FF; border:0px silver solid;}
+.ztree li a.level0.cur {background-color: #66A3D2; }
+
+.ztree li span.button {background-image:url("images/left_menuForOutLook.png"); *background-image:url("images/left_menuForOutLook.gif");width:20px;height:10px;}
+.ztree li span.button.noline_open {background-position: 0 0;}
+.ztree li span.button.noline_close {background-position: -18px 0;}
+.ztree li span.button.noline_open.level0 {background-position: 0 -18px;}
+.ztree li span.button.noline_close.level0 {background-position: -18px -18px;}
+.ztree li span.button.switch {width: 16px;height: 16px;}
+
+.ztree li span.ico_open.button{background-position-x:0px;background-position-y:0px;width:25px;height:25px;margin-top:7px;margin-left:10px;}
+.ztree li span.ico_close.button{background-position-x:0px;background-position-y:0px;width:25px;height:25px;margin-top:7px;margin-left:10px;}
+.ztree li span.ico_docu.button{display:none;}
+
+.ztree li li a {width:200px;height:35px;padding-top: 0px;}
+.ztree li li a span{font-size:12px;font-weight:normal;margin-left:10px;}
+.ztree li li a span.ico_open.button{display:none;}
+.ztree li li a span.ico_close.button{display:none;}
+.ztree li li a:hover {text-decoration:none; color : #e8f7ff; background-color: #51b7e4;}
+.ztree li li a.curSelectedNode {background-color:#51b7e4;border:0;height:35px;}
+
+
+.panel-header{width : 200px; height : 40px; padding : 0; border-width : 0px; background-color : transparent;background-image: url('images/node1.jpg'); background-repeat : no-repeat}
+.panel-title{display : none;}
+
+.panel-header, .panel-body {width : 200px; border-style : initial; padding : 0; border-width : 0px; border-style : }
+
+.tabs{ height: 40px;border-color: #b6d4de;background: #e6eff4;}
+.tabs li {padding-top : 10px;}
+.tabs li:first-child{ position:relative;  padding-left:35px;}
+.tabs li:first-child .tabs-icon{ width:20px; height:19px; position: absolute;left: 10px;top: 56%;margin-top: -8px; background:url(images/house.png) no-repeat; }
+.tabs li a.tabs-inner {height : 30px; border-color: #1797CD;
+}
+.tabs li a.tabs-inner:hover{color: #FFF;
+background: linear-gradient(to bottom, #25aae3 0px, #69c8f1 100%) repeat-x scroll 0% 0% transparent;
+filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#25aae3',endColorStr='#69c8f1',gradientType='0'); 
+background: -moz-linear-gradient(top, #25aae3, #69c8f1); 
+background: -o-linear-gradient(top,#25aae3, #69c8f1); 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#25aae3), to(#69c8f1)); }
+.tabs li.tabs-selected a.tabs-inner {
+    background: linear-gradient(to bottom, #25aae3 0px, #69c8f1 100%) repeat-x scroll 0% 0% transparent;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#25aae3',endColorStr='#69c8f1',gradientType='0') 
+background: -moz-linear-gradient(top, #25aae3, #69c8f1); 
+background: -o-linear-gradient(top,#25aae3, #69c8f1); 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#25aae3), to(#69c8f1)); 
+    color: #FFF; border-color: #1797CD; border-bottom-color:#b6d4de}
+
+.tabs-header{border-width : 0px; padding-top : 0px;}
+.easyui-tabs tabs-container{border-width : 0px;}
+.panel-body panel-body-noheader panel-body-noborder{border-width : 0px;}

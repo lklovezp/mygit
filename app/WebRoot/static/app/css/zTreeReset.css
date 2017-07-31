@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+/*===== 设置整体padding间距======*/
+.ztree{padding:10px;}
+/*===== 设置通用的字体大小，颜色等======*/
+.ztree *{ font-size:14px; line-height:18px; font-family:"Microsoft YaHei"; color:#262626;}
+/*===== 设置每一行的上下行间距。li只能设置top，a只能设置bottom======*/
+.ztree li{  padding-top:10px; }
+.ztree li  a{ padding-bottom:10px;  padding-right:10px;}
+/*===== 设置hover时的下划线不显示======*/
+.ztree li  a:hover{ text-decoration:none;}
+/*===== 设置所有图标，“+”、“-”、“开口文件夹”、“闭口文件夹”、“叶子节点图标”等图标的背景图片======*/
+.ztree li span.button{ background-image:url(../images/icon.png);}
+/*===== 替换 - 折叠按钮 ====*/
+.ztree li span.button.noline_open{ background-position:-6px -1px;}
+/*===== 替换 + 折叠按钮 ====*/
+.ztree li span.button.noline_close{  background-position:-6px -21px;}
+/*===== 替换开口文件夹图标 ========*/
+.ztree li span.button.ico_open{ width:19px; height:16px; margin-right:4px; background-position:-28px -2px;}
+/*===== 替换闭口文件夹图标 ========*/
+.ztree li span.button.ico_close{ width:19px; height:16px; margin-right:4px; background-position:-28px -23px;}
+/*===== 替换叶子节点图标==========*/
+.ztree li span.button.ico_docu{width:17px; height:20px; margin-right:4px; margin-top:-2px; background-position:-54px 0px;}
+/*===== 设置点击选中时a的底色边框等样式*/
+.ztree li a.curSelectedNode{  background-color:#ffffff; border:none; opacity:1; padding-top:1px; height:17px;}
+.ztree li a.curSelectedNode span {
+    color: #1384c5 !important;
+    font-weight: bold;
+}
+.ztree li a.curSelectedNode span:last-child {
+    background-color: #d7f1fe !important;
+    border: 1px solid #bae6ff !important;
+}

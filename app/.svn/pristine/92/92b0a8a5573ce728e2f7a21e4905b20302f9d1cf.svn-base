@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+	<SheetObj key="conditionsForm" name="按部门统计监察笔录份数" beginx="0" beginy="0" span="0" clazz="com.hnjz.app.jxkh.orgstatistics.ConditionsForm">
+		<ColnumObj x="1" y="1" name="datetime" />
+		<ColnumObj x="1" y="6" name="areaname" />
+	</SheetObj>
+	<SheetObj key="statisticsDocForm" name="按部门统计监察笔录份数" beginx="5" beginy="0" span="1" clazz="com.hnjz.app.jxkh.orgstatistics.StatisticsDocForm">
+		<ColnumObj x="0" y="0" name="orgname" />
+		<ColnumObj x="0" y="2" name="yyfs" />
+		<ColnumObj x="0" y="3" name="eyfs" />
+		<ColnumObj x="0" y="4" name="myfs" />
+		<ColnumObj x="0" y="5" name="syfs" />
+		<ColnumObj x="0" y="6" name="wyfs" />
+		<ColnumObj x="0" y="7" name="lyfs" />
+		<ColnumObj x="0" y="8" name="qyfs" />
+		<ColnumObj x="0" y="9" name="byfs" />
+		<ColnumObj x="0" y="10" name="jyfs" />
+		<ColnumObj x="0" y="11" name="oyfs" />
+		<ColnumObj x="0" y="12" name="ayfs" />
+		<ColnumObj x="0" y="13" name="dyfs" />
+		<ColnumObj x="0" y="14" name="ynfs" />
+	</SheetObj>
+</ConfingObj>

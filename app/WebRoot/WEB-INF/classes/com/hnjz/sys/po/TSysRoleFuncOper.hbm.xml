@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.sys.po.TSysRoleFuncOper" table="T_SYS_ROLEFUNCOPER">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<many-to-one column="ROLEID_" name="role"
+			class="com.hnjz.sys.po.TSysRole" />
+		<many-to-one column="FUNCOPERID_" name="funcoper"
+			class="com.hnjz.sys.po.TSysFuncOper" />
+	</class>
+</hibernate-mapping>

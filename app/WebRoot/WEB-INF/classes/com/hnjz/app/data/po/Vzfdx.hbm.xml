@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.hnjz.app.data.po.Vzfdx" table="V_ZFDX_ZHXX">
+        <comment>执法对象表</comment>
+        <id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+        <property name="lawobjType" type="java.lang.String">
+            <column name="lawobjtype_" >
+                <comment>执法对象类型</comment>
+            </column>
+        </property>
+        <property name="dwmc" type="java.lang.String">
+            <column name="dwmc_">
+                <comment>单位名称</comment>
+            </column>
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="address_">
+                <comment>地址</comment>
+            </column>
+        </property>
+        <property name="regionId" type="java.lang.String">
+            <column name="regionId_" length="32">
+                <comment>所属行政区id</comment>
+            </column>
+        </property>
+        <property name="regionName" type="java.lang.String">
+            <column name="regionName_">
+                <comment>所属行政区名称</comment>
+            </column>
+        </property>
+        <property name="orgId" type="java.lang.String">
+            <column name="orgId_">
+                <comment>所属监管部门id</comment>
+            </column>
+        </property>
+        <property name="orgName" type="java.lang.String">
+            <column name="orgName_">
+                <comment>所属监管部门名称</comment>
+            </column>
+        </property>
+        <property name="fddbr" type="java.lang.String">
+            <column name="fddbr_">
+                <comment>法定代表人</comment>
+            </column>
+        </property>
+       <property name="fddbrlxdh" type="java.lang.String">
+            <column name="FDDBRLXDH_">
+                <comment>法定代表人联系电话</comment>
+            </column>
+        </property>
+        <property name="qyzt" type="java.lang.String">
+            <column name="QYZT_">
+                <comment>企业生产状态</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>

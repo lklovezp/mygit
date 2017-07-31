@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.sys.po.TDataCheckProportion" table="T_DATA_CHECKPROPORTION">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+		<property column="YEAR_" name="year" not-null="true" type="string" />
+		<property column="QUARTER_" name="quarter" not-null="true" type="string" />
+		<property column="PROPORTION_" name="proportion" not-null="false" type="integer" />
+		<property column="ORDERBY_" name="orderby" not-null="true"
+			type="integer" />
+		<property column="ISACTIVE_" name="isActive" not-null="true"
+			type="string" />
+		<property column="UPDATED_" name="updated" not-null="true"
+			type="timestamp" />
+		<many-to-one column="UPDATEBY_" name="updateby"
+			class="com.hnjz.sys.po.TSysUser" />
+		<property column="CREATED_" name="created" not-null="true"
+			type="timestamp" />
+		<many-to-one column="CREATEBY_" name="createby"
+			class="com.hnjz.sys.po.TSysUser" />
+	</class>
+</hibernate-mapping>

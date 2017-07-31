@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+   <SheetObj key="conditionsForm" name="统计排污单位数" beginx="0" beginy="0" span="0" clazz="com.hnjz.app.jxkh.orgstatistics.ConditionsForm" >
+		<ColnumObj x="1" y="2" name="regionname" />
+		<ColnumObj x="1" y="5" name="lawobjtypename" />
+	</SheetObj>
+	<SheetObj key="tjbbForm" name="统计排污单位数" beginx="3" beginy="0" span="1" clazz="com.hnjz.app.tjbb.TjbbForm" >
+		<ColnumObj x="0" y="0" name="seq" />
+		<ColnumObj x="0" y="1" name="regionname" />
+		<ColnumObj x="0" y="2" name="lawobjtypename" />
+		<ColnumObj x="0" y="3" name="pwdwsl" />
+		<ColnumObj x="0" y="4" name="wrwlxsl" />
+		<ColnumObj x="0" y="5" name="pfksl" />
+		<ColnumObj x="0" y="6" name="fzsssl" />
+	</SheetObj>
+</ConfingObj>

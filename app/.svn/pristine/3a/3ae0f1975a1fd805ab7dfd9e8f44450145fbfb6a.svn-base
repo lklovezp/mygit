@@ -1,0 +1,28 @@
+FILEPATH=Y:/
+WHETHER_THE_JOB_RUN=0
+EXECUTE_PAGE_TYPE=1
+#NOTIFY/SMS
+GOTONE=NOTIFY
+FTPUSER=admin
+FTPPASS=admin
+FTPPORT=21
+MODE=0
+#SYSTEM VERSION online 1  offline 0
+SYSVER=1
+# offline version's web url
+WEBURL=http://localhost:8080/app/
+
+#Every 30 seconds trigger#
+#SB_TASK_TIME = 0/30 * * * * ?
+SB_TASK_TIME =0 0 0 * * ?
+#Every 1 minute trigger#
+#TASK_DETECT_TIME = 0 0/1 * * * ?
+TASK_DETECT_TIME = 0 0 0 * * ?
+# zero point everyday trigger#
+DELETE_TASK_TIME = 0 0 0 * * ?
+# zero point everyday trigger#
+QUARTER_CHECK_TIME = 0 0 0 * * ?
+# month check
+#MONTH_CHECK_TIME = 0/59 * * * * ?
+MONTH_CHECK_TIME = 0 0 0 * * ?
+MONTH_PF_TIME = 0 0 0 * * ?

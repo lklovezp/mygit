@@ -1,0 +1,42 @@
+.ztree li button.iconuser_ico_docu {
+	margin-right: 2px;
+	background: url(images/ico_per.jpg) no-repeat transparent;
+	vertical-align: top; *
+	vertical-align: middle
+}
+.ztree li button.icondept_ico_docu {
+	margin-right: 2px;
+	background: url(images/ico_home.jpg) no-repeat transparent;
+	vertical-align: top; *
+	vertical-align: middle
+}
+.ztree li button.icondept_ico_open {
+	margin-right: 2px;
+	background: url(images/ico_home.jpg) no-repeat transparent;
+	vertical-align: top; *
+	vertical-align: middle
+}
+.ztree li button.icondept_ico_close {
+	margin-right: 2px;
+	background: url(images/ico_home.jpg) no-repeat transparent;
+	vertical-align: top; *
+	vertical-align: middle
+}
+.ztree li span.button.pIcon01_ico_open{background: url(images/node3.png) no-repeat transparent;}
+.ztree li span.button.pIcon01_ico_close{background: url(images/node3.png) no-repeat transparent;}
+.ztree li span.button.pIcon02_ico_open{background: url(images/node3.png) no-repeat transparent;}
+.ztree li span.button.pIcon02_ico_close{background: url(images/node3.png) no-repeat transparent;}
+.ztree li span.button.pIcon03_ico_open{background: url(images/node3.png) no-repeat transparent;}
+.ztree li span.button.pIcon03_ico_close{background: url(images/node3.png) no-repeat transparent;}
+.ztree li span.button.pIcon04_ico_open{background: url(images/node4.png) no-repeat transparent;}
+.ztree li span.button.pIcon04_ico_close{background: url(images/node4.png) no-repeat transparent;}
+.ztree li span.button.pIcon05_ico_open{background: url(images/node5.png) no-repeat transparent;}
+.ztree li span.button.pIcon05_ico_close{background: url(images/node5.png) no-repeat transparent;}
+.ztree li span.button.pIcon06_ico_open{background: url(images/node6.png) no-repeat transparent;}
+.ztree li span.button.pIcon06_ico_close{background: url(images/node6.png) no-repeat transparent;}
+.ztree li span.button.pIcon07_ico_open{background: url(images/node7.png) no-repeat transparent;}
+.ztree li span.button.pIcon07_ico_close{background: url(images/node7.png) no-repeat transparent;}
+.ztree li span.button.pIcon08_ico_open{background: url(images/node8.png) no-repeat transparent;}
+.ztree li span.button.pIcon08_ico_close{background: url(images/node8.png) no-repeat transparent;}
+.ztree li span.button.pIcon09_ico_open{background: url(images/node8.png) no-repeat transparent;}
+.ztree li span.button.pIcon09_ico_close{background: url(images/node8.png) no-repeat transparent;}

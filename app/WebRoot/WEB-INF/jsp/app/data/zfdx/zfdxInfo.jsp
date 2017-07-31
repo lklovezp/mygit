@@ -1,0 +1,143 @@
+<%@ include file="/common/taglibs.jsp"%>
+<%@ page pageEncoding="UTF-8" contentType="text/html;charset=utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>基本信息</title>
+    <link href="${app}/CSSReset.css" rel="stylesheet" type="text/css"/>
+    <link href="${app}/common.css" rel="stylesheet" type="text/css"/>
+    <!--jQuery-->
+    <script type="text/javascript" src="${jquery}/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="${layer}/layer.js"></script>
+    <!--easyui-->
+    <link rel="stylesheet" href="${easyui}/themes/default/easyui.css" type="text/css">
+    <link rel="stylesheet" href="${easyui}/themes/icon.css" type="text/css">
+    <link href="${app}/easyUIReset.css" rel="stylesheet" type="text/css"/>
+    <link href="${app}/attachFileList.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="${easyui}/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="${easyui}/locale/easyui-lang-zh_CN.js"></script>
+    <!-- 任务管理 css-->
+    <link href="${app}/css/task.css" rel="stylesheet" type="text/css"/>
+    <style>
+     ul.lookupinfo_a {
+    padding-top: 0px;
+    border-bottom: 1px solid #00a2d9;
+    }
+    </style>
+</head>
+<body>
+    
+	<ul class="lookupinfo_a clearfix" id="ul">
+        <li class="cur">
+        <c:if test="${lawobjtypeid==1}">
+         <a href="lawobjgywry.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+       <c:if test="${lawobjtypeid==2}">
+         <a href="lawobjjsxm.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+        <c:if test="${lawobjtypeid==3}">
+        <a href="lawobjyy.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+       </c:if>
+        <c:if test="${lawobjtypeid==4}">
+         <a href="lawobjgl.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+        <c:if test="${lawobjtypeid==5}">
+         <a href="lawobjjzgd.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+        <c:if test="${lawobjtypeid==6}">
+         <a href="lawobjxqyz.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+        <c:if test="${lawobjtypeid==7}">
+         <a href="lawobjsc.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+        <c:if test="${lawobjtypeid==8}">
+         <a href="lawobjfwy.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+        <c:if test="${lawobjtypeid==9}">
+         <a href="lawobjysy.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+        <c:if test="${lawobjtypeid==10}">
+         <a href="lawobjzzy.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+        <c:if test="${lawobjtypeid==11}">
+         <a href="lawobjyly.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+        <c:if test="${lawobjtypeid!='1'&&lawobjtypeid!='2'&&lawobjtypeid!='3'&&lawobjtypeid!='4'&&lawobjtypeid!='5'&&lawobjtypeid!='6'&&lawobjtypeid!='7'
+        &&lawobjtypeid!='8'&&lawobjtypeid!='9'&&lawobjtypeid!='10'&&lawobjtypeid!='11'}">
+         <a href="lawobjqt.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}" target="lookupframe" hidefocus="true" value="jb">基本信息</a>
+        </c:if>
+        </li>
+        <li><a href="lawHistory.htm?id=${lawobjfid}" target="lookupframe" hidefocus="true" value="zf">执法历史记录</a></li>
+        <li><a href="xxcx_hpxxList.htm?pid=${jsxmid}" target="lookupframe" hidefocus="true" value="hp">环评信息</a></li>
+        <li><a href="xxcx_complaintList.htm?lawobjid=${lawobjfid}"  target="lookupframe" hidefocus="true" value="ts">投诉信息</a></li>
+        <li><a href="xxcx_xzcfInfo.htm?lawobjid=${lawobjfid}"  target="lookupframe" hidefocus="true" value="xz">行政处罚</a></li>
+        <li><a href="infoFj.htm?id=${lawobjfid}"  target="lookupframe" hidefocus="true"  value="fj">附件信息</a></li>
+    </ul>
+   
+    <div class="frame mt25" style="width:100%;border-bottom: 0px solid #d4d4d4;margin: auto;">
+        <iframe id="fame" frameborder="0" width="100%" height="100%" src="
+         <c:if test="${lawobjtypeid==1}">
+          lawobjgywry.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+        <c:if test="${lawobjtypeid==2}">
+         lawobjjsxm.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+         <c:if test="${lawobjtypeid==3}">
+         lawobjyy.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+        <c:if test="${lawobjtypeid==4}">
+         lawobjgl.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+         <c:if test="${lawobjtypeid==5}">
+         lawobjjzgd.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+        <c:if test="${lawobjtypeid==6}">
+         lawobjxqyz.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+       <c:if test="${lawobjtypeid==7}">
+         lawobjsc.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+         <c:if test="${lawobjtypeid==8}">
+         lawobjfwy.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+        <c:if test="${lawobjtypeid==9}">
+         lawobjysy.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+        <c:if test="${lawobjtypeid==10}">
+         lawobjzzy.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+        <c:if test="${lawobjtypeid==11}">
+         lawobjyly.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+        <c:if test="${lawobjtypeid!='1'&&lawobjtypeid!='2'&&lawobjtypeid!='3'&&lawobjtypeid!='4'&&lawobjtypeid!='5'&&lawobjtypeid!='6'&&lawobjtypeid!='7'
+        &&lawobjtypeid!='8'&&lawobjtypeid!='9'&&lawobjtypeid!='10'&&lawobjtypeid!='11'}">
+
+         lawobjqt.htm?id=${lawobjfid}&lawobjtypeid=${lawobjtypeid}
+        </c:if>
+        " name="lookupframe">
+
+        </iframe>
+    </div>
+
+<script>
+    $(function(){
+        $(".lookupinfo_a a").click(function(){
+        	
+            $(this).parent().addClass("cur").siblings().removeClass("cur");// 给当前链接父级添加 类“cur”
+            $("#fame").attr("src",$(this).attr("href"));  // 设定当前框架iframe 的地址为 该链接地址
+        })
+        
+    });
+    function fHeight(){
+        var ulHeight=$("ul.lookupinfo_a").innerHeight();
+        var frameHeight=$(window).innerHeight()-$("#ul").outerHeight()-20;
+        $(".frame").height(frameHeight);
+    }
+    fHeight();
+    $(window).resize(function(){
+        fHeight();
+    });
+</script>
+</body>
+</html>

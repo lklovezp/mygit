@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.work.po.TBizXzcfjds" table="T_BIZ_XZCFJDS">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+		<property column="TASKID_" name="taskid" not-null="false" type="string" />
+		<property column="BMMC_" name="bmmc" not-null="false" type="string" />
+		<property column="WSMC_" name="wsmc" not-null="false" type="string" />
+		<property column="BH_" name="bh" not-null="false" type="string" />
+		<property column="DSR_" name="dsr" not-null="false" type="string" />
+		<property column="ZCBH_" name="zcbh" not-null="false" type="string" />
+		<property column="ZZJGBM_" name="zcjgbm" not-null="false" type="string" />
+		<property column="ZCDZ_" name="zcdz" not-null="false" type="string" />
+		<property column="FDDBR_" name="fddbr" not-null="false" type="string" />
+		<property column="JCSJ_" name="jcsj" not-null="false" type="timestamp" />
+		<property column="WFXW_" name="wfxw" not-null="false" type="string" />
+		<property column="WFZJ_" name="wfzj" not-null="false" type="string" />
+		<property column="RULES_" name="rules" not-null="false" type="string" />
+		<property column="GZSJ_" name="gzsj" not-null="false" type="timestamp" />
+		<property column="GZSMC_" name="gzsmc" not-null="false" type="string" />
+		<property column="DSRSBSJ_" name="dsrsbsj" not-null="false" type="timestamp" />
+		<property column="DSRSBNR_" name="dsrsbnr" not-null="false" type="string" />
+		<property column="MEASURE_" name="measure" not-null="false" type="string" />
+		<property column="XZCFZD_" name="xzcfzd" not-null="false" type="string" />
+		<property column="XZCF_" name="xzcf" not-null="false" type="string" />
+		<property column="SKYH_" name="skyh" not-null="false" type="string" />
+		<property column="YHHM_" name="yhhm" not-null="false" type="string" />
+		<property column="YHZH_" name="yhzh" not-null="false" type="string" />
+		<property column="FKSM_" name="fksm" not-null="false" type="string" />
+		<property column="ZFMC_" name="zfmc" not-null="false" type="string" />
+		<property column="HBTMC_" name="hbtmc" not-null="false" type="string" />
+		<property column="FYMC_" name="fymc" not-null="false" type="string" />
+		<property column="AREAID_" name="areaId" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="true" type="string" />
+		<property column="UPDATED_" name="updated" not-null="true" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="created" not-null="true" type="timestamp" />
+		<many-to-one name="createby" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

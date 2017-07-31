@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.work.po.TBizChecklist" table="T_BIZ_CHECKLIST">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		
+		<property column="TASKID_" name="taskid" not-null="true" type="string" />
+		<property column="TEMPLATEID_" name="templateid" not-null="true" type="string" />
+		<property column="ITEMID_" name="itemid" not-null="false" type="string" />
+		<property column="ITEMCONTENT_" name="itemcontent" not-null="false" type="string" />
+		<property column="ITEMORDERBY_" name="itemorderby" not-null="true" type="integer" />
+		<property column="ANSWERID_" name="answerid" not-null="false" type="string" />
+		<property column="DESC_" name="describe" not-null="false" type="string" />
+		<property column="ISHIDDEN_" name="ishidden" not-null="false" type="string" />
+		<property column="ISADD_" name="isadd" not-null="false" type="string" />
+	</class>
+</hibernate-mapping>

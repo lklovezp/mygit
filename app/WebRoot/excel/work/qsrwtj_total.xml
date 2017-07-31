@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+	<SheetObj key="param" name="全省任务统计" beginx="0" beginy="0" span="0" clazz="Map">
+		<ColnumObj x="1" y="1" name="riqi" />
+		<ColnumObj x="2" y="1" name="jjcd" />
+		<ColnumObj x="3" y="1" name="rwly" />
+	
+		<!--  任务类型 -->
+		<ColnumObj x="4" y="7" name="title1" />
+		<ColnumObj x="4" y="12" name="title2" />
+		<ColnumObj x="4" y="17" name="title3" />
+		<ColnumObj x="4" y="22" name="title4" />
+		<ColnumObj x="4" y="27" name="title5" />
+	</SheetObj>		
+	<SheetObj key="list" name="全省任务统计" beginx="6" beginy="0" span="1" clazz="com.hnjz.app.work.beans.ProvinceTaskArrayBean">
+		
+		<ColnumObj x="0" y="0" name="areaName" />
+		
+		<ColnumObj x="0" y="2" name="allCount0" />
+		<ColnumObj x="0" y="3" name="overCount0" />
+		<ColnumObj x="0" y="4" name="outDateOverCount0" />
+		<ColnumObj x="0" y="5" name="notOverCount0" />
+		<ColnumObj x="0" y="6" name="outDateNotOverCount0" />
+		
+		<ColnumObj x="0" y="7" name="allCount1" />
+		<ColnumObj x="0" y="8" name="overCount1" />
+		<ColnumObj x="0" y="9" name="outDateOverCount1" />
+		<ColnumObj x="0" y="10" name="notOverCount1" />
+		<ColnumObj x="0" y="11" name="outDateNotOverCount1" />
+		
+		<ColnumObj x="0" y="12" name="allCount2" />
+		<ColnumObj x="0" y="13" name="overCount2" />
+		<ColnumObj x="0" y="14" name="outDateOverCount2" />
+		<ColnumObj x="0" y="15" name="notOverCount2" />
+		<ColnumObj x="0" y="16" name="outDateNotOverCount2" />
+		
+		<ColnumObj x="0" y="17" name="allCount3" />
+		<ColnumObj x="0" y="18" name="overCount3" />
+		<ColnumObj x="0" y="19" name="outDateOverCount3" />
+		<ColnumObj x="0" y="20" name="notOverCount3" />
+		<ColnumObj x="0" y="21" name="outDateNotOverCount3" />
+		
+		<ColnumObj x="0" y="22" name="allCount4" />
+		<ColnumObj x="0" y="23" name="overCount4" />
+		<ColnumObj x="0" y="24" name="outDateOverCount4" />
+		<ColnumObj x="0" y="25" name="notOverCount4" />
+		<ColnumObj x="0" y="26" name="outDateNotOverCount4" />
+		
+		<ColnumObj x="0" y="27" name="allCount5" />
+		<ColnumObj x="0" y="28" name="overCount5" />
+		<ColnumObj x="0" y="29" name="outDateOverCount5" />
+		<ColnumObj x="0" y="30" name="notOverCount5" />
+		<ColnumObj x="0" y="31" name="outDateNotOverCount5" />
+	</SheetObj>
+</ConfingObj>

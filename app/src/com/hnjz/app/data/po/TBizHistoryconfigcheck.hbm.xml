@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TBizHistoryconfigcheck" table="T_BIZ_HISTORYCONFIGCHECK">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+	    <property column="YEAR_" name="year" not-null="false" type="string" />
+	    <property column="QUARTER_" name="quarter" not-null="false" type="string" />
+	    <property column="GZSZ_" name="gzsz" not-null="false" type="string" />
+        <property column="YBQYBL_" name="ybqybl" not-null="false" type="double" />
+         <property column="YBQYBLSECOND_" name="ybqyblsecond" not-null="false" type="double" />
+         <property column="YBQYBLTHIRD_" name="ybqyblthird" not-null="false" type="double" />
+         <property column="YBQYBLFOUR_" name="ybqyblfour" not-null="false" type="double" />
+        <property column="ZDQYBL_" name="zdqybl" not-null="false" type="double" />
+        <property column="ZDQYBLSECOND_" name="zdqyblsecond" not-null="false" type="double" />
+       <property column="ZDQYBLTHIRD_" name="zdqyblthird" not-null="false" type="double" />
+       <property column="ZDQYBLFOUR_" name="zdqyblfour" not-null="false" type="double" />
+       <property column="MONTH_" name="month" not-null="false" type="string" />
+       
+       <property column="YBQYJAN_" name="ybqyjan" not-null="false" type="double" />
+       <property column="YBQYFEB_" name="ybqyfeb" not-null="false" type="double" />
+       <property column="YBQYMAR_" name="ybqymar" not-null="false" type="double" />
+       <property column="YBQYAPR_" name="ybqyapr" not-null="false" type="double" />
+       <property column="YBQYMAY_" name="ybqymay" not-null="false" type="double" />
+       <property column="YBQYJUN_" name="ybqyjun" not-null="false" type="double" />
+       <property column="YBQYJUL_" name="ybqyjul" not-null="false" type="double" />
+       <property column="YBQYAUG_" name="ybqyaug" not-null="false" type="double" />
+       <property column="YBQYSEP_" name="ybqysep" not-null="false" type="double" />
+       <property column="YBQYOCT_" name="ybqyoct" not-null="false" type="double" />
+       <property column="YBQYNOV_" name="ybqynov" not-null="false" type="double" />
+       <property column="YBQYDEC_" name="ybqydec" not-null="false" type="double" />
+       <property column="ZDQYJAN_" name="zdqyjan" not-null="false" type="double" />
+       <property column="ZDQYFEB_" name="zdqyfeb" not-null="false" type="double" />
+       <property column="ZDQYMAR_" name="zdqymar" not-null="false" type="double" />
+       <property column="ZDQYAPR_" name="zdqyapr" not-null="false" type="double" />
+       <property column="ZDQYMAY_" name="zdqymay" not-null="false" type="double" />
+       <property column="ZDQYJUN_" name="zdqyjun" not-null="false" type="double" />
+       <property column="ZDQYJUL_" name="zdqyjul" not-null="false" type="double" />
+       <property column="ZDQYAUG_" name="zdqyaug" not-null="false" type="double" />
+       <property column="ZDQYSEP_" name="zdqysep" not-null="false" type="double" />
+       <property column="ZDQYOCT_" name="zdqyoct" not-null="false" type="double" />
+       <property column="ZDQYNOV_" name="zdqynov" not-null="false" type="double" />
+       <property column="ZDQYDEC_" name="zdqydec" not-null="false" type="double" />
+       
+       
+       
+       
+        <property column="TSJGQYBL_" name="tsjgqybl" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="false" type="string" />
+		<property column="AREAID_" name="areaId" not-null="false" type="string" />
+		<property column="UPDATED_" name="updateTime" not-null="false" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="false"></many-to-one>
+		<property column="CREATED_" name="createTime" not-null="true" type="timestamp" />
+		<many-to-one name="creater" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="false"></many-to-one>
+	</class>
+</hibernate-mapping>

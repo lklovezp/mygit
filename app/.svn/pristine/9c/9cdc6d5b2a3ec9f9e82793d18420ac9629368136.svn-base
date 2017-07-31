@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+	<SheetObj key="jdssdhzFormQuery" name="行政处罚决定书送达回执" beginx="0" beginy="0" span="0" clazz="com.hnjz.app.work.wszz.JdssdhzForm" >
+		<ColnumObj x="0" y="0" name="title" />
+		<ColnumObj x="1" y="0" name="code" />
+		<ColnumObj x="3" y="1" name="name" />	 	
+		<ColnumObj x="5" y="1" name="userName" />	 	
+		<ColnumObj x="8" y="1" name="address" />	 	
+		<ColnumObj x="10" y="1" name="type" />	 	
+	</SheetObj>
+</ConfingObj>

@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<style>
+#main{width:900px;height:800px;padding-top:10px;padding-left:10px;}
+.thh{height:24px;background:#F9FCFE;font-weight:bold;text-align:center;}
+.pp{color:#E459F;}
+.thth{width:160px;height:24px;}
+.thth2{width:142px;height:24px;text-align:center;}
+
+.formtable{
+   border-collapse:collapse;
+   border:1px dotted #95b8e7;
+   }
+.formtable td{
+   padding:3px 5px 3px 5px;
+   line-height:24px;
+   font-size:12px;
+   color:#666666;
+   border:1px dotted #95b8e7;
+   	   
+   }
+.formtable th{
+   color:#666666;
+   padding:3px 5px 3px 5px;
+   font-weight:bold;
+   font-size:12px;
+   background-color:#f9fcfe;
+   border:1px dotted #95b8e7;
+   text-align:right;
+}
+.formtable1{
+   border-collapse:collapse;
+   border:1px dotted #95b8e7;
+   }
+.formtable1 td{
+   padding:3px 5px 3px 5px;
+   line-height:24px;
+   font-size:12px;
+   color:#666666;
+   border:1px dotted #95b8e7;
+   	   
+   }
+.formtable1 th{
+   color:#666666;
+   padding:3px 5px 3px 5px;
+   font-weight:bold;
+   font-size:12px;
+   background-color:#f9fcfe;
+   border:1px dotted #95b8e7;
+   text-align:center;
+}
+</style>
+
+<body>
+		<div id="main">
+			<table class="formtable" width="860px" cellspacing="0"
+				cellpadding="0" border="0">
+				<tbody>
+					<tr>
+						<td colspan="4" class="thh">
+							排污口基本信息
+						</td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							排污口名称：
+						</th>
+						<td></td>
+						<th align="right" class="thth">
+							排污口位置：
+						</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							经度：
+						</th>
+						<td></td>
+						<th align="right" class="thth">
+							纬度：
+						</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							排放去向类别：
+						</th>
+						<td colspan="3"></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							排放规律：
+						</th>
+						<td colspan="3"></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							接纳污水水体代码：
+						</th>
+						<td></td>
+						<th align="right" class="thth">
+							接纳管网代码：
+						</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							排入污水处理厂名称：
+						</th>
+						<td></td>
+						<th align="right" class="thth">
+							排入污水处理厂代码：
+						</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							入河口经度：
+						</th>
+						<td></td>
+						<th align="right" class="thth">
+							入河口纬度：
+						</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							执行标准：
+						</th>
+						<td></td>
+						<th align="right" class="thth">
+							是否安装在线监控设备：
+						</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							标志牌安装形式：
+						</th>
+						<td colspan="3"></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							备注：
+						</th>
+						<td colspan="3"></td>
+					</tr>
+
+				</tbody>
+			</table>
+			<!--排污口基本信息完 -->
+			<br />
+			<table class="formtable1" width="860px" cellspacing="0"
+				cellpadding="0" border="0">
+				<tbody>
+					<tr>
+						<td colspan="6" class="thh">
+							排放口污染物
+						</td>
+					</tr>
+					<tr>
+						<th align="center" class="thth2">
+							污染物代码
+						</th>
+						<th align="center" class="thth2">
+							排放标准
+						</th>
+						<th align="center" class="thth2">
+							排放标准值单位
+						</th>
+						<th align="center" class="thth2">
+							排放标准数值
+						</th>
+						<th align="center" class="thth2">
+							排放标准值上限
+						</th>
+						<th align="center" class="thth2">
+							排放标准值下限
+						</th>
+					</tr>
+
+					<tr>
+						<td align="left">
+							454
+						</td>
+						<td align="left">
+							454
+						</td>
+						<td align="left">
+							454
+						</td>
+						<td align="right">
+							454
+						</td>
+						<td align="right">
+							454
+						</td>
+						<td align="right">
+							454
+						</td>
+					</tr>
+
+					<tr>
+						<td align="left">
+							454
+						</td>
+						<td align="left">
+							454
+						</td>
+						<td align="left">
+							454
+						</td>
+						<td align="right">
+							454
+						</td>
+						<td align="right">
+							454
+						</td>
+						<td align="right">
+							454
+						</td>
+					</tr>
+
+					<tr>
+						<td align="left">
+							454
+						</td>
+						<td align="left">
+							454
+						</td>
+						<td align="left">
+							454
+						</td>
+						<td align="right">
+							454
+						</td>
+						<td align="right">
+							454
+						</td>
+						<td align="right">
+							454
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--排污口基本信息完 -->
+			<br />
+			<table class="formtable" width="860px" cellspacing="0"
+				cellpadding="0" border="0">
+				<tbody>
+					<tr>
+						<td colspan="4" class="thh">
+							治理设施
+						</td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							水处理设施名称：
+						</th>
+						<td colspan="3"></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							水处理设施编号：
+						</th>
+						<td></td>
+						<th align="right" class="thth">
+							排污口编号：
+						</th>
+						<td></td>
+					</tr>
+
+					<th align="right" class="thth">
+						固定资产原值（万元）：
+					</th>
+					<td></td>
+					<th align="right" class="thth">
+						总投资额（万元）：
+					</th>
+					<td></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							设计处理能力：
+						</th>
+						<td></td>
+						<th align="right" class="thth">
+							实际处理能力：
+						</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							年运行费用（万元）：
+						</th>
+						<td></td>
+						<th align="right" class="thth">
+							废水处理方法：
+						</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							投运日期：
+						</th>
+						<td></td>
+						<th align="right" class="thth">
+							设施运行状态：
+						</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th align="right" class="thth">
+							备注：
+						</th>
+						<td colspan="3"></td>
+					</tr>
+
+				</tbody>
+			</table>
+			<!--治理设施完 -->
+		</div>
+	</body>
+</html>

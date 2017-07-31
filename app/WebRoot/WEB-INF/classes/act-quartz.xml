@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+            http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+            http://www.springframework.org/schema/context  
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd  
+            http://www.springframework.org/schema/tx  
+            http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+            http://www.springframework.org/schema/util 
+            http://www.springframework.org/schema/util/spring-util-3.0.xsd  
+            http://www.springframework.org/schema/mvc   
+            http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+            http://www.springframework.org/schema/jdbc  
+            http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd">
+
+
+	<!-- “上报任务”使用MethodInvokingJobDetailFactoryBean，任务类可以不实现Job接口，通过targetMethod指定调用方法-->
+	<bean id="sbJob" class="com.hnjz.quartz.service.JobProcessing" >
+		<property name="items">
+			<map>
+				<!-- 此处为 测试实现 -->
+				<entry key="1" value-ref="sbRwItem" />
+			</map>
+		</property>
+	</bean>
+	
+	<!-- 到期任务 具体执行类 -->
+	<bean id="taskDetection" class="com.hnjz.quartz.service.MaturityTaskDetection">
+	</bean>
+	
+	<!-- 定期删除任务 -->
+	<bean id="deleteTaskObject" class="com.hnjz.quartz.service.DeleteTaskManager">
+	</bean>
+	
+	
+	
+	<!-- “上报任务” -->
+	<bean id="sbTask"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="sbJob" />
+		</property>
+		<property name="targetMethod">
+			<value>execute</value>
+		</property>
+	</bean>
+
+	<!-- 到期任务 -->
+	<bean id="taskDetectionWorker"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="taskDetection" />
+		</property>
+		<property name="targetMethod">
+			<value>detect</value>
+		</property>
+	</bean>
+	
+	<!-- 定期删除任务 -->
+	<bean id="deleteTask"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="deleteTaskObject" />
+		</property>
+		<property name="targetMethod">
+			<value>delete</value>
+		</property>
+	</bean>
+	
+	
+	
+	<!-- “上报任务”的触发器 -->
+	<bean id="sbTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="sbTask" />
+		</property>
+		<property name="cronExpression">
+			<value>${SB_TASK_TIME}</value>
+		</property>
+	</bean>
+	
+	<!-- 到期任务检测（Maturity task detection）触发器 -->
+	<bean id="mtaskdetec"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="taskDetectionWorker" />
+		</property>
+		<property name="cronExpression">
+			<value>${TASK_DETECT_TIME}</value>
+		</property>
+	</bean>
+	
+	<!-- 定期删除任务 -->
+	<bean id="deletetask"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="deleteTask" />
+		</property>
+		<property name="cronExpression">
+			<!-- 每天零点 -->
+			<value>${DELETE_TASK_TIME}</value>
+		</property>
+	</bean>
+	
+	
+	<!--  到期执行季度随机抽查  
+	<bean id="quarterCheckObject" class="com.hnjz.quartz.service.QuarterCheckTask">
+	</bean>
+	
+	<bean id="quarterCheck"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="quarterCheckObject" />
+		</property>
+		<property name="targetMethod">
+			<value>check</value>
+		</property>
+	</bean>
+	<bean id="quartercheck"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="quarterCheck" />
+		</property>
+		<property name="cronExpression">
+			每天零点
+			<value>${QUARTER_CHECK_TIME}</value>
+		</property>
+	</bean>  -->
+
+
+
+
+	<!-- 按月随机抽查。。。开始。。。 -->
+	<!-- 到期执行月随机抽查  -->
+	<bean id="monthCheckObject" class="com.hnjz.quartz.service.MonthCheckTask">
+	</bean>
+
+	<!-- 到期执行月随机抽查 -->
+	<bean id="monthCheck"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="monthCheckObject" />
+		</property>
+		<property name="targetMethod">
+			<value>check</value>
+		</property>
+	</bean>
+	<!-- 到期执行月随机抽查 -->
+	<bean id="monthcheck"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="monthCheck" />
+		</property>
+		<property name="cronExpression">
+			<!-- 以后设置每月3号零点执行抽查 -->
+			<value>${MONTH_CHECK_TIME}</value>
+		</property>
+	</bean>
+	<!--按月随机抽查。。。结束。。。-->
+    <!-- 定时执行随机抽查派发 设置 。。。开始。。。-->
+    <bean id="monthPfObject" class="com.hnjz.quartz.service.MonthPfTask">
+	</bean>
+	<bean id="monthPf"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="monthPfObject" />
+		</property>
+		<property name="targetMethod">
+			<value>check</value>
+		</property>
+	</bean>
+	<bean id="monthpf"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="monthPf" />
+		</property>
+		<property name="cronExpression">
+			<!-- 每天零点 -->
+			<value>${MONTH_PF_TIME}</value>
+		</property>
+	</bean>
+    <!-- 定时执行随机抽查派发 设置 。。。结束。。。-->
+    
+    
+
+	<!-- 1， 启动触发器的配置开始 -->
+	<bean name="myscheduler" lazy-init="false" autowire="no"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<!-- 上报任务触发器 -->
+				<ref bean="sbTrigger" />
+				<!-- 到期任务检测触发器 -->
+				<ref bean="mtaskdetec" />
+				<!-- 定期删除任务 -->
+				<ref bean="deletetask" />
+				<!-- 到期执行季度随机抽查
+				<ref bean="quartercheck" />
+				 -->
+				<!-- 到期执行月随机抽查 -->
+				<ref bean="monthcheck" />
+				<!-- 到期执行月度派发 -->
+				<ref bean="monthpf" />
+			</list>
+		</property>
+	</bean>
+	<!-- 启动触发器的配置结束 -->
+
+</beans>

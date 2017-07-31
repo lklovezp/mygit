@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.work.po.TBizTaskchecklistheader" table="T_BIZ_TASKCHECKLISTHEADER">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+
+		<property column="TASKID_" name="taskid" not-null="false" type="string" />
+		<property column="JSONOBJSTR_" name="jsonobjstr" not-null="false" type="string" />
+	</class>
+</hibernate-mapping>

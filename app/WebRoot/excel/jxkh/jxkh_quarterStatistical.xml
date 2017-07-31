@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+	<SheetObj key="quarterForm" name="按季度环境监察工作统计表" beginx="5" beginy="0" span="1" clazz="com.hnjz.app.jxkh.quarterstatistics.QuarterForm" >
+		<ColnumObj x="0" y="0" name="taskname" />
+		<ColnumObj x="0" y="3" name="tasksum" />
+		<ColnumObj x="0" y="5" name="fsgs" />
+		<ColnumObj x="0" y="6" name="fscs" />
+		<ColnumObj x="0" y="7" name="fsrc" />
+		
+		<ColnumObj x="0" y="8" name="fqgs" />
+		<ColnumObj x="0" y="9" name="fqcs" />
+		<ColnumObj x="0" y="10" name="fqrc" />
+		
+		<ColnumObj x="0" y="11" name="zsgs" />
+		<ColnumObj x="0" y="12" name="zscs" />
+		<ColnumObj x="0" y="13" name="zsrc" />
+		
+		<ColnumObj x="0" y="14" name="gfgs" />
+		<ColnumObj x="0" y="15" name="gfcs" />
+		<ColnumObj x="0" y="16" name="gfrc" />
+		
+		<ColnumObj x="0" y="17" name="wrygs" />
+		<ColnumObj x="0" y="19" name="xckczcs" />
+		<ColnumObj x="0" y="21" name="xckczrc" />
+	</SheetObj>
+	
+   <SheetObj key="quarterZfqkForm" name="按季度环境监察工作统计表" beginx="0" beginy="0" span="0" clazz="com.hnjz.app.jxkh.quarterstatistics.QuarterZfqkForm" >
+		<ColnumObj x="0" y="8" name="year" />
+		<ColnumObj x="0" y="12" name="quarter" />
+		<ColnumObj x="1" y="3" name="orgname" />
+		<ColnumObj x="3" y="26" name="wryjcqtjccs" />
+		<ColnumObj x="5" y="23" name="wryjcqtjcRemark" />
+		
+		<ColnumObj x="15" y="0" name="xcjczcs" />
+		<ColnumObj x="15" y="1" name="wrfzsszts" />
+		<ColnumObj x="15" y="2" name="wrfzxcjczcs" />
+		<ColnumObj x="15" y="3" name="zcyzts" />
+		<ColnumObj x="15" y="4" name="yzl" />
+		<ColnumObj x="15" y="5" name="yzdbl" />
+		<ColnumObj x="15" y="6" name="jsxmxcjczcs" />
+		<ColnumObj x="15" y="7" name="ajhxmsgs" />
+		<ColnumObj x="15" y="8" name="xmsjtcs" />
+		<ColnumObj x="15" y="9" name="fzsstcs" />
+		<ColnumObj x="15" y="10" name="stszxl" />
+		<ColnumObj x="15" y="11" name="xqzlxcjczcs" />
+		<ColnumObj x="15" y="12" name="xqzlxms" />
+		<ColnumObj x="15" y="13" name="yaqwcxms" />
+		<ColnumObj x="15" y="14" name="ajwcxms" />
+		<ColnumObj x="15" y="15" name="yqwcxms" />
+		<ColnumObj x="15" y="16" name="wwcxms" />
+		<ColnumObj x="15" y="17" name="xmaqwcl" />
+		
+		<ColnumObj x="15" y="18" name="xkzxcjczcs" />
+		<ColnumObj x="15" y="19" name="xkzffs" />
+		<ColnumObj x="15" y="20" name="fhxkzjs" />
+		<ColnumObj x="15" y="21" name="cbpwjs" />
+		<ColnumObj x="15" y="26" name="qtjccs" />
+		
+		
+	</SheetObj>
+</ConfingObj>

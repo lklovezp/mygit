@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataRecmail" table="T_DATA_RECMAIL">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+	    <property column="MAILID_" name="mailId" not-null="false" type="string" />
+        <property column="USERID_" name="userId" not-null="false" type="string" />
+        <property column="ISREAD_" name="isRead" not-null="false" type="string" />
+        <property column="READDATE_" name="readDate" not-null="false" type="timestamp" />
+        <property column="ISDEL_" name="isDel" not-null="false" type="string" />
+        <property column="PFRID_" name="pfrId" not-null="false" type="string" />
+		<property column="AREAID_" name="areaId" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="true" type="string" />
+		<property column="UPDATED_" name="updateTime" not-null="true" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="createTime" not-null="true" type="timestamp" />
+		<many-to-one name="creater" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

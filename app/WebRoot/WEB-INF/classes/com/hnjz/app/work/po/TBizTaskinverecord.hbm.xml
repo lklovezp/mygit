@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.work.po.TBizTaskinverecord" table="T_BIZ_TASKINVERECORD">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+
+		<property column="TASKID_" name="taskid" not-null="false" type="string" />
+		<property column="STARTTIME_" name="starttime" not-null="false" type="timestamp" />
+		<property column="ENDTIME_" name="endtime" not-null="false" type="timestamp" />
+		<property column="XWDD_" name="xwdd" not-null="false" type="string" />
+		<property column="BXWDWMC_" name="bxwdwmc" not-null="false" type="string" />
+		<property column="FDDBR_" name="fddbr" not-null="false" type="string" />
+		<property column="FDDBRDH_" name="fddbrdh" not-null="false" type="string" />
+		<property column="BXWRXM_" name="bxwrxm" not-null="false" type="string" />
+		<property column="BXWRXB_" name="bxwrxb" not-null="false" type="string" />
+		<property column="BXWRNL_" name="bxwrnl" not-null="false" type="string" />
+		<property column="BXWRZW_" name="bxwrzw" not-null="false" type="string" />
+		<property column="BXWRDH_" name="bxwrdh" not-null="false" type="string" />
+		<property column="BXWZRRXM_" name="bxwzrrxm" not-null="false" type="string" />
+		<property column="BXWZRRXB_" name="bxwzrrxb" not-null="false" type="string" />
+		<property column="BXWZRRNL_" name="bxwzrrnl" not-null="false" type="string" />
+		<property column="BXWZRRDH_" name="bxwzrrdh" not-null="false" type="string" />
+		<property column="BXWZRRSZDW_" name="bxwzrrszdw" not-null="false" type="string" />
+		<property column="BXWZRRZZ_" name="bxwzrrzz" not-null="false" type="string" />
+		<property column="BXWZRRYBAGX_" name="bxwzrrybagx" not-null="false" type="string" />
+		<property column="ZFRYDWMC_" name="zfrydwmc" not-null="false" type="string" />
+		<property column="ZFRYNAMES_" name="zfrynames" not-null="false" type="string" />
+		<property column="ZFZHS_" name="zfzhs" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="true" type="string" />
+		<property column="UPDATED_" name="updated" not-null="true" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="created" not-null="true" type="timestamp" />
+		<many-to-one name="createby" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		
+		<property column="FDDBRSFZH_" name="fddbrsfzh" not-null="false" type="string" />
+		<property column="BXWRSFZH_" name="bxwrsfzh" not-null="false" type="string" />
+		<property column="BXWZRRSFZH_" name="bxwzrrsfzh" not-null="false" type="string" />
+		
+		<property column="LASTANS_" name="lastans" not-null="false" type="string" />
+		
+	</class>
+</hibernate-mapping>

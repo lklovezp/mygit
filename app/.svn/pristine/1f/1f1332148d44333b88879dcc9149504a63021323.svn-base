@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*CSS Reset*/
+body{ margin:0px; padding:0px; font-size:12px;color:#333;}
+*{ margin:0px; padding:0px;}
+img{ border:0px;}
+ul,li{ list-style:none; margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0; font-family:microsoft yahei; text-align:center; color:#484848;}
+.cc{ background: none; border: 0; clear: both; display: block; float: none; font-size: 0; margin: 0; padding: 0; overflow: hidden; visibility: hidden; width: 0; height: 0;}
+a{ color:#333333; text-decoration:none;}
+a:hover{ color:#333333; text-decoration:underline;}
+em{ font-style:normal;}
+.clearfix{*zoom:1;}
+.clearfix:before{ content:""; height:0; line-height:0; display:table;}
+.clearfix:after{ content:""; height:0; line-height:0; display:table; clear:both;}
+
+
+/**i.html头部**/
+
+.huanying{ width:300px; height:50px; float:right;  text-align:right; line-height:50px; margin:30px 30px 0 0; color:#fff; font-size:14px; font-family:microsoft yahei;}
+.huanying em.huanying_line{color:#CCC; margin:0px 2px; font-style:normal;}
+.huanying a{ color:#fff;}
+/*内页的每页的标题 <hn class="tit>"*/
+.tit{ padding:15px 0px 0px;}
+/*内页查询的表格、查看详情的表格（一般不带验证，没有规定必填项）*/
+.div_container{ padding:20px; margin:0px auto;}/*盛放查询表格、数据表格等的div*/
+.queryTable{width:100%; border-collapse:collapse;}
+.queryTable td,.queryTable th{ border:1px dotted #95b8e7; padding:3px;}
+.queryTable th{ background:#f9fcfe; text-align:right; font-weight:normal;}
+/****数据表格里面的每行后面的操作，如“编辑”，“删除”，“查看”等a按钮的样式***/
+a.b-link{
+    color: #08c;
+    text-decoration:none;
+    cursor:pointer;
+    font-family:"microsoft yahei";
+}
+a.b-link:hover{ color:#08c;text-decoration:underline;}
+/***queryTable  和popTable的区别就在于padding值不同而已。 query是3，pop是7***/
+
+/*新建、编辑的表格（一般带有验证的，上下边距稍大）**/
+.popTable{ width:100%; border-collapse:collapse; font-family:microsoft yahei;}
+.popTable th,.popTable td{padding:10px 7px;/*border:1px dotted #95b8e7;*/ min-height:14px;_height:14px;}
+.popTable th{ text-align:right;/* background:#f5fafe; border-bottom:2px solid #fff;*/}
+.popTable td{ position:relative;}
+input.errorP{ background-color:#fff3f3; border:1px solid #f00;}
+.y-select.errorP{ background:url(images/select_arrow_pink.jpg) right center no-repeat;border:1px solid #f00;}
+input[type="checkbox"].errorP{background-color:#fff3f3; border:1px solid #f00;}
+input.errorP:focus{background-color:#fff3f3; outline:none; border:1px solid #f00;}
+input.errorP:hover{background-color:#fff3f3; outline:none;  border:1px solid #f00;}
+label.errorP{display:inline-block; min-width:40px;_width:40px; position:absolute; left:7px;bottom:-2px;/* background:#fff;*/ height:12px; line-height:12px; color:#C03;}
+/*必填项的 **/
+em.mark{ color:#f00;}
+/***popTable如果需要为label.error写样式，写在每页的<style>里面***/
+/**不带边框样式的表格**/
+.popTable_noborder{ width:100%; border-collapse:collapse; font-family:microsoft yahei;}
+.popTable_noborder th,.popTable_noborder td{padding:7px; border:none; min-height:14px;_height:14px;}
+.popTable_noborder a{ color:#00f; margin-right:8px;}
+/***表格单元格以及其它div 文字或行内元素方向流********/
+.t-l{ text-align:left;}
+.t-r{ text-align:right;}
+.t-c{ text-align:center;}
+/*文本框*/
+.i-text { height:20px; padding:0px 2px; border:1px solid #95B8E7; width:171px; margin-right:7px; border-radius:5px; outline:none; color:#555;}
+.i-textarea{ color:#666; font-family:microsoft yahei;}
+.i-text:hover,.i-textarea:hover {
+    border-color: #578bd0 #95b8e7 #95b8e7 #578bd0;
+    border-style: solid;
+    border-width: 1px;
+}
+.i-text:focus, .i-textarea:focus {
+    border-color: #578bd0 #95b8e7 #95b8e7 #578bd0;
+    outline: 1px solid #00ffff;
+}
+
+/*下拉框（下拉select）*/
+.y-select{ background:url(images/select_arrow_white1.jpg) right center no-repeat; padding-right:20px; width:171px;}
+.selectDiv ul li{padding:3px;}
+.selectDiv ul li:hover{ background:#eaf2ff;}
+.selectDiv ul li.cur{ background:#ffe48d;}
+/*下拉框（下拉checkbox）*/
+/*时间下拉框*/
+.y-datebox{ background:url(images/date_arrow2.jpg) right center no-repeat; padding-right:20px; width:151px;}
+/*弹出iframe的选择框*/
+.y-iframe{ background:url(images/pop_iframe_arrow.jpg) right center no-repeat; padding-right:20px; width:151px;}
+/*下拉树*/
+.menuContent ul.ztree {margin-top: 10px;border: 1px solid #617775;background: #f0f6e4;width:220px;height:360px;overflow-y:scroll;overflow-x:auto;}
+
+/**按钮样式(span>input类型)**/
+.y-btn{ display:inline-block; height:24px; background-image:url("images/button-normal.png");  background-position:right -42px; cursor:pointer; margin:0px 7px; vertical-align:middle; }
+.y-btn input{ display:inline-block; height:24px; box-sizing:border-box; padding-left:12px; padding-bottom:4px; padding-top:2px; margin-right:15px; border: medium none; background-image:url("images/button-normal.png"); background-position:0px 0px; outline:none; font-family:microsoft yahei; color:#fff; font-weight:bold; cursor:pointer;}
+.y-btn:hover{background-position:right -122px;}
+.y-btn:hover input{background-position:0px -80px;}
+.y-btn input:hover{background-position:0px -80px;}
+/*按钮样式（span>a类型）**/
+.y-btn a{ display:inline-block; padding:3px 0px 4px 12px; margin-right:15px; border:none; background-image:url("images/button-normal.png"); background-position:0px 0px; outline:none; font-family:microsoft yahei; color:#fff; font-weight:bold; cursor:pointer;}
+
+/**登录界面**/
+.login_bg{ background:url(images/login_bg.jpg) center center no-repeat;}
+.login_f{ width:689px; margin:0px auto; padding-top:75px;}
+.login_logo{ height:107px; background:url(images/login_logo.png) no-repeat; padding-bottom:36px;}
+.login_form{ width:332px; height:297px; padding:0px 58px 83px 299px; background:url(images/login_from_bg_01.png) no-repeat;}
+.login_form h5{ line-height:30px; font-size:24px; font-family:microsoft yahei; color:#bd883b; padding-top:30px;}
+.login_form h5 span{ font-size:14px; color:#848484; margin-left:12px;}
+.login_form p.error{ color:#f00; height:20px; line-height:20px;}
+.login_form .inputDiv{ width:100%; height:44px;padding-bottom:26px; overflow:hidden; position:relative;}
+.login_form span.placeholder{ display:inline-block;padding:10px; width:310px; height:22px; border:1px solid #c9c9c9; font-size:16px; color:#848484; font-family:microsoft yahei; border-radius:4px;}
+.login_form .inputDiv input{padding:10px; width:310px; height:22px; border:1px solid #c9c9c9; font-size:16px; color:#848484; font-family:microsoft yahei; outline:none; resize:none; border-radius:4px; position:absolute; left:0; top:0; background:none;}
+.loginBtn{ width:106px; height:36px; background:url(images/login_btn.jpg) no-repeat; border:none; cursor:pointer; outline:none;}
+.submitDiv span{ display:inline-block; float:left; font-family:microsoft yahei;}
+.submitDiv span.part1{ width:129px;margin-left:113px;}
+.submitDiv span.part2{ margin-top:10px;}
+.submitDiv span.part2 input{ float:left; vertical-align:baseline; margin-top:4px; margin-right:3px; outline:none;}
+.submitDiv span.part2 label{ font-size:14px; color:#484848;}
+.submitDiv span.part3{ float:right; line-height:36px; font-size:14px;}
+.submitDiv span.part3 a{ color:#090;}
+.errorN{ display:block; position:absolute; left:0;top:45px; color:#f00;}
+.combo{ border-radius:5px;}
+.radio_check_align  span{display:inline-block; margin-right:5px;}
+.radio_check_align input{height:13px; vertical-align:text-top; margin-top:0; margin-right:2px; }
+
+/*其它样式*/
+
+.left_tree{ width:275px; height:375px;padding:10px; float:left; border:1px solid #95B8E7; overflow:auto;}
+.right_preview{width:710px; height:375px; float:right;}
+
+.btn_div{ border:1px dotted #95b8e7; padding:3px; text-align:right;}
+
+.blockTit{ margin:10px; padding:10px; border:1px solid #A5BAD8;}
+.blockTit h1{ font-size:14px; color:#3BA5D6; text-align:left; border-bottom:2px solid #3BA5D6; margin-bottom:7px;}

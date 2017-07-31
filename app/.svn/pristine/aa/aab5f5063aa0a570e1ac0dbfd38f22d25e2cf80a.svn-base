@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataLawobjtypetasktype" table="T_DATA_LAWOBJTYPETASKTYPE">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+
+		<property column="LAWOBJTYPE_" name="lawobjtype" not-null="true" type="string" />
+		<property column="TASKTYPEID_" name="tasktypeid" not-null="false" type="string" />
+		<property column="IS_EXEC_CHECKLIST" name="isexecchecklist" not-null="false" type="string" />
+	</class>
+</hibernate-mapping>

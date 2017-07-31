@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+	<SheetObj key="loginLogFormQuery" name="登录次数统计" beginx="0" beginy="0" span="0" clazz="com.hnjz.sys.loginlog.LoginLogForm" >
+		<ColnumObj x="0" y="1" name="areaname" />
+		<ColnumObj x="1" y="1" name="name" />
+		<ColnumObj x="2" y="1" name="starttime" />	 	
+	</SheetObj>
+	<SheetObj key="loginLogForm" name="登录次数统计" beginx="4" beginy="0" span="1" clazz="com.hnjz.sys.loginlog.LoginLogForm" >
+		<ColnumObj x="0" y="0" name="orgname" />
+		<ColnumObj x="0" y="1" name="name" />
+		<ColnumObj x="0" y="2" name="cs" />		 
+	</SheetObj>	
+</ConfingObj>

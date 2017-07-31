@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process key="zxzrw_task" name="zxzrw_task" xmlns="http://jbpm.org/4.4/jpdl">
+   <start g="160,110,48,48" name="开始">
+      <transition to="派发"/>
+   </start>
+   <end g="471,305,48,48" name="结束"/>
+   <task g="139,210,92,52" name="派发">
+      <assignment-handler class="com.hnjz.app.work.wf.handler.AcceptAssignmentHandler">
+      	<field name="workProcess">
+      		<string value="pf"/>
+      	</field>
+      </assignment-handler>
+      <transition to="办理"/>
+   </task>
+   <task g="306,301,92,52" name="办理">
+      <assignment-handler class="com.hnjz.app.work.wf.handler.AcceptAssignmentHandler">
+      	<field name="workProcess">
+      		<string value="zxzrw_zx"/>
+      	</field>
+      </assignment-handler>
+      <transition to="结束"/>
+   </task>
+</process>

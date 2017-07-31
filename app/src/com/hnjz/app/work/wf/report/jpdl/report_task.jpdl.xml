@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process key="report_task" name="report_task" xmlns="http://jbpm.org/4.4/jpdl">
+   <start g="134,1,48,48" name="start1">
+      <transition to="上报任务"/>
+   </start>
+   <end g="454,296,48,48" name="end1"/>
+   <task g="246,203,92,52" name="审核">
+   		<assignment-handler class="com.hnjz.app.work.wf.handler.AcceptAssignmentHandler">
+	      	<field name="workProcess">
+	      		<string value="report_sh"/>
+	      	</field>
+	      </assignment-handler>
+      <transition to="审核中转"/>
+   </task>
+   <decision g="269,84,48,48" name="任务派发类型中转">
+   	  <handler class="com.hnjz.app.work.wf.handler.TransferHandler">
+   	  	<field name="workTransfer">
+      		<string value="rwpflxzz"/>
+      	</field>
+   	  </handler>
+      <transition g="-55,-5" name="下派任务" to="审核"/>
+      <transition g="-37,-22" name="非下派任务" to="归档"/>
+   </decision>
+   <task g="429,80,92,52" name="归档">
+   		<assignment-handler class="com.hnjz.app.work.wf.handler.AcceptAssignmentHandler">
+	      	<field name="workProcess">
+	      		<string value="report_gd"/>
+	      	</field>
+	      </assignment-handler>
+      <transition to="end1"/>
+   </task>
+   <decision g="269,297,48,48" name="审核中转">
+   	  <handler class="com.hnjz.app.work.wf.handler.TransferHandler">
+   	  	<field name="workTransfer">
+      		<string value="shzz"/>
+      	</field>
+   	  </handler>
+      <transition g="-30,-20" name="审核通过" to="end1"/>
+      <transition g="205,321;203,229:-56,-2" name="上级审核" to="审核"/>
+      <transition g="-59,-9" name="退回执行" to="error1"/>
+   </decision>
+   <end-error g="273,409,48,48" name="error1"/>
+   <task name="上报任务" g="111,82,92,52">
+      <transition to="任务派发类型中转"/>
+   </task>
+</process>

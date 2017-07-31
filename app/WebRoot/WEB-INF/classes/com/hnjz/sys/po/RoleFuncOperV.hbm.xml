@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<class name="com.hnjz.sys.po.RoleFuncOperV"
+		table="V_SYS_ROLEFUNCOPER">
+
+		<composite-id>
+			<key-property name="operateId" column="OPERATEID_"></key-property>
+			<key-property name="roleId" column="ROLEID_"></key-property>
+			<key-property name="functionId" column="FUNCTIONID_"></key-property>
+		</composite-id>
+		<property column="ONCLICK_EVENT_" name="onclickEvent"
+			not-null="false" type="string" />
+		<property column="LINK_ADDR_" name="linkAddr" not-null="false"
+			type="string" />
+
+		<property column="NOTE_" name="note" not-null="true"
+			type="string" />
+		<property column="FUNLINK_" name="funLink" not-null="false"
+			type="string" />
+		<property column="fashion_" name="fashion" not-null="false"
+			type="string" />
+
+	</class>
+
+</hibernate-mapping>

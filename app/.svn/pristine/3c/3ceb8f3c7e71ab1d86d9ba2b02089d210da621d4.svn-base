@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataShjjbzk" table="T_DATA_SHJJBZK">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+	    <property column="PID_" name="pid" not-null="false" type="string" />
+        <property column="QXLXDM_" name="qxlxdm" not-null="false" type="string" />
+        <property column="STMC_" name="stmc" not-null="false" type="string" />
+        <property column="STDM_" name="stdm" not-null="false" type="string" />
+        <property column="DBS_" name="dbs" not-null="false" type="string" />
+        <property column="HS_" name="hs" not-null="false" type="string" />
+        <property column="QJSTMC_" name="qjstmc" not-null="false" type="string" />
+        <property column="QJSTDM_" name="qjstdm" not-null="false" type="string" />
+        <property column="QJDBS_" name="qjdbs" not-null="false" type="string" />
+        <property column="QJHS_" name="qjhs" not-null="false" type="string" />
+        <property column="AREAID_" name="areaId" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="true" type="string" />
+		<property column="UPDATED_" name="updateTime" not-null="true" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="createTime" not-null="true" type="timestamp" />
+		<many-to-one name="creater" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.work.po.TBizTaskandtasktype" table="T_BIZ_TASKANDTASKTYPE">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+
+		<property column="TASKID_" name="taskid" not-null="false" type="string" />
+		<property column="TASKTYPEID_" name="tasktypeid" not-null="false" type="string" />
+
+		<property column="JCSJ1_" name="jcsj1" type="java.util.Date" />
+		<property column="JCSJ2_" name="jcsj2" type="java.util.Date" />
+		<property column="JCDD_" name="jcdd" type="string" />
+		<property column="JCMB_" name="jcmb" type="string" />
+		<property column="LADJSJ_" name="ladjsj" type="java.util.Date" />
+		<property column="LADJH_" name="ladjh" type="string" />
+		<property column="WFAJMC_" name="wfajmc" type="string" />
+		<property column="DCSJ_" name="dcsj" type="java.util.Date" />
+		<property column="JCYQ_" name="jcyq" type="string" />
+		<property column="JCMD_" name="jcmd" type="string" />
+		<property column="JZZLR_" name="jzzlr" type="string" />
+		<property column="XFTSLY_" name="xftsly" type="string" />
+		<property column="JCJL_" name="jcjl" type="string" />
+		<property column="DESC_" name="desc" type="string" />
+		
+		
+		<property column="ISACTIVE_" name="isActive" not-null="true" type="string" />
+		<property column="UPDATED_" name="updated" not-null="true" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="created" not-null="true" type="timestamp" />
+		<many-to-one name="createby" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataLawobjhis" table="T_DATA_LAWOBJHIS">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+
+		<property column="LAWOBJTYPE_" name="lawobjtype" not-null="true" type="string" />
+		<property column="CODE_" name="code" not-null="false" type="string" />
+		<property column="NAME_" name="name" not-null="false" type="string" />
+		<property column="ADDRESS_" name="address" not-null="false" type="string" />
+		<property column="MANAGER_" name="manager" not-null="false" type="string" />
+		<property column="MANAGERMOBILE_" name="managermobile" not-null="false" type="string" />
+		<property column="EPLEADER_" name="epleader" not-null="false" type="string" />
+		<property column="EPLEADERMOBILE_" name="epleadermobile" not-null="false" type="string" />
+		<property column="REGIONID_" name="regionid" not-null="false" type="string" />
+		<property column="REGIONNAME_" name="regionname" not-null="false" type="string" />
+		<property column="INDUSTRYID_" name="industryid" not-null="false" type="string" />
+		<property column="C1" name="c1" not-null="false" type="string" />
+		<property column="C2" name="c2" not-null="false" type="string" />
+		<property column="C3" name="c3" not-null="false" type="string" />
+		<property column="C4" name="c4" not-null="false" type="string" />
+		<property column="C5" name="c5" not-null="false" type="string" />
+		<property column="C6" name="c6" not-null="false" type="string" />
+		<property column="C7" name="c7" not-null="false" type="string" />
+		<property column="C8" name="c8" not-null="false" type="string" />
+		<property column="C9" name="c9" not-null="false" type="string" />
+		<property column="C10" name="c10" not-null="false" type="string" />
+		<property column="C11" name="c11" not-null="false" type="string" />
+		<property column="C12" name="c12" not-null="false" type="string" />
+		<property column="C13" name="c13" not-null="false" type="string" />
+		<property column="C14" name="c14" not-null="false" type="string" />
+		<property column="C15" name="c15" not-null="false" type="string" />
+		<property column="C16" name="c16" not-null="false" type="string" />
+		<property column="C17" name="c17" not-null="false" type="string" />
+		<property column="C18" name="c18" not-null="false" type="string" />
+		<property column="C19" name="c19" not-null="false" type="string" />
+		<property column="C20" name="c20" not-null="false" type="string" />
+		<property column="C21" name="c21" not-null="false" type="string" />
+		<property column="C22" name="c22" not-null="false" type="string" />
+		<property column="C23" name="c23" not-null="false" type="string" />
+		<property column="C24" name="c24" not-null="false" type="string" />
+		<property column="C25" name="c25" not-null="false" type="string" />
+		<property column="C26" name="c26" not-null="false" type="string" />
+		<property column="C27" name="c27" not-null="false" type="string" />
+		<property column="C28" name="c28" not-null="false" type="string" />
+		<property column="C29" name="c29" not-null="false" type="string" />
+		<property column="C30" name="c30" not-null="false" type="string" />
+		<property column="D1" name="d1" not-null="false" type="timestamp" />
+		<property column="D2" name="d2" not-null="false" type="timestamp" />
+		<property column="D3" name="d3" not-null="false" type="timestamp" />
+		<property column="D4" name="d4" not-null="false" type="timestamp" />
+		<property column="D5" name="d5" not-null="false" type="timestamp" />
+		<property column="D6" name="d6" not-null="false" type="timestamp" />
+		<property column="D7" name="d7" not-null="false" type="timestamp" />
+		<property column="D8" name="d8" not-null="false" type="timestamp" />
+		<property column="D9" name="d9" not-null="false" type="timestamp" />
+		<property column="D10" name="d10" not-null="false" type="timestamp" />
+		<property column="N1" name="n1" not-null="false" type="integer" />
+		<property column="N2" name="n2" not-null="false" type="integer" />
+		<property column="N3" name="n3" not-null="false" type="integer" />
+		<property column="N4" name="n4" not-null="false" type="integer" />
+		<property column="N5" name="n5" not-null="false" type="integer" />
+		<property column="N6" name="n6" not-null="false" type="integer" />
+		<property column="N7" name="n7" not-null="false" type="integer" />
+		<property column="N8" name="n8" not-null="false" type="integer" />
+		<property column="N9" name="n9" not-null="false" type="integer" />
+		<property column="N10" name="n10" not-null="false" type="integer" />
+		<property column="L1" name="l1" not-null="false" type="string" />
+		<property column="L2" name="l2" not-null="false" type="string" />
+		<property column="L3" name="l3" not-null="false" type="string" />
+		<property column="L4" name="l4" not-null="false" type="string" />
+		<property column="L5" name="l5" not-null="false" type="string" />
+		<property column="AREAID_" name="areaid" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="false" type="string" />
+		<property column="UPDATED_" name="updated" not-null="false" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="created" not-null="false" type="timestamp" />
+		<many-to-one name="createby" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

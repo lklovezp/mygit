@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.home_l{ width:250px; float:left; background:#f4fbff;}
+.home_l .headThumb{ margin-top:50px; text-align:center}
+.home_l .headThumb span{ display:inline-block;*display:inline;*zoom:1; width:108px; height:108px; border-radius:50%; margin-bottom:16px;}
+.home_l .headThumb a.cp{ color:#1f8ecd; font-size:16px;}
+.home_l .info{ width:66%; margin:30px auto; font-size:16px; color:#222; line-height:48px;}
+
+.home_r{ float:left}
+.home_r ul{ margin:50px auto auto 60px;}
+
+.home_r ul li{height:170px; margin-top:20px; border:1px solid #e5e5e5;border-radius:3px; }
+.home_r ul li .left{ width:185px; height:125px;background: #f9f9f9; padding-top:45px;text-align:center; float:left; border-right:1px solid #e5e5e5; font-size:18px; color:#222222;}
+.home_r ul li .left span{ width:50px; height:50px; margin-bottom:6px;display:inline-block;*display:inline;*zoom:1;}
+.home_r ul li .left img{}
+.home_r ul li .right{ float:left}
+.home_r ul li .right .list{border-right:1px solid #e5e5e5; height:110px; width:196px; float:left; text-align:center; margin:30px 0;}
+
+.home_r ul li .right .list a{display:inline-block;*display:inline;*zoom:1;border-right:1px solid #e5e5e5;}
+.home_r ul li .right .list:last-child{border-right:none}
+.detial{ padding-top:10px; font-size:18px; color:#222222;}
+.detial i{display:inline-block;*display:inline;*zoom:1; margin-top:10px; font-style:normal;}
+
+
+
+/*修改密码*/
+.changePd{}
+.changePd h3{ font-size:16px; text-align:center; margin-bottom:30px;}
+.changePd p{ margin-bottom:20px; line-height:40px;}
+.changePd p label{ width:80px;display:inline-block;*display:inline;*zoom:1;}
+.changePd p .changePdInp{width:218px; height:38px; line-height:38px; font-family:"Microsoft YaHei"; font-size:14px; color:#333333; padding:0px 5px; border:1px solid #acacac; outline:none; resize:none;}

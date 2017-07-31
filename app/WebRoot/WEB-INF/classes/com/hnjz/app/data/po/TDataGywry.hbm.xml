@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TDataGywry" table="T_DATA_GYWRY">
+
+<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+        
+
+      <many-to-one column="FID_" name="lawobjf" class="com.hnjz.app.data.po.TDataLawobjf" />
+      
+             
+      <property column="PWXKZ_" name="pwxkz"  type="string" />
+             
+      <property column="ISACTIVE_" name="isActive" not-null="false" type="string" />
+      
+      <property column="ZZJGDM_" name="zzjgdm"  type="string" />
+             
+      
+      
+      <property column="QYGM_" name="qygm"  type="string" />
+             
+      
+      
+      <property column="TCRQ_" name="tcrq"  type="timestamp" />
+             
+      
+      
+      <property column="TYSHXYDM_" name="tyshxydm" type="string" />
+             
+      
+      
+      <property column="KZLX_" name="kzlx"  type="string" />
+             
+      
+      
+      <property column="WRFZSSSL_" name="wrfzsssl"  type="string" />
+             
+      
+      
+      <property column="YB_" name="yb"  type="string" />
+             
+      
+      
+      <property column="FXYGS_" name="fxygs"  type="string" />
+             
+      
+      
+      <property column="WFCCCGS_" name="wfcccgs"  type="string" />
+             
+      
+      
+      <property column="MCJP_" name="mcjp"  type="string" />
+             
+      
+      
+      <property column="BM_" name="bm" type="string" />
+             
+      
+      
+      <property column="CYM_" name="cym"  type="string" />
+             
+      
+      
+      <property column="QYBH_" name="qybh"  type="string" />
+             
+      
+      
+      <property column="SBDM_" name="sbdm"  type="string" />
+             
+      
+      
+      <property column="ZCLX_" name="zclx" type="string" />
+             
+      
+      
+      <property column="GKLX_" name="gklx"  type="string" />
+             
+      
+      
+      <property column="LSGX_" name="lsgx"  type="string" />
+             
+      
+      
+      <property column="LY_" name="ly" type="string" />
+             
+      
+      
+      <property column="ZZDMJ_" name="zzdmj" type="string" />
+             
+      
+      
+      <property column="SFSFQY_" name="sfsfqy" type="string" />
+             
+      
+      
+      <property column="HYQGX_" name="hyqgx"  type="string" />
+             
+      
+      
+      <property column="ZZHBRYS_" name="zzhbrys"  type="string" />
+             
+      
+      
+      <property column="QYHBBM_" name="qyhbbm" type="string" />
+             
+      
+      
+      <property column="DZYJ_" name="dzyj"  type="string" />
+             
+      
+      
+      <property column="CZ_" name="cz"  type="string" />
+             
+      
+      
+      <property column="KHYH_" name="khyh" type="string" />
+             
+      
+      
+      <property column="YHZH_" name="yhzh"  type="string" />
+             
+      
+      
+      <property column="QYWZ_" name="qywz"  type="string" />
+             
+      <property column="UPDATED_" name="updated" not-null="false" type="timestamp" />
+        
+	
+	</class>
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+
+
+
+

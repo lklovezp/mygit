@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+.wrap1000{ width:1000px; margin:0 auto;}
+.red{ color: #f00;}
+a:hover{ text-decoration: none;}
+/*查询出来的数据表格*/
+.dataTable{ border-collapse: collapse;}
+.dataTable th, .dataTable td{padding:7px;}
+.dataTable th{ font-weight:normal;}
+/*=====各种类型的按钮================*/
+/*=====各种类型的按钮================*/
+
+/* 1  空心*/
+.kinBtn_blue,.kaBtn_blue,.kinBtn_green, .kaBtn_green,.kinBtn_orange, .kaBtn_orange{font-size:14px; height:24px;  padding:0px 16px; outline:none; border-radius:2px; font-family:"Microsoft YaHei"; cursor:pointer;}
+.kinBtn_blue,.kaBtn_blue{border:1px solid #0083ee; color:#0083ee}
+.kinBtn_green,.kaBtn_green{border:1px solid #2ac187; color:#2ac187}
+.kinBtn_orange,.kaBtn_orange{border:1px solid #fa9410; color:#fa9410}
+.kinBtn_blue,.kinBtn_green,.kinBtn_orange{resize:none;overflow:visible; padding:0 15px; height:26px; background:#fff;  }
+.kaBtn_blue,.kaBtn_green,.kaBtn_orange{ display:inline-block;*display:inline;*zoom:1;line-height:24px; text-decoration:none;}
+.kaBtn_blue:hover,.kaBtn_green:hover,.kaBtn_orange:hover{ text-decoration:none; }
+/* 2 实心*/
+.kinBtn_blue.solid,.kaBtn_blue.solid,.kinBtn_green.solid, .kaBtn_green.solid,.kinBtn_orange.solid, .kaBtn_orange.solid,.kaBtn_blue:hover,.kaBtn_green:hover,.kaBtn_orange:hover{color:#ffffff;}
+.kinBtn_blue.solid,.kaBtn_blue.solid,.kinBtn_blue:hover,.kaBtn_blue:hover{background:#1895fb;}
+.kinBtn_green.solid,.kaBtn_green.solid,.kinBtn_green:hover,.kaBtn_green:hover{background:#2ac187;}
+.kinBtn_orange.solid,.kaBtn_orange.solid,.kinBtn_orange:hover,.kaBtn_orange:hover{background:#fa9410;}
+
+
+/* 3  空心大号*/
+.kinBtn_blue.big,.kaBtn_blue.big,.kinBtn_green.big, .kaBtn_green.big,.kinBtn_orange.big, .kaBtn_orange.big{
+	height:28px;  padding:0px 26px;}
+.kinBtn_blue.big,.kinBtn_green.big,.kinBtn_orange.big{padding:0 25px; height:30px;}
+.kaBtn_blue.big,.kaBtn_green.big,.kaBtn_orange.big{ line-height:28px; }
+/*=======表单元素========*/
+/*文本框*/
+.y-text{ width:240px; height:38px; line-height:38px; font-family:"Microsoft YaHei"; font-size:14px; color:#333333; padding:0px 5px; border:1px solid #acacac; outline:none; resize:none;}
+.y-text[disabled='disabled']{ background:#f7f7f7;}
+.y-text[readonly='readonly']{ background:#f7f7f7;}
+
+.y-select{width:252px; height:40px; line-height:38px; font-family:"Microsoft YaHei"; font-size:14px; color:#333333; padding:0px 5px; border:1px solid #acacac; outline:none; resize:none;}
+
+
+/*文本域*/
+.y-textarea{padding:9px 12px; border:1px solid #acacac; color:#333333; font-family:"Microsoft YaHei"; width:170px; overflow:hidden;}
+.y-textarea[disabled='disabled']{ background:#acacac; resize:none;}
+.y-textarea[readonly='readonly']{ background:#acacac; resize:none;}
+
+/*时间选择框*/
+.y-dateTime{height:38px; line-height:38px; width:90px; padding:0px 38px 0px 5px;border:1px solid #acacac;  background:url(../images/form_time_bg.png) center right no-repeat #fff;  color:#333333; font-family:"Microsoft YaHei";}
+
+/*=======左侧树形结构的左侧的外边的布局============*/
+.leftTree{border:1px solid #d7d7d7; width:211px; }
+.leftTree h2{ height:48px; line-height:48px; font-size:14px; color:#262626; text-align:center; background:#f8f8f8;}
+.leftTree .con{ height:249px;padding-bottom:20px; overflow:auto; }
+
+
+
+/******执法对象*******/
+/*假的搜索框*/
+.searchWrap{ width:100%; padding:20px 0; background:#f5f5f5;  }
+.searchMask{ /*width:1000px; margin:0 auto; */ padding-left:80px;}
+.searchMask p{ height:40px;font-size:14px; color:#999999;}
+.searchMask p input{ width:688px; padding:0 5px; height:36px; line-height:36px; outline:none;  border:1px solid #acacac;}
+.searchMask p .searchBtn{width:92px;margin-left:30px; height:38px; line-height:38px; color:#fff; text-align:center;  display:inline-block;*zoom:1; *display:inline; background:url(../images/btn_blue.png) left top no-repeat; }
+.searchMask p .searchBtn:hover{ text-decoration:none}
+.searchMask p .searchMore{ color:#0083ee; margin-left:30px; display:inline-block; *zoom:1; *display:inline; padding-right:30px; background:url(../images/downIcon.png) right 6px no-repeat; cursor:pointer}
+.searchMask p .searchMore.up{background:url(../images/downIconUp.png) right 6px no-repeat; }
+/*点击假的搜索框后出现的搜所表单*/
+.searchForm{ width:100%;  display:none;}
+.searchForm.show{ display:block}
+.searchForm .fileTable{border-collapse:collapse;}
+.searchForm .fileTable th,.fileTable td{ padding:9px 5px; font-size:14px;}
+.searchForm .fileTable th{ text-align:right; font-weight:normal;}
+/**/
+.lawObjectWrap{ padding:0 80px;}
+.taskPhase{ padding:25px 0;}
+.taskPhase a{margin-left:20px; }
+.taskSpan{ width:70px;display:inline-block;*display:inline;*zoom:1;}
+.taskStateT{width:70px; height:120px; line-height:26px; float:left  }
+
+.taskStateC p{ margin-bottom:20px;}
+.taskStateC p strong,
+.taskStateC p span,
+.taskStateC p a
+{display:inline-block;*display:inline;*zoom:1; margin-left:20px;}
+
+.caozuo div{ padding:15px 0; margin-left:15px; display:inline-block;*display:inline;*zoom:1; float:right }
+.caozuo div a{ margin-left:20px; font-weight:normal;}
+.caozuo div.banli{ color:#0fb475; font-weight:bold; font-size:16px;}
+.caozuo div.paifa{color:#1895fb;font-weight:bold; font-size:16px;}
+
+.taskState{ width:12px;height:10px;display:inline-block;*display:inline;*zoom:1;  }
+.taskState.Ntasks{ background:url(../images/g_r.png) left center no-repeat}
+.taskState.mT3tasks{ background:url(../images/o_r.png) left center no-repeat}
+.taskState.mTtasks{ background:url(../images/r_r.png) left center no-repeat}
+.ydban{ color:#f97500;}
+.ydban.blue{ color:#0083ee;}
+
+
+/*准备阶段3步*/
+.task_step{  width: 720px;  height:48px;  margin: 0 auto;  position: relative;  border-bottom: 4px solid #d1d1d1; }
+.task_step ul{ width:100%; position: absolute; z-index: 1; bottom: -4px; left: 0;  }
+.task_step ul li{ width: 33.33%;  float: left;  text-align: center;  line-height: 48px;  font-size: 18px; color: #262626;  border-bottom: 4px solid #d1d1d1;   }
+.task_step ul li.for_cur{ border-bottom: 4px solid #00a2d9; color: #00a2d9; font-weight: bold}
+.task_h3{padding-left:25px; font-weight:bold;  height: 22px; line-height: 22px;  font-size: 16px; color: #00a2d9;}
+.task_h3 span{ width: 6px; height: 22px; background: #00a2d9; display: block;  float: left; margin-right: 25px;}
+/*相关附件样式开始*/
+.o_btn{ padding:2px 10px; border-radius: 3px; color: #ffffff;}
+.o_btn:hover{ color:#ffffff}
+.btn_orange{ background: #ff7200;}
+.btn_blue{ background: #00a2d9;}
+.btn_grey{ background: #a9a9a9;}/*上边5行是操作里边的三个按钮的样式*/
+.annex_header{ height: 48px; line-height: 48px; background: #cff1ff; padding:0 25px; border:1px solid #d4d4d4; border-bottom: none; color: #262626;}
+.annex_header a{color: #043e7d;margin: 0px 5px;cursor: pointer;}/*标题样式结束*/
+.annex_con div.datagrid-cell.datagrid-cell-c1-operate{ height: 24px; line-height: 24px;}/*操作按钮外边的div的高度，每个页面的datagrid-cell-c1-operate不一样，c1代表这个页面上第1个datagrid，可根据自己页面此处的class修改,*/
+.annex_con div.datagrid-cell.datagrid-cell-c2-operate{ height: 24px; line-height: 24px;}
+.annex_con div.datagrid-cell.datagrid-cell-c3-operate{ height: 24px; line-height: 24px;}
+.annex_con div.datagrid-cell.datagrid-cell-c4-operate{ height: 24px; line-height: 24px;}
+.annex_con div.datagrid-cell.datagrid-cell-c5-operate{ height: 24px; line-height: 24px;}
+
+/*==========按钮===============*/
+/*蓝色图片背景的按钮*/
+.input_btnImgBlue, .input_btnImgGray, .input_addBtnImgOrange, .input_addBtnImgBlue, .input_addBtnImgGray, .input_addBtnImgOrange135{ width:92px; height:37px; line-height:36px; color:#ffffff; font-weight:bold; font-size:14px; background:url(../images/btn_blue.png) no-repeat; border:none; cursor:pointer;}
+.input_btnImgGray{background:url(../images/btn_gray.png) no-repeat;}
+
+
+/*弹窗按钮定位在下面*/
+.rb_btn_fix{
+	border-top: 1px solid #d4d4d4;
+    text-align: center;
+	background: #f6f6f6 none repeat scroll 0 0;
+    border-top: 1px solid #d4d4d4;
+    bottom: 0;
+    box-shadow: 2px 0 5px #ccc inset;
+    padding: 12px 0;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 999999;
+}
+/*弹出框的几个图片背景不带网格的按钮*/
+.input_addBtnImgOrange{background:url(../images/add_btnOrange1.png) no-repeat;}
+.input_addBtnImgBlue{background:url(../images/add_btnBlue.png) no-repeat;}
+.input_addBtnImgGray{background:url(../images/add_btnGray.png) no-repeat;}
+.input_addBtnImgOrange135{ width:135px; background:url(../images/add_btnOrange2.png) no-repeat;}
+
+/*没有边框的表格*/
+tabel.noborder{background:red}
+tabel.noborder tr th,tabel.noborder tr td{ border:0}
+
+
+.annex_header{ position: relative}
+.annex_header .annexselect{ position: absolute;  top: 7px;+*top:0px; left: 100px;}
+
+#checkup_header{ text-align: center; height: 80px;  line-height: 80px; color: #262626;  font-size: 18px;}
+
+
+/*流转记录*/
+.liuzhuanStep{ width: 720px; margin:0 auto; margin-top: 80px;}
+.lzStart{ width: 50px; height: 50px; float: left}
+.lzArrowL span,.lzArrowX span,.lzArrowR span{color: #1895fb;}
+.lzArrowL{ width: 80px; height: 20px;padding-top: 30px; padding-left: 20px; background: url(../images/lzArrowL.png) left center no-repeat;  float: left}
+.lzArrowX{width: 100px; height: 60px; padding-left: 20px; padding-top: 30px; float: right; background: url(../images/lzArrowX.png) top center no-repeat;}
+.lzArrowR{width: 50px; height: 20px;padding-top: 30px; float: right; padding-left: 50px; background: url(../images/lzArrowR.png) right center no-repeat;}
+.lzDetial{ width: 120px;background: #f7f7f7; position: relative; height: 45px; border:1px solid #d7d7d7; border-radius: 2px; float: left;text-align: center; padding-top: 5px; line-height: 20px;}
+.lzDetial.getTo{border: 1px solid #83c6fc; color: #1895fb; background: #f7fcfe;}
+.lzDetialBg{ width: 133px; height: 110px; padding:10px; padding-top: 20px; position: absolute;z-index: 99; top: 60px; left: 50%; margin-left: -77px; background: url(../images/lzDetialBg.png) top center no-repeat; font-size: 12px; color: #444444; text-align: left; display: none;}
+.lzDetial:hover .lzDetialBg{ display: block;}

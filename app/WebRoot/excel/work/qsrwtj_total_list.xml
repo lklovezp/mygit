@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+   <SheetObj key="param" name="任务完成情况" beginx="0" beginy="0" span="0" clazz="Map" >
+		<ColnumObj x="0" y="0" name="title" />
+		<ColnumObj x="1" y="2" name="riqi" />
+		<ColnumObj x="1" y="6" name="worktype" />
+	</SheetObj>
+	<SheetObj key="list" name="任务完成情况" beginx="3" beginy="0" span="1" clazz="com.hnjz.app.work.beans.VTjWorkListBean" >
+		<ColnumObj x="0" y="0" name="seq" />
+		<ColnumObj x="0" y="1" name="wrySsds" />
+		<ColnumObj x="0" y="2" name="wryName" />
+		<ColnumObj x="0" y="3" name="workTypeName" />
+		<ColnumObj x="0" y="4" name="workName" />
+		<ColnumObj x="0" y="5" name="startTimeStr" />
+		<ColnumObj x="0" y="6" name="endTimeStr" />
+		<ColnumObj x="0" y="7" name="zxr" />
+		<ColnumObj x="0" y="8" name="state" />
+	</SheetObj>
+</ConfingObj>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.work.po.TBizXzcfjasp" table="T_BIZ_XZCFJASP">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+		<property column="TASKID_" name="taskid" not-null="false" type="string" />
+		<property column="AJNR_" name="ajnr" not-null="false" type="string" />
+		<property column="AJLY_" name="ajly" not-null="false" type="string" />	
+		<property column="DSRMC_" name="dsrmc" not-null="false" type="string" />
+		<property column="FDDBR_" name="fddbr" not-null="false" type="string" />
+		<property column="COMPANY_" name="company" not-null="false" type="string" />
+		<property column="DSRZW_" name="dsrzw" not-null="false" type="string" />
+		<property column="DSRDZ_" name="dsrdz" not-null="false" type="string" />
+		<property column="LASJ_" name="lasj" not-null="false" type="timestamp" />
+		<property column="AJSCR" name="ajscr" not-null="false" type="string" />
+		<property column="AJSCRBH_" name="ajscrbh" not-null="false" type="string" />
+		<property column="XZCFJDSWH_" name="xzcfjdswh" not-null="false" type="string" />
+		<property column="JYAQ_" name="jyaq" not-null="false" type="string" />
+		<property column="CLYJ_" name="clyj" not-null="false" type="string" />
+		<property column="XZSSQK_" name="xzssqk" not-null="false" type="string" />
+		<property column="CFZXQK_" name="cfzxqk" not-null="false" type="string" />
+		<property column="REMARK_" name="remark" not-null="false" type="string" />
+		<property column="AREAID_" name="areaId" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="true" type="string" />
+		<property column="UPDATED_" name="updated" not-null="true" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="created" not-null="true" type="timestamp" />
+		<many-to-one name="createby" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

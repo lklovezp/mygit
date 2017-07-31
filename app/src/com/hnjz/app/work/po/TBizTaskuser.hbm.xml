@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.work.po.TBizTaskuser" table="T_BIZ_TASKUSER">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		
+		<property column="TASKID_" name="taskid" not-null="true" type="string" />
+		<property column="USERID_" name="userid" not-null="true" type="string" />
+		<property column="USERNAME_" name="username" not-null="true" type="string" />
+		<property column="TYPE_" name="type" not-null="true" type="string" />
+	</class>
+</hibernate-mapping>

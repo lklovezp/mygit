@@ -1,0 +1,5 @@
+ehcache.cfgFile = /ehcache.xml
+
+ehcache.cfgInfo = examplecache
+#simple: 127.0.0.1:11211,127.0.0.1:11212,192.168.88.9:11213
+memcache.hostinfo = 127.0.0.1:11211

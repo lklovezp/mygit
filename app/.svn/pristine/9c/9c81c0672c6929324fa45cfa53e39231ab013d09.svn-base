@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+/*下拉框*/
+.combo{border-color:#acacac;}/*框体的边框颜色*/
+.combo-arrow {background-color: #eaeaea;}/*框体右侧箭头的背景色*/
+.panel-body{border-color:#acacac;} /*下拉框的边框颜色*/
+.combo .combo-text{padding-left:7px;padding-right:7px; font-size:14px;}/*框体的文字的左右间距和字体大小*/
+.combobox-item{padding-top:5px; padding-bottom:5px; font-size:14px;}/*下拉框选项的上下间距及字体大小*/
+.combobox-item-hover{background-color: #f5fbfd;}/*下拉框选项的鼠标滑过时的背景颜色*/
+.combobox-item-selected{background-color:#ebf7fc;}/*下拉框选项的选中时的背景颜色*/
+
+/*数据表格*/
+.datagrid-btable tr{ height:40px;}/*表格数据行的高度*/
+.datagrid-htable tr{ height:50px;}/*表格表头的高度*/
+.datagrid-btable .treegrid-tr-tree{height:0;}
+.datagrid-cell span{ font-weight:normal }
+.tree-title{ font-size:14px;   margin-left: 6px;}
+#datagrid-row-r1-2-1 span.tree-title{ font-weight:bold}
+.datagrid-htable, .datagrid-btable, .datagrid-ftable{ color:#262626;}/*表格数据文字的字体颜色*/
+.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber{ font-size:14px;}/*表格数据文字的字体大小*/
+
+.datagrid-htable, .datagrid-header-row{background-color: #cff1ff;}/*表格的表头的背景颜色*/
+.panel-body-noheader{ border-color:#d4d4d4;}/*表格的最外边一圈边框的颜色*/
+
+.datagrid-header td.datagrid-header-over{background-color: #cff1ff; }/*表格中的表头的每个单元格当鼠标滑过时，单元格的背景颜色*/
+.datagrid-header .datagrid-cell{ text-align:center; }/*表格头部单元格字体居中*/
+.datagrid-header .datagrid-cell span{ font-size:14px; font-weight:bold;}/*表格头部单元格字体大小*/
+.datagrid-row-over{background-color: #f5fbfd;}/*表格中的数据行当鼠标滑过时行的背景颜色*/
+.datagrid-row-selected{background-color: #ebf7fc;}/*表格中点击选中的行的背景颜色*/
+/*重新定义图标*/
+.tree-expanded, .tree-collapsed, .tree-folder, .tree-file{  width:25px; height:20px; }
+.tree-expanded,.tree-expanded-hover{ background:url(../images/icon.png) 0 0 no-repeat;}
+.tree-folder {background: url(../images/icon.png) no-repeat -25px -20px;}
+.tree-folder-open {background: url(../images/icon.png) no-repeat -25px 0;}
+.tree-file { background: url(../images/icon.png) no-repeat -50px 0;}
+
+.tree-collapsed,.tree-collapsed-hover { background: url(../images/icon.png) no-repeat 0px -20px;}

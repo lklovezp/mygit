@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+input{ font-family:"Microsoft YaHei";}
+
+
+/*==========搜索区域==============*/
+.searchWrap{ background:#f5f5f5; padding-bottom:20px;}
+.h1{ font-size:18px; text-align:center; height:98px; line-height:98px; color:#222222;}
+.searchDiv{ overflow:hidden;}
+table.noBorder{ border:none; margin:0px auto;}
+table.noBorder th{ color:#262626; font-weight:normal;padding:0px 20px;}
+
+/*表单*/
+.i-text,  .i-select, .i-dateTime, .i-textarea{ height:30px; width:240px; line-height:30px; padding:4px 5px;border:1px solid #acacac; font-family:"Microsoft YaHei"; color:#333333; background:#ffffff; font-size:14px;}
+.i-text{}
+.i-select{ height:38px; /*height:26px\0;*/ width:250px; padding:0px; vertical-align:middle; *margin-top:13px;}
+.i-dateTime{ width:205px; padding:4px 40px 4px 5px; background: #ffffff url(../images/form_time_bg.png) center right no-repeat;}
+.i-textarea{}
+
+/*展开查询条件*/
+
+.moreSearch{ color:#0083ee; font-weight:bold; padding-right:16px; margin:0px 22px; background:url(../images/downIcon_close.png) right 5px no-repeat; cursor:pointer; -webkit-user-select:none;user-select:none;}
+.moreSearch:hover{color:#0083ee; text-decoration:none;}
+.moreSearch.show{ background:url(../images/downIcon.png) right 7px no-repeat;}
+
+/*==========按钮===============*/
+/*蓝色图片背景的按钮*/
+.input_btnImgBlue, .input_btnImgGray{ width:92px; height:37px; line-height:36px; color:#ffffff; font-weight:bold; font-size:14px; background:url(../images/btn_blue.png) no-repeat; border:none; cursor:pointer;}
+.input_btnImgGray{background:url(../images/btn_gray.png) no-repeat;}
+
+/*弹出框的几个图片背景不带网格的按钮*/
+.input_addBtnImgOrange{background:url(../images/add_btnOrange1.png) no-repeat;}
+.input_addBtnImgBlue{background:url(../images/add_btnBlue.png) no-repeat;}
+.input_addBtnImgGray{background:url(../images/add_btnGray.png) no-repeat;}
+.input_addBtnImgOrange135{ width:135px; background:url(../images/add_btnOrange2.png) no-repeat;}
+
+/*tab*/
+.sttsTab{width:1110px; text-align:center; padding:42px 0px 30px; margin:0px auto; position:relative;}
+.sttsTab span{ display:inline-block; border:1px solid #1895fb; border-radius:5px;font-size: 0;-webkit-text-size-adjust:none; background:#eeeeee;}
+.sttsTab a{ display:inline-block; height:44px; line-height:44px; padding:0px 35px; font-size:16px; color:#222222;background:#eeeeee; border-radius:5px; cursor:pointer;}
+.sttsTab a.cur{ background:#1895fb; color:#ffffff;border-radius:0px;}
+.sttsTab a:hover{ text-decoration:none;}
+.sttsTab .dc{ width:82px; padding:0px; position:absolute; right:0px; top:52px;}
+.sttsTab_con{width:1110px; padding:0px 0px 30px; margin:0px auto;}
+
+
+
+/*====彩色链接====*/
+/*浅蓝*/
+.b_link_lBlue{ color:#1895fb; cursor:pointer;}
+.b_link_lBlue:hover{ color:#1895fb;}
+/*红*/
+.b_link_red{color:red; cursor:pointer;}
+.b_link_red:hover{ color:red;}
+
+/*纯底色的按钮*/
+.input_btnColorlBlue{ width:auto; height:32px; padding:0px 26px; color:white; font-size:14px; border:none; outline:none; border-radius:3px;  background:#1895fb;}
+.input_btnColorlOrange{width:auto; height:32px; padding:0px 26px; color:white; font-size:14px; border:none; outline:none; border-radius:3px;  background:#fa9410;}
+
+
+
+/*======左树右其它的左右结构======*/
+.lrDiv{ position:relative; margin:0px 70px 40px;}
+.leftTree, .rightCon{ border:1px solid #acacac; min-height:100px; overflow:auto;}
+.leftTree{ width:237px; height:589px; position:absolute; left:0px; top:0px;}
+.rightCon{ margin-left:256px;}
+
+
+/*弹窗按钮定位在下面*/
+.rb_btn_fix{
+	border-top: 1px solid #d4d4d4;
+    text-align: center;
+	background: #f6f6f6 none repeat scroll 0 0;
+    border-top: 1px solid #d4d4d4;
+    bottom: 0;
+    box-shadow: 2px 0 5px #ccc inset;
+    padding: 12px 0;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

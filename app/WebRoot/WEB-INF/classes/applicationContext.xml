@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+	<!--
+		========================= GENERAL DEFINITIONS
+		=========================
+	-->
+	<!--
+		Configurer that replaces ${...} placeholders with values from
+		properties files
+	-->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:/jdbc.properties</value>
+				<value>classpath:/sys.properties</value>
+			</list>
+		</property>
+	</bean>
+	<!--
+		<bean id="exceptionResolver"
+		class="com.hnjz.common.exception.ExceptionHandler"/>
+	-->
+	<util:properties id="settings" location="classpath:/sys.properties">
+	</util:properties>
+	<util:properties id="jdbc" location="classpath:/jdbc.properties">
+	</util:properties>
+	<!--
+		========================= RESOURCE DEFINITIONS
+		=========================
+	-->
+	<!-- The placeholders are resolved from jdbc.properties through -->
+	<!-- the PropertyPlaceholderConfigurer in applicationContext.xml -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="${jdbc.driverClassName}" />
+		<property name="jdbcUrl" value="${jdbc.url}" />
+		<property name="user" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<!-- 连接池参数 -->
+		<!-- 池中保留的最小连接数 10个 -->
+		<property name="minPoolSize" value="10" />
+		<!-- 池中保留的最大连接数 默认15个 -->
+		<property name="maxPoolSize" value="10" />
+		<!-- 初始化时活得的连接数 -->
+		<property name="initialPoolSize" value="150" />
+		<!-- 连接的最大空闲时间，超过这个时间，如果这个连接还没有被使用，则连接被丢弃 0为永不丢弃，默认为0 -->
+		<property name="maxIdleTime" value="60" />
+		<!-- 当连接池中的连接耗尽时，c3p0一次获取的连接数 -->
+		<property name="acquireIncrement" value="3" />
+		<!--
+			JDBC标准参数，用以控制数据源内加载的PreparedStatement数量
+			但是，由于预缓存的statements属于单个connection而不是整个连接池 所以设置这个参数需要考虑到多方面的因素
+			如果，maxStatements与maxStatementsPerConnection均为0，则缓存被关闭，默认：0
+		-->
+		<property name="maxStatements" value="0" />
+		<!-- 每60秒检查连接池中的所有空闲连接 -->
+		<property name="idleConnectionTestPeriod" value="60" />
+		<!-- 定义从数据库获取新连接失败后重复尝试的次数 默认：30 -->
+		<property name="acquireRetryAttempts" value="30" />
+		<!--
+			因性能消耗大请只在需要的时候使用它。如果设为true那么在每个connection提交的
+			时候都将校验其有效性。建议使用idleConnectionTestPeriod或automaticTestTable
+			等方法来提升连接测试的性能。Default: false
+		-->
+		<property name="testConnectionOnCheckout" value="false" />
+	</bean>
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+    <bean id="lobHandler" class="org.springframework.jdbc.support.lob.DefaultLobHandler" lazy-init="true" />
+	<bean id="springHelper" class="org.jbpm.pvm.internal.processengine.SpringHelper" />
+
+	<bean id="processEngine" factory-bean="springHelper"
+		factory-method="createProcessEngine" />
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean"
+		destroy-method="destroy">
+		<property name="lobHandler" ref="lobHandler"/>
+		<property name="configLocation" value="classpath:jbpm.hibernate.cfg.xml" />
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="mappingResources">
+			<list>
+				<!-- zhaowm add -->
+				<value>com/hnjz/sys/po/TSysRoot.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysServer.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysArea.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysOrg.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysUser.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysFunc.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysMobileFunc.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysRole.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysLog.hbm.xml</value>
+
+				<value>com/hnjz/sys/po/TSysUserOrg.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysUserRole.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysOrgArea.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysFuncOper.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysRoleFunc.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysRoleMobileFunc.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysRoleFuncOper.hbm.xml</value>
+
+				<value>com/hnjz/sys/po/RoleFuncOperV.hbm.xml</value>
+				<value>com/hnjz/sys/po/TSysDic.hbm.xml</value>
+				
+				<!-- shiqiuhan add -->
+				<value>com/hnjz/sys/po/TDataCheckProportion.hbm.xml</value>
+				<value>com/hnjz/sys/po/TBizCheckedLawobj.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TBizYearLawobj.hbm.xml</value>
+				<value>com/hnjz/app/drafter/po/TDataDrafterSet.hbm.xml</value>
+				<value>com/hnjz/app/drafter/po/TBizDrafter.hbm.xml</value>
+				<value>com/hnjz/sys/po/TDataQuarterChecktimeSet.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizMoreCheck.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizXfdj.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizXfbjd.hbm.xml</value>
+				<value>com/hnjz/app/data/po/Vzfdx.hbm.xml</value>
+
+				<!--  end -->
+				<!-- renzhengquan add -->
+				<value>com/hnjz/app/data/po/TDataChecklistitem.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataChecklistitemans.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataChecklisttemplate.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataComplaint.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataDirandtasktype.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataDiscreacts.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataDiscrecaseclass.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataDiscremerit.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataDotemplate.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataDotemppara.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataFile.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataGridleader.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataIllegaltype.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataIndustry.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataLawdoc.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataLawdocdir.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataLawobj.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataLawobjdic.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataLawobjeia.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataLawobjhis.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataLawobjtypetasktype.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataParacol.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataRecord.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataRecordlawobjtype.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataRegion.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataTasktype.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataTasktypeandillegaltype.hbm.xml
+				</value>
+				<value>com/hnjz/app/data/po/TDataTasktypeattachmenttype.hbm.xml
+				</value>
+				<value>com/hnjz/app/data/po/TDataTimertask.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataTimertasklawobj.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataTimertasktasktype.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataVersion.hbm.xml</value>
+
+				<value>com/hnjz/app/work/po/TBizChecklist.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizFile.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizTaskandlawobj.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizTaskandtasktype.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizTaskchecklistheader.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizTaskinverecord.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizBlwtx.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizTaskrecordans.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizTasksurveyrecord.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizTaskuser.hbm.xml</value>
+               <value>com/hnjz/app/work/po/TDataSgdw.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizTaskillegaltype.hbm.xml</value>
+				<!-- zhangqingfeng add 模板任务存值 -->
+				<value>com/hnjz/app/work/po/TBizAutomoniter.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizBlmbcs.hbm.xml</value>
+				<!-- zhangqingfeng add 行政处罚模板存值 -->
+				<value>com/hnjz/app/work/po/TBizAjjttlbl.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizXzcfsxgzs.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizXzcfjds.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizXzcfjasp.hbm.xml</value>
+				<value>com/hnjz/app/work/po/TBizSdhz.hbm.xml</value>
+				<!-- xb add -->
+				<!-- likun add 企业部分信息管理 -->
+				<value>com/hnjz/app/data/po/TDataDqhjbhmbfb.hbm.xml</value>				
+				<value>com/hnjz/app/data/po/TDataDqhjjbzk.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataQyhjfxffcs.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataQyhjyjczjjyzy.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataQyhxwzqkfcp.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataQyhxwzqkyl.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataQyhxwzqkzycp.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataShjjbzk.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataShjmbfb.hbm.xml</value>
+				<!-- 危化品基本信息 -->
+				<value>com/hnjz/app/data/po/TBizWxpjbxx.hbm.xml</value>
+				<!-- 限期治理执法文书 -->
+				<value>com/hnjz/app/data/po/TBizXqgztz.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TBizJdssdhz.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TBizTzgzsdhz.hbm.xml</value>
+				<!-- 辐射安全基本信息 -->
+				<value>com/hnjz/app/data/po/TDataFsaqjcxx.hbm.xml</value>
+				<!-- 会商表 -->
+				<value>com/hnjz/app/data/po/TDataMail.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataMailyj.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataRecmail.hbm.xml</value>
+				<!-- 特殊监管企业 -->
+				<value>com/hnjz/app/data/po/TDataSpeciallawobj.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TBizConfigcheck.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TBizConfigpf.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TBizConfigpfsj.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TBizHistoryconfigcheck.hbm.xml</value>
+				<!-- xb add -->
+				<!-- 任务类型 -->
+				<value>com/hnjz/app/work/po/WorkType.hbm.xml</value>
+				<!-- 工作流 -->
+				<value>com/hnjz/wf/entity/WfProcessBusiness.hbm.xml</value>
+				<value>com/hnjz/wf/entity/WfProcessStep.hbm.xml</value>
+				<value>com/hnjz/wf/entity/WfApplyStep.hbm.xml</value>
+				<value>com/hnjz/wf/entity/Wfdb.hbm.xml</value>
+				<!-- 申请单 -->
+				<value>com/hnjz/app/work/po/Work.hbm.xml</value>
+				<!-- 代办任务的视图 -->
+				<value>com/hnjz/app/work/po/VdbWork.hbm.xml</value>
+				<!-- 任务日志 -->
+				<value>com/hnjz/app/work/po/WorkLog.hbm.xml</value>
+
+				<!-- 后台作业 -->
+				<value>com/hnjz/quartz/po/Job.hbm.xml</value>
+
+				<!--视图 痕迹管理-->
+				<value>com/hnjz/app/work/po/Vhjgl.hbm.xml</value>
+				
+				<!--会商接收人分组-->
+				<value>com/hnjz/sys/po/TBizUserGroup.hbm.xml</value>
+				
+				<!-- 网格化管理 -->
+				<value>com/hnjz/app/data/po/TDataUserWg.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataWg.hbm.xml</value>
+				<value>com/hnjz/app/data/po/TDataOrgWg.hbm.xml</value>
+				<!-- 执法对象类型管理 -->
+                <value>com/hnjz/app/data/po/TDataLawobjtype.hbm.xml</value>
+                <!-- 执法对象基础数据 -->
+                <value>com/hnjz/app/data/po/TDataLawobjf.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataGywry.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataJsxm.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataGl.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataXqyz.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataYy.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataJzgd.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataSc.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataZzy.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataYly.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataFwy.hbm.xml</value>
+                <value>com/hnjz/app/data/po/TDataYsy.hbm.xml</value>
+               
+                <!-- 执法对象修改记录表 -->
+                <value>com/hnjz/app/data/po/TDataXgjl.hbm.xml</value>
+                
+                <!-- 申请单执法检查任务 -->
+				<value>com/hnjz/app/work/po/ZfWork.hbm.xml</value>
+				<!-- 申请单信访投诉任务 -->
+				<value>com/hnjz/app/work/po/XfWork.hbm.xml</value>
+				<!-- 申请单日常办公任务 -->
+				<value>com/hnjz/app/work/po/RcWork.hbm.xml</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					${hibernate.dialect}
+				</prop>
+				<prop key="max_fetch_depth">${max_fetch_depth}</prop>
+				<prop key="hibernate.show_sql">
+					${hibernate.show_sql}
+				</prop>
+			</props>
+		</property>
+	</bean>
+	
+</beans>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.work.po.TBizBlmbcs" table="T_BIZ_BLMBCS">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+
+		<property column="TASKID_" name="taskId" not-null="false" type="string" />
+		<property column="TMPLATEID_" name="tmplateId" not-null="false" type="string" />
+		<property column="FILEID_" name="fileId" not-null="false" type="string" />
+		<property column="TIMES_" name="times" not-null="false" type="integer" />
+	</class>
+</hibernate-mapping>

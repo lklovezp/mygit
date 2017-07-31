@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.app.data.po.TBizTzgzsdhz" table="T_BIZ_TZGZSDHZ">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+		<version column="VERSION_" name="version" />
+	    <property column="TASKID_" name="taskId" not-null="false" type="string" />
+        <property column="TASKTYPEID_" name="taskTypeId" not-null="false" type="string" />
+        <property column="TITLE_" name="title" not-null="false" type="string" />
+        <property column="TIMENAME_" name="timeName" not-null="false" type="string" />
+        <property column="NAME_ " name="name" not-null="false" type="string" />
+        <property column="CODE_ " name="code" not-null="false" type="string" />
+        <property column="USERNAME_" name="userName" not-null="false" type="string" />
+        <property column="ADDRESS_" name="address" not-null="false" type="string" />
+        <property column="TYPE_" name="type" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="true" type="string" />
+		<property column="UPDATED_" name="updateTime" not-null="true" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="createTime" not-null="true" type="timestamp" />
+		<many-to-one name="creater" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

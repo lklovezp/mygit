@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ConfingObj>
+	<SheetObj key="conditionsForm" name="按部门统计" beginx="0" beginy="0" span="0" clazz="com.hnjz.app.jxkh.orgstatistics.ConditionsForm">
+		<ColnumObj x="1" y="1" name="datetime" />
+		<ColnumObj x="1" y="6" name="areaname" />
+		<ColnumObj x="2" y="1" name="jjcdname" />
+		<ColnumObj x="2" y="6" name="rwlyname" />
+		<!--  任务类型 -->
+		<ColnumObj x="3" y="2" name="tasktypename" />
+	</SheetObj>
+	<SheetObj key="statisticsForm" name="按部门统计" beginx="5" beginy="0" span="1" clazz="com.hnjz.app.jxkh.orgstatistics.StatisticsForm">
+		<ColnumObj x="0" y="0" name="orgname" />
+		<ColnumObj x="0" y="2" name="xd" />
+		<ColnumObj x="0" y="3" name="wc" />
+		<ColnumObj x="0" y="4" name="yqwc" />
+		<ColnumObj x="0" y="5" name="zzbl" />
+		<ColnumObj x="0" y="6" name="yqzzbl" />
+	</SheetObj>
+</ConfingObj>
