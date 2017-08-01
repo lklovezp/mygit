@@ -1,0 +1,22 @@
+FILEPATH=Y:/
+WHETHER_THE_JOB_RUN=0
+EXECUTE_PAGE_TYPE=1
+#NOTIFY/SMS
+GOTONE=NOTIFY
+FTPUSER=admin
+FTPPASS=admin
+FTPPORT=21
+MODE=0
+#SYSTEM VERSION online 1  offline 0
+SYSVER=0
+# offline version's web url
+WEBURL=http://192.168.10.68:8088/FileMangerSys/
+
+#Every 30 seconds trigger#
+SB_TASK_TIME = 0/30 * * * * ?
+#Every 1 minute trigger#
+TASK_DETECT_TIME = 0 0/1 * * * ?
+# zero point everyday trigger#
+DELETE_TASK_TIME = 0 0 0 * * ?
+# zero point everyday trigger#
+QUARTER_CHECK_TIME = 0 0/5 * * * ?

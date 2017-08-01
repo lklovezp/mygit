@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.ztree li a{margin-bottom: 5px;}
+.ztree li a:hover{ text-decoration:none;}
+.ztree *{ font-size:13px; font-family:"Microsoft Yahei";} /*调字体大小和字体*/
+/*折叠按钮*/
+.ztree li span.button.noline_open{ margin-right: 3px; height:24px; background-image:url(./images/tree_arrow_open.png); background-position:0px 5px;}/*所有父节点的折叠按钮的图片-展开*/
+.ztree li span.button.noline_close{ margin-right: 3px; height:24px; background-image:url(./images/tree_arrow_close.png); background-position:0 0;}/*所有父节点的折叠按钮的图片-折叠*/
+
+/*父节点图标*/
+.ztree li span.button.ico_open{width:24px; height:20px;background-image:url(./images/tree_folder_o.png); background-position:0px 0px;}
+.ztree li span.button.ico_close{width:24px; height:20px;background-image:url(./images/tree_folder_c.png); background-position:0px 0px;}
+/*叶子节点图标*/
+.ztree li span.button.ico_docu{width:24px; height:20px;background-image:url(./images/tree_leaf.png); background-position:5px -2px;}
+
+
+
+
+
+

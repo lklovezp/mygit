@@ -1,0 +1,1586 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="d466be1c4acc4264813a7d4c6a79c803.files/filelist.xml">
+<link rel=Edit-Time-Data
+href="d466be1c4acc4264813a7d4c6a79c803.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>lirui</o:Author>
+  <o:LastAuthor>Windows 用户</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>137</o:TotalTime>
+  <o:Created>2017-03-03T08:47:00Z</o:Created>
+  <o:LastSaved>2017-03-03T08:47:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>445</o:Words>
+  <o:Characters>2543</o:Characters>
+  <o:Company>Lenovo</o:Company>
+  <o:Lines>21</o:Lines>
+  <o:Paragraphs>5</o:Paragraphs>
+  <o:CharactersWithSpaces>2983</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="d466be1c4acc4264813a7d4c6a79c803.files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="d466be1c4acc4264813a7d4c6a79c803.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612089 684670034 22 0 262175 0;}
+@font-face
+	{font-family:楷体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:仿宋_GB2312;
+	mso-font-alt:仿宋;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 135135232 16 0 262144 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612089 684670034 22 0 262175 0;}
+@font-face
+	{font-family:"\@楷体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@仿宋_GB2312";
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:1 135135232 16 0 262144 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 2";
+	mso-ansi-font-size:18.0pt;
+	mso-bidi-font-size:18.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:0pt;
+	font-weight:bold;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("d466be1c4acc4264813a7d4c6a79c803.files/header.html") fs;
+	mso-footnote-continuation-separator:url("d466be1c4acc4264813a7d4c6a79c803.files/header.html") fcs;
+	mso-endnote-separator:url("d466be1c4acc4264813a7d4c6a79c803.files/header.html") es;
+	mso-endnote-continuation-separator:url("d466be1c4acc4264813a7d4c6a79c803.files/header.html") ecs;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1208492760;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1628388038 -14128448 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-text:（%1）;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-54.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l1
+	{mso-list-id:1941141696;
+	mso-list-type:hybrid;
+	mso-list-template-ids:539024100 -1950985508 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-text:%1、;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal align=center style='margin-bottom:3.75pt;text-align:center;
+mso-pagination:widow-orphan;mso-outline-level:2'><span style='font-size:18.0pt;
+font-family:"微软雅黑","sans-serif";mso-bidi-font-family:宋体;color:black;mso-font-kerning:
+0pt'>环保督察到企业现场主要检查内容<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><strong><span
+lang=EN-US style='font-size:13.5pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体;color:#FF2941'><o:p>&nbsp;</o:p></span></strong></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><strong><span
+style='font-size:16.0pt;font-family:楷体;mso-bidi-font-family:宋体'>一、环保大检查一般都查些什么？</span></strong><span
+lang=EN-US style='font-size:16.0pt;font-family:楷体'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑'>①重点盯住中央高度关注、群众反映强烈、社会影响恶劣的突出环境问题及其处理情况；<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑'>②重点检查环境质量呈现恶化趋势的区域流域及整治情况；<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+font-family:仿宋_GB2312'>③重点督察地方党委和政府及其有关部门环保不作为、乱作为的情况；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+font-family:仿宋_GB2312'>④重点了解地方落实环境保护党政同责和一岗双责、严格责任追究等情况。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><strong><span
+style='font-size:16.0pt;font-family:楷体;mso-bidi-font-family:宋体'>二、检查企业的基本情况：</span></strong><b><span
+lang=EN-US style='font-size:13.5pt;font-family:"微软雅黑","sans-serif";color:#FF2941'><br>
+</span></b><strong><span lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;mso-bidi-font-family:宋体;color:#3E3E3E;font-weight:
+normal;mso-bidi-font-weight:bold'>1</span></strong><strong><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+mso-bidi-font-family:宋体;color:#3E3E3E;font-weight:normal;mso-bidi-font-weight:
+bold'>、企业生产情况<span lang=EN-US>:</span></span></strong><span lang=EN-US
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+color:#3E3E3E'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US><span style='mso-element:field-begin;mso-field-lock:yes'></span><span
+style='mso-spacerun:yes'>&nbsp;</span>SHAPE <span
+style='mso-spacerun:yes'>&nbsp;</span>\* MERGEFORMAT <span style='mso-element:
+field-separator'></span></span><![endif]--><span lang=EN-US><!--[if gte vml 1]><v:rect
+ id="矩形_x0020_8" o:spid="_x0000_s1031" alt="http://mmbiz.qpic.cn/mmbiz_jpg/SprnyUAEAY2swpeNe8JVEfwSibhXoEckNT2kuF90LLglbMJzIVfRhhYdgZNs7XfLuSepNhKS6aJKR6D2UgpGGIw/640?tp=webp&amp;wxfrom=5&amp;wx_lazy=1"
+ style='width:24pt;height:24pt;visibility:visible;mso-wrap-style:square;
+ mso-left-percent:-10001;mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+" filled="f" stroked="f">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <w:wrap type="none"/>
+ <w:anchorlock/>
+</v:rect><![endif]--><!--[if gte vml 1]><![endif]--></span><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US>
+ <image style='width:24pt;
+ height:24pt' croptop="-65520f" cropbottom="65520f"/>
+<span style='mso-element:field-end'></span></span><![endif]--><strong><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+mso-bidi-font-family:宋体;color:#3E3E3E;font-weight:normal;mso-bidi-font-weight:
+bold'>企业所属行业及主要产品</span></strong><span lang=EN-US style='font-size:16.0pt;
+font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;color:#3E3E3E'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US><span style='mso-element:field-begin;mso-field-lock:yes'></span><span
+style='mso-spacerun:yes'>&nbsp;</span>SHAPE <span
+style='mso-spacerun:yes'>&nbsp;</span>\* MERGEFORMAT <span style='mso-element:
+field-separator'></span></span><![endif]--><span lang=EN-US><!--[if gte vml 1]><v:rect
+ id="矩形_x0020_9" o:spid="_x0000_s1030" alt="http://mmbiz.qpic.cn/mmbiz_jpg/SprnyUAEAY2swpeNe8JVEfwSibhXoEckNT2kuF90LLglbMJzIVfRhhYdgZNs7XfLuSepNhKS6aJKR6D2UgpGGIw/640?tp=webp&amp;wxfrom=5&amp;wx_lazy=1"
+ style='width:24pt;height:24pt;visibility:visible;mso-wrap-style:square;
+ mso-left-percent:-10001;mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+" filled="f" stroked="f">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <w:wrap type="none"/>
+ <w:anchorlock/>
+</v:rect><![endif]--></span><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US>
+ <image style='width:24pt;
+ height:24pt' croptop="-65520f" cropbottom="65520f"/>
+<span style='mso-element:field-end'></span></span><![endif]--><strong><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+mso-bidi-font-family:宋体;color:#3E3E3E;font-weight:normal;mso-bidi-font-weight:
+bold'>上个月的产品及产能，各条线是否存在运营。</span></strong><span lang=EN-US style='font-size:
+16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;color:#3E3E3E'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><strong><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;mso-bidi-font-family:宋体;color:#3E3E3E;font-weight:normal;mso-bidi-font-weight:
+bold'>2</span></strong><strong><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;mso-bidi-font-family:宋体;color:#3E3E3E;font-weight:
+normal;mso-bidi-font-weight:bold'>、企业环保落实情况<span lang=EN-US>:</span></span></strong><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US><span style='mso-element:field-begin;mso-field-lock:yes'></span><span
+style='mso-spacerun:yes'>&nbsp;</span>SHAPE <span
+style='mso-spacerun:yes'>&nbsp;</span>\* MERGEFORMAT <span style='mso-element:
+field-separator'></span></span><![endif]--><span lang=EN-US><!--[if gte vml 1]><v:rect
+ id="矩形_x0020_10" o:spid="_x0000_s1029" alt="http://mmbiz.qpic.cn/mmbiz_jpg/SprnyUAEAY2swpeNe8JVEfwSibhXoEckNT2kuF90LLglbMJzIVfRhhYdgZNs7XfLuSepNhKS6aJKR6D2UgpGGIw/640?tp=webp&amp;wxfrom=5&amp;wx_lazy=1"
+ style='width:24pt;height:24pt;visibility:visible;mso-wrap-style:square;
+ mso-left-percent:-10001;mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+" filled="f" stroked="f">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <w:wrap type="none"/>
+ <w:anchorlock/>
+</v:rect><![endif]--></span><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US>
+ <image style='width:24pt;
+ height:24pt' croptop="-65520f" cropbottom="65520f"/>
+<span style='mso-element:field-end'></span></span><![endif]--><strong><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+mso-bidi-font-family:宋体;color:#3E3E3E;font-weight:normal;mso-bidi-font-weight:
+bold'>项目是否依法履行环评手续，查看环评文件及环评批复等</span></strong><span lang=EN-US
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+color:#3E3E3E'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US><span style='mso-element:field-begin;mso-field-lock:yes'></span><span
+style='mso-spacerun:yes'>&nbsp;</span>SHAPE <span
+style='mso-spacerun:yes'>&nbsp;</span>\* MERGEFORMAT <span style='mso-element:
+field-separator'></span></span><![endif]--><span lang=EN-US><!--[if gte vml 1]><v:rect
+ id="矩形_x0020_11" o:spid="_x0000_s1028" alt="http://mmbiz.qpic.cn/mmbiz_jpg/SprnyUAEAY2swpeNe8JVEfwSibhXoEckNT2kuF90LLglbMJzIVfRhhYdgZNs7XfLuSepNhKS6aJKR6D2UgpGGIw/640?tp=webp&amp;wxfrom=5&amp;wx_lazy=1"
+ style='width:24pt;height:24pt;visibility:visible;mso-wrap-style:square;
+ mso-left-percent:-10001;mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+" filled="f" stroked="f">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <w:wrap type="none"/>
+ <w:anchorlock/>
+</v:rect><![endif]--></span><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US>
+ <image style='width:24pt;
+ height:24pt' croptop="-65520f" cropbottom="65520f"/>
+<span style='mso-element:field-end'></span></span><![endif]--><strong><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+mso-bidi-font-family:宋体;color:#3E3E3E;font-weight:normal;mso-bidi-font-weight:
+bold'>查看项目的性质、生产规模、地点、采用的生产工艺或采用的污染治理的措施等是否与环评及批复文件一致。环评批复五年后项目才开工建设的，是否重新报批环评。</span></strong><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US><span style='mso-element:field-begin;mso-field-lock:yes'></span><span
+style='mso-spacerun:yes'>&nbsp;</span>SHAPE <span
+style='mso-spacerun:yes'>&nbsp;</span>\* MERGEFORMAT <span style='mso-element:
+field-separator'></span></span><![endif]--><span lang=EN-US><!--[if gte vml 1]><v:rect
+ id="矩形_x0020_12" o:spid="_x0000_s1027" alt="http://mmbiz.qpic.cn/mmbiz_jpg/SprnyUAEAY2swpeNe8JVEfwSibhXoEckNT2kuF90LLglbMJzIVfRhhYdgZNs7XfLuSepNhKS6aJKR6D2UgpGGIw/640?tp=webp&amp;wxfrom=5&amp;wx_lazy=1"
+ style='width:24pt;height:24pt;visibility:visible;mso-wrap-style:square;
+ mso-left-percent:-10001;mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+" filled="f" stroked="f">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <w:wrap type="none"/>
+ <w:anchorlock/>
+</v:rect><![endif]--></span><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US>
+ <image style='width:24pt;
+ height:24pt' croptop="-65520f" cropbottom="65520f"/>
+<span style='mso-element:field-end'></span></span><![endif]--><strong><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+mso-bidi-font-family:宋体;color:#3E3E3E;font-weight:normal;mso-bidi-font-weight:
+bold'>检查项目投运后，是否进行了环保竣工验收。环保竣工验收手续是否完备。</span></strong><span lang=EN-US
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+color:#3E3E3E'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US><span style='mso-element:field-begin;mso-field-lock:yes'></span><span
+style='mso-spacerun:yes'>&nbsp;</span>SHAPE <span
+style='mso-spacerun:yes'>&nbsp;</span>\* MERGEFORMAT <span style='mso-element:
+field-separator'></span></span><![endif]--><span lang=EN-US><!--[if gte vml 1]><v:rect
+ id="矩形_x0020_13" o:spid="_x0000_s1026" alt="http://mmbiz.qpic.cn/mmbiz_jpg/SprnyUAEAY2swpeNe8JVEfwSibhXoEckNT2kuF90LLglbMJzIVfRhhYdgZNs7XfLuSepNhKS6aJKR6D2UgpGGIw/640?tp=webp&amp;wxfrom=5&amp;wx_lazy=1"
+ style='width:24pt;height:24pt;visibility:visible;mso-wrap-style:square;
+ mso-left-percent:-10001;mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+" filled="f" stroked="f">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <w:wrap type="none"/>
+ <w:anchorlock/>
+</v:rect><![endif]--></span><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US>
+ <image style='width:24pt;
+ height:24pt' croptop="-65520f" cropbottom="65520f"/>
+<span style='mso-element:field-end'></span></span><![endif]--><strong><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+mso-bidi-font-family:宋体;color:#3E3E3E;font-weight:normal;mso-bidi-font-weight:
+bold'>生产车间：超或原料涉酸、碱、及其他易腐蚀性的车间地面是否做防腐处理，并定期进行保养。生产过程是否存在跑冒滴漏现场。</span></strong><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><strong><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;mso-bidi-font-family:宋体;font-weight:normal;mso-bidi-font-weight:bold'>3</span></strong><strong><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:微软雅黑;
+mso-bidi-font-family:宋体;font-weight:normal;mso-bidi-font-weight:bold'>、检查排污许可证申领、排污申报执行、排污费缴纳执行<span
+lang=EN-US><o:p></o:p></span></span></strong></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑'>4</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑'>、生产配件的同时有出来粉末的辅料、相关的燃煤锅炉等设备要查封；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑'>5</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑'>、发现有噪音、气味浓的产品也要整顿；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑'>6</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑'>、没有营业执照、不规范的厂家需要重新整顿；<span lang=EN-US><br>
+7</span>、顺带查存在消防安全隐患的；<span lang=EN-US><br>
+8</span>、顺带查伪劣及假冒仿牌的。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+楷体;color:#3E3E3E'>三、企业现场主要监察的八大方面：<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+楷体;color:#3E3E3E'>（一）污水污染治理督查<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体'>水污染源环境现场监察：污水处理设施的运行状态、历史运行情况、处理能力及处理水量、废水的分质管理、处理效果、污泥处理、处置。是否建立废水设施运营台账（污水设施开关键时间、每日的废水进出量、水质，加药及维修记录。）<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>污水排放口监察：检查污水排放口的位置是否符合规定、检查排污者的污水排放口数量是否符合规定、检查是否按照相关污染物排放标准、规定设置监测采样点、检查是否设置了规范的便于测量流量、流速的测量段。总排污口是否设置标志牌等。是否按要求设置在线监控、监测设备。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>排水量复核<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>有流量计和污染源在线监控设施的，检查运行记录。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>有给水量装置的或有上水消耗凭证的，根据耗水量计算排水量。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>无计量数及有限的用水量凭证的，参照国家有关标准，手册给出的同类企业用水排水系统数进行估算。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>排放水质<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查排放废水水质是够达到国家或地方污染物排放标准的要求。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查监测仪器、仪表、设备的型号和规格以及检定、校验情况。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查采用的监测分析方法和水质监测记录。如有必要可进行现场监测或采样。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查雨污、污污分流情况，检查排污单位是否实行清污风流、雨污分流<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>事故废水应急处置设施<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查排污企业的事故废水应急处置设施是否完备，是否可以保障对发生环境污染事故时产生的废水实施截留、贮存及处理。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查处理后废水的回用情况<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+楷体;color:#3E3E3E'>（二）废气污染检查<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查废气处理设施的运行状态、历史运行情况、处理能力及处理量。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>锅炉、石化、化工等燃烧产生的废气检查<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查化工、石化等企业连续可燃性有机废气是否合理的处理方法，采取回收利用或燃烧方式处理。间歇产生可燃性有机废气采用焚烧、吸附或组合工艺处理是否合理。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查锅炉燃烧设备的审验手续及性能指标、检查燃烧设备的运行状况、检查二氧化硫的控制、检查氮氧化物的控制。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>工艺废气、粉尘和恶臭污染源<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查废气、粉尘和恶臭排放是否符合相关污染物排放标准的要求；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查可燃性气体的回收利用情况；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查可散发有毒、有害气体和粉尘的运输、装卸、贮存的环境保护措施；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>大气污染防治设施<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>除尘、脱硫、脱硝、其他气态污染物净化系统<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>废气排放口<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查排污者是否在禁止设置新建排气筒的区域新建排气筒<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查排气筒高度是否符合国家或地方污染物排放标准的规定<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查废气排气筒道上是否设置采样孔和采样监测平台<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查排气口是否按要求规范设置（高度、采样口、标志牌等），有要求的废气是否按照环保部门安装和实用在线监控设施。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>无组织排放<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;text-indent:34.0pt;line-height:19.2pt;
+mso-list:l1 level1 lfo1;background:white'><![if !supportLists]><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;mso-bidi-font-family:仿宋_GB2312;color:#3E3E3E'><span style='mso-list:Ignore'>1、<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>对于无组织排放有毒有害气体、粉尘、烟尘的排放点有条件做到有组织排放的，检查排污单位是否进行整治，实行有组织排放<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;text-indent:34.0pt;line-height:19.2pt;
+mso-list:l1 level1 lfo1;background:white'><![if !supportLists]><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;mso-bidi-font-family:仿宋_GB2312;color:#3E3E3E'><span style='mso-list:Ignore'>2、<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查煤场、料场、货物的扬尘和建筑生产过程中的扬尘、是否按要求采取防治扬尘污染的措施或设置防扬尘设备。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;text-indent:34.0pt;line-height:19.2pt;
+mso-list:l1 level1 lfo1;background:white'><![if !supportLists]><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;mso-bidi-font-family:仿宋_GB2312;color:#3E3E3E'><span style='mso-list:Ignore'>3、<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>在企业边界进行监测，检查无组织排放是否符合相关环保标准的要求。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
+margin-bottom:.0001pt;line-height:19.2pt;background:white'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:16.0pt;font-family:楷体;color:#3E3E3E'>（三）固体废物污染源现场检查<span
+lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;color:#3E3E3E'>1</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:楷体;color:#3E3E3E'>、督查固废的来源<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>（<span lang=EN-US>1</span>）检查固体废物的种类、数量、理化性质、产生方式。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>（<span lang=EN-US>2</span>）根据新的《国家危废名录》或<span lang=EN-US>GB5085</span>检查生产中危险废物的种类及数量<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:16.0pt;
+font-family:楷体;color:#3E3E3E'>2</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt;font-family:楷体;color:#3E3E3E'>、固体危废贮存与处理处置<span
+lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>（<span lang=EN-US>1</span>）检查排污者是否在自然保护区、风景名胜区、饮用水水源保护区、基本农田保护区和其他需要特别保护的区域内，假设工业固废集中贮存、处置的设施、场所和生活垃圾填埋场。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>（<span lang=EN-US>2</span>）检查固体废物贮存设施或贮存场是否设置了符合环境保护要求的设施<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>对于临时性固体废物的贮存、堆放场所<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>对于危险废物的处理处置<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>检查排污者是否向江河、湖泊、运河、渠道、水库及最高水位线以下的滩地和岸坡等法律、法规规定禁止倾倒废弃物的地点倾倒固体废物。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:楷体;
+color:#3E3E3E'>固体废物转移<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:54.0pt;
+margin-bottom:.0001pt;text-indent:-54.0pt;line-height:19.2pt;mso-list:l0 level1 lfo2;
+background:white'><![if !supportLists]><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;mso-bidi-font-family:仿宋_GB2312;color:#3E3E3E'><span style='mso-list:Ignore'>（1）<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span></b><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+仿宋_GB2312;mso-hansi-font-family:楷体;color:#3E3E3E'>检查固体废物转移的情况<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:54.0pt;
+margin-bottom:.0001pt;text-indent:-54.0pt;line-height:19.2pt;mso-list:l0 level1 lfo2;
+background:white'><![if !supportLists]><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;mso-bidi-font-family:仿宋_GB2312;color:#3E3E3E'><span style='mso-list:Ignore'>（2）<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span></b><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+仿宋_GB2312;mso-hansi-font-family:楷体;color:#3E3E3E'>检查转移危险废物的，是否填写危险废物转移联单。并经移出地设区的市级以上地方人民政府环境保护主管部门商经接受地社区的市级以上地方人民政府环境保护主管部门同意。<span
+lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:54.0pt;
+margin-bottom:.0001pt;text-indent:-54.0pt;line-height:19.2pt;mso-list:l0 level1 lfo2;
+background:white'><![if !supportLists]><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;mso-bidi-font-family:仿宋_GB2312;color:#3E3E3E'><span style='mso-list:Ignore'>（3）<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span></b><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+仿宋_GB2312;mso-hansi-font-family:楷体;color:#3E3E3E'>检查是否设置了固废及危废标志牌<span
+lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:54.0pt;
+margin-bottom:.0001pt;text-indent:-54.0pt;line-height:19.2pt;mso-list:l0 level1 lfo2;
+background:white'><![if !supportLists]><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;mso-bidi-font-family:仿宋_GB2312;color:#3E3E3E'><span style='mso-list:Ignore'>（4）<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span></b><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+仿宋_GB2312;mso-hansi-font-family:楷体;color:#3E3E3E'>检查污泥处置合同、污泥运输磅秤记录，判断污泥产生量是否合理<span
+lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+楷体;color:#3E3E3E'>四、噪声污染源现场检查<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+style='font-size:16.0pt;font-family:楷体;color:#3E3E3E'>是否按照环评文件或环评批复要求设置污染治理设施噪声是否达标<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+楷体;color:#3E3E3E'>五、地下水污染源现场检查<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;text-indent:24.0pt;mso-char-indent-count:
+1.5;line-height:19.2pt;background:white'><span style='font-size:16.0pt;
+font-family:仿宋_GB2312;mso-hansi-font-family:楷体;color:#3E3E3E'>场地污水处理设施（单元），涉重环节、固废（危废）堆放场所、化学品堆放场所等是否进行防渗漏、防腐措施<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+楷体;color:#3E3E3E'>六、环境风险及应急预案现场检查<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;color:#3E3E3E'>1</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:楷体;color:#3E3E3E'>、检查应急预案编、评、备、落实情况，附应急演练看中情况文字、图片及相关资料<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;color:#3E3E3E'>2</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:楷体;color:#3E3E3E'>、项目是否符合环保要求的初期雨水池（如化工、电镀、印染、涉重等行业）和应急事故池等。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+楷体;color:#3E3E3E'>3</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:楷体;color:#3E3E3E'>、应急物资储备情况<span lang=EN-US>(</span>名称、数量、有效期等<span
+lang=EN-US>)<o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+楷体;color:#3E3E3E'>七、环境部门督查查处环境违法行为；查办、转办、督办对环境污染和生态破坏的投诉、举报的这个需要引起高度重视。不是简单罚款可以了事的。<span
+lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><strong><span
+style='font-size:16.0pt;font-family:楷体;mso-bidi-font-family:宋体'>四、企业有以下问题之一的，将面临罚款、关停、责令整改、约谈等，请务必自查！</span></strong><span
+lang=EN-US style='font-size:16.0pt;font-family:楷体'><o:p></o:p></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>1</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、偷排废水；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>2</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、排放油漆味等刺鼻气体；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>3</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、低频噪音或噪音过大；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>4</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、粉尘污染；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>5</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、未公示环评；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>6</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、无环保审批手续；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>7</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、电机组存在运行安全隐患；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>8</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、违法建设；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>9</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、私设暗管排污；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>10</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、煤渣到处飘散；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>11</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、纸渣挖坑填埋存在问题；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>12</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、无废水回收系统；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>13</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、未办理取水许可；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>14</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、没有亮照经营；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>15</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、无防渗漏措施的水塘存贮其他废弃物；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>16</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、治污设施简陋老旧问题；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>17</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、烟尘排放浓度超标；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>18</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、厂区堆积垃圾未及时处理；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>19</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、未办理环境影响评价文件报批手续；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>20</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、污染治理设施未经环保部门验收；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>21</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、排污许可证过期；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>22</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、非法生产；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>23</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、过滤池<span lang=EN-US>COD</span>超标；<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;line-height:19.2pt;background:white'><span
+lang=EN-US style='font-size:16.0pt;font-family:仿宋_GB2312;mso-hansi-font-family:
+微软雅黑;color:#3E3E3E'>24</span><span style='font-size:16.0pt;font-family:仿宋_GB2312;
+mso-hansi-font-family:微软雅黑;color:#3E3E3E'>、无排污许可证。<span lang=EN-US><o:p></o:p></span></span></p>
+
+</div>
+
+</body>
+
+</html>

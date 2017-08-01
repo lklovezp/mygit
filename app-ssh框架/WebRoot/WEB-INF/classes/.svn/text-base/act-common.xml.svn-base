@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+            http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+            http://www.springframework.org/schema/context  
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd  
+            http://www.springframework.org/schema/tx  
+            http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+            http://www.springframework.org/schema/util 
+            http://www.springframework.org/schema/util/spring-util-3.0.xsd  
+            http://www.springframework.org/schema/mvc   
+            http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+            http://www.springframework.org/schema/jdbc  
+            http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd">
+	<context:annotation-config />
+	<!-- view层自动装配搜索包路径 -->
+	<context:component-scan base-package="com.hnjz" />
+
+	<bean id="transactionInterceptorApp"
+		class="org.springframework.transaction.interceptor.TransactionInterceptor">
+		<property name="transactionManager" ref="transactionApp" />
+		<!-- 配置事务属性 -->
+		<property name="transactionAttributes">
+			<props>
+				<prop key="save*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="remove*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="clean*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="reset*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="execute*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="update*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="upload*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="build*">PROPAGATION_REQUIRED,-Exception</prop>
+				<prop key="*">PROPAGATION_REQUIRED,readOnly</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean
+		class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<property name="proxyTargetClass">
+			<value>true</value>
+		</property>
+		<property name="beanNames">
+			<list>
+				<value>jobProcessing</value>
+				<value>*Manager</value>
+				<value>*Impl</value>
+				<value>workPf</value>
+				<value>*Node</value>
+				<value>*Item</value>
+				<value>*Detection</value>
+				<value>*Client</value>
+			</list>
+		</property>
+		<property name="interceptorNames">
+			<list>
+				<value>transactionInterceptorApp</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 定义事务管理器（声明式的事务） -->
+	<bean id="transactionApp"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager"
+		lazy-init="true">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<bean id="moHandlerInterceptor" class="com.hnjz.common.interceptor.MoHandlerInterceptor">
+		<property name="securityData" ref="securityData" />
+	</bean>
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<ref bean="moHandlerInterceptor" />
+			</list>
+		</property>
+	</bean>
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<bean
+					class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+				</bean>
+			</list>
+		</property>
+	</bean>
+	<bean
+		class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+		<property name="mediaTypes">
+			<map>
+				<entry key="html" value="text/html" />
+				<entry key="json" value="application/json" />
+				<entry key="mo" value="application/json" />
+			</map>
+		</property>
+		<property name="viewResolvers">
+			<list>
+				<bean class="org.springframework.web.servlet.view.BeanNameViewResolver" />
+				<bean
+					class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+					<!-- 使用jstl处理view层 -->
+					<property name="viewClass"
+						value="org.springframework.web.servlet.view.JstlView" />
+					<property name="prefix" value="/WEB-INF/jsp/" />
+					<property name="suffix" value=".jsp" />
+				</bean>
+			</list>
+		</property>
+		<property name="defaultViews">
+			<list>
+				<bean
+					class="org.springframework.web.servlet.view.json.MappingJackson2JsonView" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
+		p:maxUploadSize="1024000000000" />
+
+	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource"
+		p:basename="messages" p:useCodeAsDefaultMessage="true" />
+	<!-- spring3.0.4以上版本增加标识 这样的静态资源不动态处理 -->
+	<mvc:resources location="/static/" mapping="/static/**" />
+
+	<bean id="dao" class="com.hnjz.common.dao.DaoImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	
+	<bean id="sqlQuery" class="com.hnjz.common.dao.SqlQueryImpl">
+		<property name="sqlFiles">
+			<list>
+			    <value>sqlquery.xml</value>
+			</list>
+		</property>
+		<property name="dialectClass">
+		   <value>${hibernate.dialect}</value>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,67 @@
+﻿@charset "utf-8";
+
+
+.t-l{ text-align:left;}
+.t-r{ text-align:right;}
+.t-c{ text-align:center;}
+/*假的搜索框*/
+.searchMask{ width:100%; background:#f6f6f6; height:57px; border-bottom:1px solid #e6e5e5; box-shadow:0px 2px 2px #e6e5e5; position:fixed; left:0; top:0; z-index:1;}
+.searchMask p{ width:512px; height:37px; padding-top:12px; background:url(images/mask_search.png) 0px 11px no-repeat; margin:0px auto; line-height:35px; font-size:14px; color:#999999; text-indent:59px;}
+
+/*搜所表单的表格（无边框的）*/
+.queryTable{border-collapse:collapse;}
+.queryTable th,.queryTable td{ padding:9px 5px; font-size:14px;}
+.queryTable th{ text-align:right; font-weight:normal;}
+.queryTable td{ position:relative; z-index:9;}
+.queryTable input{ z-index:10;}
+/*搜所表单的按钮，查询和重置*/
+.queryBlue{ width:112px; height:42px; border:none; border-width:0px; background:url(images/query_btn1.png) no-repeat; margin:0px 39px; font-size:16px; color:#ffffff; line-height:40px;}
+.queryOrange{ width:112px; height:42px; border:none; border-width:0px; background:url(images/query_btn2.png) no-repeat;margin:0px 39px; font-size:16px; color:#ffffff; line-height:40px;}
+/*保存和下一步按钮*/
+.save_btn{ width:112px; height:42px; border:none; border-width:0px; background:url(images/save_btn.png) no-repeat; margin:0px 39px;}
+.next_btn{ width:112px; height:42px; border:none; border-width:0px; background:url(images/next_btn.png) no-repeat; margin:0px 39px;}
+/*搜所表单的右下角的关闭按钮*/
+.searchForm .closeBtn{ width:90px; height:40px; position:absolute; right:15px; bottom:-40px; box-shadow:1px 2px 2px #a0a9ae; text-indent:-99999px; z-index:4; background:url(images/query_close.png) no-repeat; border-bottom-left-radius:5px; border-bottom-right-radius:5px; cursor:pointer;}
+/*灰色遮罩层*/
+.layer{ width:100%; height:100%; position:fixed; left:0; top:0; background:#000000; opacity:0.2;filter:alpha(opacity=20); z-index:2;}
+/*标题*/
+.h1_1{ height:65px; line-height:65px; font-size:18px; text-align:center;}
+.h1_1.topMask{ padding-top:57px;}
+/*其它按钮*/
+.bTn{ padding:2px 7px 3px 7px; border: none; border-width:0px; font-size:14px; color:#ffffff; border-radius:5px; margin:0px 15px; cursor:pointer; font-family:"Microsoft YaHei";}
+.bTn.blue{ background:#3393ff;}
+.bTn.orange{ background:#ff7200;}
+.bTn.gray{ background:#a9a9a9;}
+.bTn_distance {padding: 5px 12px;}
+/*查询出来的数据表格*/
+.dataTable{ border-collapse: collapse;}
+.dataTable th, .dataTable td{padding:7px;}
+.dataTable th{ font-weight:normal;}
+/*表格中操作列的颜色标识*/
+a.b-link{ color:#0088cc; margin:0px 5px; cursor:pointer;}
+
+
+/*查询表单的常用表单项*/
+.y-text, .y-textarea{ color:#262626; font-family:"Microsoft YaHei"; width:170px; overflow:hidden;}
+
+.y-text{ height:34px; line-height:34px; font-size:14px; font-family:"Microsoft YaHei"; border:1px solid #acacac; padding:0px 7px;}
+.y-textarea{ line-height:20px; font-size:14px; font-family:"Microsoft YaHei"; border:1px solid #acacac; padding:7px; overflow:auto; resize:none;}
+
+.y-select{ display:inline-block;padding-left:0px; background:#ffffff; border:1px solid #acacac;  position:relative; overflow:hidden; vertical-align: middle; z-index:999;}
+.y-select input{padding:9px 0px; padding-left:12px; width:100%; border:none; border-width:0px; color:#262626; font-family:"Microsoft YaHei"; overflow:hidden;}
+.y-select em{ display:inline-block;  height:38px; position:absolute; right:0px; top:0px;} 
+.y-select{ padding-right:51px; width:131px; overflow:visible;}
+.y-select em{width:46px; height:37px;  background:url(images/form_select_bg2.png) center right no-repeat;}
+
+.y-dateTime{ height:18px; line-height:18px; width:90px; padding:8px 45px 8px 12px;border:1px solid #acacac;  background:url(images/form_time_bg.png) center right no-repeat #ffffff;  color:#262626; font-family:"Microsoft YaHei";}
+
+
+/******有一个粗的左边框的标题****************************/
+.h2_1 { height: 69px;}
+.h2_1.border {border-top: 2px dashed #e0e0e0;}
+.h2_1 span { border-left: 7px solid #00a2d9;display: inline-block;font-size: 16px;height: 25px; line-height: 25px; margin-left: 26px; margin-top: 22px; padding-left: 20px;}
+
+/******附件列表的头部************/
+.grid_tit{ height:48px; line-height:48px; text-indent:27px; background:#cff0ff; margin:0px auto; border:1px solid #acacac;}
+
+

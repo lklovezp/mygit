@@ -1,0 +1,17 @@
+/**登录页**/
+body.loginBody{ background:url(images/login_bg.png) center top no-repeat;}
+h1.logo{ width:500px; height:73px; line-height:73px; padding-top:139px; padding-bottom:27px; margin:0px auto; text-align:center; font-size:40px; font-family:"Microsoft YaHei"; font-weight:bold; color:#0666f0;}
+.login{ width:500px; height:315px; margin:0px auto; background:#ffffff; border:1px solid #e1e5ee; position:relative; font-family:"Microsoft YaHei"; border-radius:6px; overflow:hidden; box-shadow:0px 0px 6px #e1e5ee;}
+.login .login_msg{ font-size:14px; height:20px; position:absolute; color:#fc4100; left:60px; top:38px;}
+.login ul{ display:block; margin-left:60px; padding-top:87px;}
+.login ul li{ height:68px;  position:relative; width:380px; height:68px; }
+.login ul li .con1{ height:44px;border:1px solid #2c82fc; border-radius:4px;}
+.login ul li .con1 span{ display:inline-block; width:42px; height:44px; float:left;}
+.login ul li.li1 .con1 span{ background:url(images/login_username.png) 8px center no-repeat;}
+.login ul li.li2 .con1 span{ background:url(images/login_password.png) 8px center no-repeat;}
+.login ul li.li3{}
+.login ul li input.txt{ width:319px; height:18px; padding:13px 0px 13px 0px; background:#ffffff; border:none; line-height:18px; font-size:16px; color:#666; outline:none; resize:none; font-family:"Microsoft YaHei"; border-radius:8px; float:left;}
+.login ul li.li3 input{ width:382px; height:46px; background:url(images/login_btn.png); border:none; outline:none; resize:none; color:#fff;  cursor:pointer;}
+.login_footer{ height:35px; font-size:14px; text-align:center; color:#ffffff; font-family:"Microsoft YaHei";}
+
+.login ul li label.error{ font-size:14px; display:block; height:16px; width:239px; color:#fc4100; position:absolute; left:0px; top:46px;}

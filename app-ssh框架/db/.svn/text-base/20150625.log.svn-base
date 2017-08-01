@@ -1,0 +1,116 @@
+
+连接到: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+已导出 ZHS16GBK 字符集和 AL16UTF16 NCHAR 字符集
+
+即将导出指定的用户...
+. 正在导出 pre-schema 过程对象和操作
+. 正在导出用户 BTHB1 的外部函数库名
+. 导出 PUBLIC 类型同义词
+. 正在导出专用类型同义词
+. 正在导出用户 BTHB1 的对象类型定义
+即将导出 BTHB1 的对象...
+. 正在导出数据库链接
+. 正在导出序号
+. 正在导出簇定义
+. 即将导出 BTHB1 的表通过常规路径...
+. . 正在导出表                JBPM4_DEPLOYMENT导出了           4 行
+. . 正在导出表                JBPM4_DEPLOYPROP导出了          16 行
+. . 正在导出表                 JBPM4_EXECUTION导出了           2 行
+. . 正在导出表              JBPM4_HIST_ACTINST导出了          10 行
+. . 正在导出表               JBPM4_HIST_DETAIL导出了           0 行
+. . 正在导出表             JBPM4_HIST_PROCINST导出了           2 行
+. . 正在导出表                 JBPM4_HIST_TASK导出了           6 行
+. . 正在导出表                  JBPM4_HIST_VAR导出了           0 行
+. . 正在导出表                  JBPM4_ID_GROUP导出了           0 行
+. . 正在导出表             JBPM4_ID_MEMBERSHIP导出了           0 行
+. . 正在导出表                   JBPM4_ID_USER导出了           0 行
+. . 正在导出表                       JBPM4_JOB导出了           0 行
+. . 正在导出表                       JBPM4_LOB导出了          10 行
+. . 正在导出表             JBPM4_PARTICIPATION导出了           2 行
+. . 正在导出表                  JBPM4_PROPERTY导出了           1 行
+. . 正在导出表                  JBPM4_SWIMLANE导出了           0 行
+. . 正在导出表                      JBPM4_TASK导出了           2 行
+. . 正在导出表                  JBPM4_VARIABLE导出了           2 行
+. . 正在导出表                 T_BIZ_CHECKLIST导出了          70 行
+. . 正在导出表             T_BIZ_TASKANDLAWOBJ导出了           2 行
+. . 正在导出表           T_BIZ_TASKANDTASKTYPE导出了           2 行
+. . 正在导出表       T_BIZ_TASKCHECKLISTHEADER导出了           0 行
+. . 正在导出表           T_BIZ_TASKILLEGALTYPE导出了           0 行
+. . 正在导出表            T_BIZ_TASKINVERECORD导出了           0 行
+. . 正在导出表               T_BIZ_TASKOPERLOG导出了           4 行
+. . 正在导出表             T_BIZ_TASKRECORDANS导出了           0 行
+. . 正在导出表          T_BIZ_TASKSURVEYRECORD导出了           0 行
+. . 正在导出表                  T_BIZ_TASKUSER导出了          11 行
+. . 正在导出表                T_BIZ_WFNODEINFO导出了           4 行
+. . 正在导出表                T_BIZ_WFTODOTASK导出了           6 行
+. . 正在导出表            T_DATA_CHECKLISTITEM导出了        1773 行
+. . 正在导出表         T_DATA_CHECKLISTITEMANS导出了        1205 行
+. . 正在导出表        T_DATA_CHECKLISTTEMPLATE导出了         631 行
+. . 正在导出表                T_DATA_COMPLAINT导出了           0 行
+. . 正在导出表           T_DATA_DIRANDTASKTYPE导出了           0 行
+. . 正在导出表               T_DATA_DISCREACTS导出了          18 行
+. . 正在导出表          T_DATA_DISCRECASECLASS导出了         146 行
+. . 正在导出表              T_DATA_DISCREMERIT导出了         111 行
+. . 正在导出表               T_DATA_DOTEMPLATE导出了           0 行
+. . 正在导出表               T_DATA_DOTEMPPARA导出了           0 行
+. . 正在导出表                     T_DATA_FILE导出了         203 行
+. . 正在导出表               T_DATA_GRIDLEADER导出了           0 行
+. . 正在导出表              T_DATA_ILLEGALTYPE导出了          26 行
+. . 正在导出表                 T_DATA_INDUSTRY导出了          31 行
+. . 正在导出表                   T_DATA_LAWDOC导出了         199 行
+. . 正在导出表                T_DATA_LAWDOCDIR导出了           3 行
+. . 正在导出表                   T_DATA_LAWOBJ导出了          48 行
+. . 正在导出表                T_DATA_LAWOBJDIC导出了         153 行
+. . 正在导出表                T_DATA_LAWOBJEIA导出了           0 行
+. . 正在导出表                T_DATA_LAWOBJHIS导出了           0 行
+. . 正在导出表       T_DATA_LAWOBJTYPETASKTYPE导出了          56 行
+. . 正在导出表                  T_DATA_PARACOL导出了           0 行
+. . 正在导出表                   T_DATA_RECORD导出了         672 行
+. . 正在导出表         T_DATA_RECORDLAWOBJTYPE导出了         688 行
+. . 正在导出表                   T_DATA_REGION导出了         122 行
+. . 正在导出表                 T_DATA_TASKTYPE导出了          14 行
+. . 正在导出表   T_DATA_TASKTYPEANDILLEGALTYPE导出了          26 行
+. . 正在导出表   T_DATA_TASKTYPEATTACHMENTTYPE导出了           0 行
+. . 正在导出表      T_DATA_TASKTYPEPRIMARYFILE导出了           0 行
+. . 正在导出表                T_DATA_TIMERTASK导出了           0 行
+. . 正在导出表          T_DATA_TIMERTASKLAWOBJ导出了           0 行
+. . 正在导出表        T_DATA_TIMERTASKTASKTYPE导出了           0 行
+. . 正在导出表                  T_DATA_VERSION导出了           0 行
+. . 正在导出表                      T_SYS_AREA导出了          25 行
+. . 正在导出表                       T_SYS_DIC导出了         208 行
+. . 正在导出表                      T_SYS_FUNC导出了          63 行
+. . 正在导出表                  T_SYS_FUNCOPER导出了          99 行
+. . 正在导出表                       T_SYS_JOB导出了           0 行
+. . 正在导出表                       T_SYS_LOG导出了         129 行
+. . 正在导出表                T_SYS_MOBILEFUNC导出了          19 行
+. . 正在导出表                       T_SYS_ORG导出了           9 行
+. . 正在导出表                   T_SYS_ORGAREA导出了          84 行
+. . 正在导出表                      T_SYS_ROLE导出了           7 行
+. . 正在导出表                  T_SYS_ROLEFUNC导出了         224 行
+. . 正在导出表              T_SYS_ROLEFUNCOPER导出了         298 行
+. . 正在导出表            T_SYS_ROLEMOBILEFUNC导出了         119 行
+. . 正在导出表                    T_SYS_SERVER导出了           1 行
+. . 正在导出表                      T_SYS_USER导出了          26 行
+. . 正在导出表                   T_SYS_USERORG导出了          25 行
+. . 正在导出表                  T_SYS_USERROLE导出了          26 行
+. . 正在导出表             WF_PROCESS_BUSINESS导出了           0 行
+. . 正在导出表                 WF_PROCESS_STEP导出了           0 行
+. . 正在导出表                           WORK_导出了           2 行
+. 正在导出同义词
+. 正在导出视图
+. 正在导出存储过程
+. 正在导出运算符
+. 正在导出引用完整性约束条件
+. 正在导出触发器
+. 正在导出索引类型
+. 正在导出位图, 功能性索引和可扩展索引
+. 正在导出后期表活动
+. 正在导出实体化视图
+. 正在导出快照日志
+. 正在导出作业队列
+. 正在导出刷新组和子组
+. 正在导出维
+. 正在导出 post-schema 过程对象和操作
+. 正在导出统计信息
+成功终止导出, 没有出现警告。

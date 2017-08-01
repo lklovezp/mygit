@@ -1,0 +1,151 @@
+
+/*任务派发*/
+.bTn_distance{padding:5px 12px;}
+.dailogMenu{ width:302px; padding-top:26px; background:#ffffff; position:absolute; top:50px; left:0px; z-index:3; border-radius:5px;}
+.dailogMenu a{ display:block; width:136px; padding-left:105px; height:75px; margin:0px auto 23px; line-height:72px; color:#ffffff; font-size:18px; }
+.dailogMenu a:hover{ text-decoration:none; cursor:pointer;}
+.dailogMenu a.zfjc{ background:url(../images/paifa_02_cur.png) no-repeat;}
+.dailogMenu a.zfjc:hover{ background:url(../images/paifa_02.png) no-repeat;}
+.dailogMenu a.rcbg{ background:url(../images/paifa_01_cur.png) no-repeat;}
+.dailogMenu a.rcbg:hover{ background:url(../images/paifa_01.png) no-repeat;}
+.dailogMenu a.xfts{ background:url(../images/paifa_03_cur.png) no-repeat;}
+.dailogMenu a.xfts:hover{ background:url(../images/paifa_03.png) no-repeat;}
+.dailogMenu span{ display:inline-block; width:28px; height:28px; background:url(../images/paifa_close.png) no-repeat; text-indent:-99999px; position:absolute; top:-14px; right:-14px; cursor:pointer; z-index:4;}
+
+/*任务派发-信访投诉*/
+/*小标题*/
+.h2_1{ height:69px;}
+.h2_1.border{ border-top:2px dashed #e0e0e0;}
+.h2_1 span{ display:inline-block; font-size:16px; height:25px; line-height:25px; margin-left:26px; margin-top:22px; border-left:7px solid #00a2d9; padding-left:20px;}
+/*信访投诉下拉选择框*/
+.requiredLabel { color: red;  }
+.task_zflx{text-decoration: underline;color:#014f92;}
+
+/*查询表单的常用表单项*/
+.form-text, .y-textarea{ color:#262626; width:200px; font-family:"Microsoft YaHei"; overflow:hidden;}
+.form-text{ height:34px; line-height:34px; font-size:14px; font-family:"Microsoft YaHei"; border:1px solid #acacac; padding:0px 7px;}
+.y-textarea{}
+
+.form-length{width:96%;height: 110px; line-height:24px; overflow:visible;}
+
+
+/*任务流转记录页面*/
+.task_step{
+    width: 720px;
+    height:48px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 4px solid #d1d1d1;
+}
+.task_step ul{ width:100%; position: absolute; z-index: 1; bottom: -4px; left: 0;  }
+.task_step ul li{ width: 33.33%;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    font-size: 18px; color: #262626;
+    border-bottom: 4px solid #d1d1d1;
+}
+.task_step ul li.for_cur{ border-bottom: 4px solid #00a2d9; color: #00a2d9; font-weight: bold}
+.taskTable{
+    border:1px solid #d4d4d4;
+    border-collapse:collapse;
+}
+.taskTable td{ padding:9px 20px;
+    font-family:"Microsoft YaHei";
+    border-bottom: 1px solid #d4d4d4;
+}
+.taskTable td.task_paifa{ color: #00a2d9;}
+.taskFlowbgcolor{
+    background-color: #edfaff;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;}
+.taskFlow_content{
+    font-size: 14px;
+    height:80px;
+}
+.taskFlow_down {
+    background: url(../images/task_down.png) no-repeat;
+    align: center;
+    margin: 0 auto;
+    width: auto;
+    height: 80px;
+    padding: 10px;
+    background-position: center;
+}
+
+
+/*工业污染源信息管理*/
+.lh37{
+    line-height: 37px;}
+.directory_comwidth{
+    width: 93px;
+    height: 37px;
+}
+
+.bTn{ margin:0 5px}
+.bTn.btnbgAdd{
+    background: url(../images/infor_bgAdd.png) no-repeat;
+    padding-left: 20px;
+}
+.bTn.btnbgImport{
+    background: url(../images/infor_bgImport.png) no-repeat;
+    width: 184px;
+    height: 37px;
+    padding-left: 20px;
+}
+.bTn.btnbgImg{
+    background: url(../images/infor_bgImg.png) no-repeat;
+    padding-left:20px;
+}
+.opercol{color: #043e7d;
+    font-size: 14px; padding:0 3px;}
+
+/*执法文件目录列表*/
+.directory_add{
+    background: url(../images/infor_bgAdd.png) no-repeat;
+    margin-bottom: 20px;
+    padding-left: 20px;
+	margin-top:-20px;
+}
+/*选择执法对象*/
+.bTn.btnbgAdd1{
+    background: url(../images/infor_bgAdd1.png) no-repeat;
+    padding-left: 20px;
+}
+.directory_add1{
+    background: url(../images/infor_bgAdd1.png) no-repeat;
+    margin-bottom: 20px;
+    padding-left: 20px;
+	margin-top:-20px;
+}
+
+.directory_comwidth1{
+    width: 113px;
+    height: 42px;
+}
+.y-directory{
+    width:400px;
+}
+.directory_save{
+    background: url(../images/manage_savebg.png) no-repeat;
+}
+.directory_reset{
+    background: url(../images/manage_resbg.png) no-repeat;
+}
+.directory_del{
+    background: url(../images/manage_delbg.png) no-repeat;
+}
+
+/*自由裁量权裁标准管理*/
+.discretTable{
+    border: 1px solid #d4d4d4;
+    border-collapse:collapse;
+    line-height: 30px;
+    padding: 3%;
+}
+.discret_title{
+    color: #00a2d9;
+    text-align: right;
+}

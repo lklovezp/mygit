@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/*****相关附件列表*************/
+.annex_con .datagrid-htable,.datagrid-header-row{background: none}
+.annex_con .datagrid-header td.datagrid-header-over{background:none;}
+/*上边两行是 相关附件表头及hover样式蓝色变默认灰  写页面中-->*/
+/*相关附件样式开始*/
+.o_btn{ padding:2px 10px; border-radius: 3px; color: #ffffff;}
+.o_btn:hover{ color:#ffffff}
+.btn_orange{ background: #ff7200;}
+.btn_blue{ background: #00a2d9;}
+.btn_grey{ background: #a9a9a9;}/*上边5行是操作里边的三个按钮的样式*/
+.annex_header{ height: 48px; line-height: 48px; background: #cff1ff; padding:0 25px; border:1px solid #d4d4d4; border-bottom: none; color: #262626;}
+.annex_header a{color: #043e7d;margin: 0px 5px;cursor: pointer;}/*标题样式结束*/
+.annex_con div.datagrid-cell.datagrid-cell-c1-operate{ height: 24px; line-height: 24px;}/*操作按钮外边的div的高度，每个页面的datagrid-cell-c1-operate不一样，c1代表这个页面上第1个datagrid，可根据自己页面此处的class修改,*/
+.annex_con div.datagrid-cell.datagrid-cell-c2-operate{ height: 24px; line-height: 24px;}
+.annex_con div.datagrid-cell.datagrid-cell-c3-operate{ height: 24px; line-height: 24px;}
+.annex_con div.datagrid-cell.datagrid-cell-c4-operate{ height: 24px; line-height: 24px;}
+.annex_con div.datagrid-cell.datagrid-cell-c5-operate{ height: 24px; line-height: 24px;}
+
+
+
+
+
+

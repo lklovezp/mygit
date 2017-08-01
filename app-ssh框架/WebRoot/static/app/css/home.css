@@ -1,0 +1,62 @@
+
+body{ margin:0px; padding:31px 15px 14px;min-width:1170px;_width:1170px; font-size:15px; font-family:"Microsoft YaHei"; color:#484848;}
+*+html body{ overflow-x:hidden;}
+*{ margin:0px; padding:0px;}
+img{ border:0px;}
+ul,li{ list-style:none; margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0; font-size:14px; font-weight:normal;}
+a{ color:#333333; text-decoration:none;}
+a:hover{ color:#333333; text-decoration:underline;}
+.clearfix{*zoom:1;}
+.clearfix:before{ content:""; height:0; line-height:0; display:table;}
+.clearfix:after{ content:""; height:0; line-height:0; display:table; clear:both;}
+
+
+.homePart{ width:50%; float:left; padding-bottom:22px; min-width:585px;_width:585px; }
+.homePart .con{margin:0px 14px; background:#ffffff; box-shadow:1px 3px 2px #dedede;border-radius:5px;}
+.homePart .con .tit{ padding-left:33px; padding-right:50px; height:50px; background:url(../images/home/home_tit_bg.png) repeat-x; line-height:50px; color:#ffffff; border-top-left-radius:5px; border-top-right-radius:5px;}
+.homePart .con .tit  a{ color:#ffffff; float:right; text-transform:capitalize; font-family:"Microsoft YaHei";}
+.homePart .con .tit p{height:50px; padding-left:36px; width:90px; font-size:16px; font-weight:bold; }
+.homePart.toDo .con .tit p{ background:url(../images/home/home_icon1.png) left center no-repeat;}
+.homePart.consultation .con .tit p{ background:url(../images/home/home_icon2.png) left center no-repeat;}
+.homePart.done .con .tit p{ background:url(../images/home/home_icon3.png) left center no-repeat;}
+.homePart.message .con .tit p{ background:url(../images/home/home_icon4.png) left center no-repeat;}
+.homePart .con .content{ height:280px; overflow:hidden; border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+.homePart.done .con .content, .homePart.message .con .content{ margin-top:11px; height:249px;}
+/**/
+.toDo .content, .consultation .content{ height:282px; overflow:hidden;}
+.toDo .content ul li, .consultation .content ul li{ height:46px; line-height:46px; margin:0px 16px; border-bottom:1px dashed #c5c5c5;*zoom:1; overflow:hidden;}
+.toDo .content ul li:after, .consultation .content ul li:after{ content:""; height:0; line-height:0; display:table; clear:both;}
+.toDo .content ul li span{ float:right;  font-weight:bold;}
+.toDo .content ul li span a{ color:#06a4da;}
+.toDo .content ul li font, .consultation .content ul li font{ margin:0px 5px 0px 8px;}
+.toDo .content ul li a{}
+.consultation .content ul li span{ float:right; color:#a7a7a7; margin-right:8px;}
+.consultation .content ul li a{}
+
+.done .content ul li{ width:89%; height:66px; margin:10px auto 0px; background:#f3f3f3; border-radius:3px; position:relative;}
+.done .content ul li .left{  width:158px; height:66px; position:absolute; left:0; top:0; border-radius:3px; background:#12aee2; color:#ffffff; line-height:66px; overflow:hidden; font-size:18px;}
+.done .content ul li .left a{ display:inline-block; height:66px; padding-left:66px; color:#ffffff; font-weight:bold; text-decoration:none;}
+.done .content ul li .left.zfjc a{ background:url(../images/home/home_ic1.png) 19px center no-repeat;}
+.done .content ul li .left.xfts a{ background:url(../images/home/home_ic2.png) 19px center no-repeat;}
+.done .content ul li .left.rcbg a{ background:url(../images/home/home_ic3.png) 19px center no-repeat;}
+.done .content ul li .right{ padding-left:157px;}
+.done .content ul li .right p{ height:50px; margin-top:8px; float:left; width:20%; background:url(../images/home/home_done_border_line.png) left top repeat-y; text-align:center; overflow:hidden;}
+.done .content ul li .right p .font1{ height:31px; line-height:31px; color:#06a4da; font-size:24px;}
+.done .content ul li .right p:first-child{width:18%;}
+.done .content ul li .right p a{ display:inline-block; width:100%;}
+.done .content ul li .right p a:hover{ text-decoration:none;}
+.done .content ul li .right p a.a1{ height:28px; line-height:28px; color:#06a4da; font-size:24px; margin-bottom:3px;}
+.done .content ul li .right p a.a1:hover{ text-decoration:underline;}
+.done .content ul li .right p a.a1 small{ font-size:22px;}
+
+.homePart.message .con .content{padding-left:26px; padding-right:26px;}
+.message .content ul li{ float:left; padding-top:27px; width:25%; overflow:hidden; height:176px;}
+.message .content ul li a{ display:block; max-width:128px;_width:128px; height:174px; width:82%; margin:0px auto; overflow:hidden; border:1px solid #f0eded; border-radius:5px;}
+.message .content ul li a:hover{ text-decoration:none; cursor:pointer;}
+.message .content ul li.wdhs a{ background:url(../images/home/home_ico1.png) center center no-repeat;}
+.message .content ul li.xdrw a{ background:url(../images/home/home_ico2.png) center center no-repeat;}
+.message .content ul li.bydl a{ background:url(../images/home/home_ico3.png) center center no-repeat;}
+.message .content ul li.zdl a{ background:url(../images/home/home_ico4.png) center center no-repeat;}
+.message .content ul li a span{ display:inline-block; width:100%; height:34px; margin-top:65px; color:#ffffff; line-height:34px; text-align:center; font-weight:bold;}
+.message .content ul li a em{ display:inline-block; width:100%; line-height:74px; height:74px; color:#1e1e1e; font-size:36px; text-align:center; font-style:normal;}

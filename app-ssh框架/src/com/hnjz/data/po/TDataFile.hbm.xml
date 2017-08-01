@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.hnjz.data.po.TDataFile" table="T_DATA_FILE">
+		<id name="id" type="string" unsaved-value="null">
+			<column name="ID_" sql-type="char(32)" not-null="true" />
+			<generator class="uuid.hex" />
+		</id>
+
+		<property column="PID_" name="pid" not-null="true" type="string" />
+		<property column="OSNAME_" name="osname" not-null="true" type="string" />
+		<property column="NAME_" name="name" not-null="true" type="string" />
+		<property column="EXTENSION_" name="extension" not-null="false" type="string" />
+		<property column="SIZE_" name="size" not-null="true" type="long" />
+		<property column="TYPE_" name="type" not-null="true" type="string" />
+		<property column="EXTINFO_" name="extinfo" not-null="false" type="string" />
+		<property column="RELATIVEPATH_" name="relativepath" not-null="false" type="string" />
+		<property column="ISACTIVE_" name="isActive" not-null="true" type="string" />
+		<property column="UPDATED_" name="updated" not-null="true" type="timestamp" />
+		<many-to-one name="updateby" column="UPDATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+		<property column="CREATED_" name="created" not-null="true" type="timestamp" />
+		<many-to-one name="createby" column="CREATEBY_" class="com.hnjz.sys.po.TSysUser" not-null="true"></many-to-one>
+	</class>
+</hibernate-mapping>

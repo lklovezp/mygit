@@ -1,0 +1,44 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+/*CSS Reset*/
+body{ margin:0px; padding:0px; font-size:12px;color:#333;}
+*{ margin:0px; padding:0px;}
+img{ border:0px;}
+ul,li{ list-style:none; margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0; font-family:microsoft yahei; text-align:center; color:#484848;}
+.cc{ background: none; border: 0; clear: both; display: block; float: none; font-size: 0; margin: 0; padding: 0; overflow: hidden; visibility: hidden; width: 0; height: 0;}
+a{ color:#333333; text-decoration:none;}
+a:hover{ color:#333333; text-decoration:underline;}
+em{ font-style:normal;}
+.clearfix{*zoom:1;}
+.clearfix:before{ content:""; height:0; line-height:0; display:table;}
+.clearfix:after{ content:""; height:0; line-height:0; display:table; clear:both;}
+
+/**以上是css重置信息**/
+.hjfx{}
+
+
+
+/***重绘tab.ui***/
+/*作为tab的ul*/
+.ui-tabs .ui-tabs-nav {min-width:1000px;_width:1000px;margin:0 auto;padding:0px;border-bottom:1px solid #e9e9e9; margin-top:2px; padding-left:20px;}
+/*tab中的li*/
+.ui-tabs .ui-tabs-nav li { border:1px solid #fff; border-bottom:none;padding:0px 7px; margin:0; border-top-left-radius:10px; border-top-right-radius:10px; text-align:center; overflow:hidden; margin-right:0px; height:32px; line-height:32px; background:#cacaca;}
+/*tab中的li中的a*/
+.ui-tabs .ui-tabs-nav li a{ height:32px; line-height:32px;padding:0;width:100%; text-align:center;font-size:14px; color:#fff; font-family:"Microsoft YaHei"; outline:none;}
+/*tab中选中的li*/
+.ui-tabs .ui-tabs-nav li.ui-state-active {background: #0067d0; border-top-left-radius:10px; border-top-right-radius:10px; padding-bottom:0px;}
+.ui-tabs .ui-tabs-nav li.ui-state-active a{ color:#fff;}
+
+/****li对应的div******/
+.ui-tabs .ui-tabs-panel{padding:0px;}
+/*******************************************************/
+
+
+
+
+
+
+

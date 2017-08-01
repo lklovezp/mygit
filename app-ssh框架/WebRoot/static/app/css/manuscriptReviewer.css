@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*******中间的审核级别***********************/
+#main{width:80%;}
+#main:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#main .left{ width:33.3%; float:left;}
+#main .center{ width:33.3%; float:left;}
+#main .right{ width:33.3%; float:left;}
+#main .con{ margin:19px; margin-top:0px;border:1px solid #d4d4d4;}
+#main .con .subTit{ text-align:center; font-family:'Microsoft YaHei';font-size:16px; padding: 24px 10px 15px; font-weight:bold;}
+#main .con .ulDiv{ overflow:auto;font-family:'Microsoft YaHei'; color:#333;  height:300px; }
+#main .con .ulDiv .jb{ padding-top:20px;}
+#main .con .ulDiv .jb p{ width:206px; height:59px; background:url(../images/shr/shr.png) no-repeat; margin-bottom:28px; cursor:pointer;}
+#main .con .ulDiv .jb p a{ display:inline-block; padding-left:51px; width:59px; height:59px; line-height:59px; font-size:18px; margin:0 auto; color:#666666;}
+#main .con .ulDiv .jb p a:hover{ text-decoration:none;}
+#main .con .ulDiv .jb p.on{ background:url(../images/shr/shr_on.png) no-repeat;}
+#main .con .ulDiv .jb p.on a{ color:#0384af;}
+#main .con .ulDiv .jb p.jb1 a{ background:url(../images/shr/jb01_on.png) left center no-repeat;}
+#main .con .ulDiv .jb p.jb2 a{ background:url(../images/shr/jb02_on.png) left center no-repeat;}
+#main .con .ulDiv .jb p.jb3 a{ background:url(../images/shr/jb03_on.png) left center no-repeat;}
+#main .con .ulDiv .jb p.jb1.on a{ background:url(../images/shr/jb01.png) left center no-repeat;}
+#main .con .ulDiv .jb p.jb2.on a{ background:url(../images/shr/jb02.png) left center no-repeat;}
+#main .con .ulDiv .jb p.jb3.on a{ background:url(../images/shr/jb03.png) left center no-repeat;}
+
+/*******左侧的部门树********************/
+
+.ztree,.ztree li ul,.ztree li a{ margin:0; padding:0;}  /*去掉所有的边距，以让叶子结点可以加上整条的背景色和底边框*/
+.ztree{padding-bottom:20px;}
+.ztree li a:hover{ text-decoration:none;}
+.ztree *{ font-size:14px; font-family:"Microsoft Yahei";} /*调字体大小和字体*/
+/*折叠按钮*/
+.left .ztree li span.button.noline_open{ height:24px; background-image:url(../images/shr/tree_arrow_open.png); background-position:0px 5px;}/*所有父节点的折叠按钮的图片-展开*/
+.left .ztree li span.button.noline_close{height:24px; background-image:url(../images/shr/tree_arrow_close.png); background-position:2px 2px;}/*所有父节点的折叠按钮的图片-折叠*/
+/*图标*/
+.left .ztree li.level0 span.button.ico_open, .left .ztree li.level0 span.button.ico_close{ width:26px; height:15px; background-image:url(../images/shr/tree_icon1.png); background-position: center center;}/*一级节点的图标-展开和折叠*/
+.left .ztree li.level1 span.button.ico_docu{ width:26px; height:15px; margin-top:2px; background-image:url(../images/shr/tree_icon2.png); background-position: 0px 0px;}/*二级节点的图标*/
+/*上下间距*/
+.left .ztree li.level1 span.button.switch{ display:none;}/*让二级左侧的线占据的span隐藏*/
+.left .ztree li a.level0{ padding-top:4px; padding-bottom:4px;}/*一级数据的上下间距*/
+.left .ztree li a.level1{ display:block; padding-top:4px; padding-bottom:4px; }/*二级数据的上下间距*/
+/*选中时的背景及二级的图标*/
+.left .ztree li a.level0.curSelectedNode{ background:none; border:none;}
+.left .ztree li a.level1.curSelectedNode{ height:17px; background:#f0fbff; border:1px solid #d6f4ff; border-radius:5px;}
+.left .ztree li a.level1.curSelectedNode span.button.ico_docu{  background-image:url(../images/shr/tree_icon2_on.png); }
+*+html .left .ztree li a.level1.curSelectedNode{padding-top:2px;}
+/*左右间距*/
+.left .ztree li span.button.level0.switch{margin-left:20%; }
+.left .ztree li a.level1{ padding-left:34%; }
+
+/***右侧的审核人树****/
+/*折叠按钮*/
+.right .ztree li span.button.noline_open{ height:17px; background-image:url(../images/shr/tree_arrow_open.png); background-position:0px 2px;}/*所有父节点的折叠按钮的图片-展开*/
+.right .ztree li span.button.noline_close{height:17px; background-image:url(../images/shr/tree_arrow_close.png); background-position:1px 0px;}/*所有父节点的折叠按钮的图片-折叠*/
+
+*+html .right .ztree li span.button.noline_open{ height:17px; background-image:url(../images/shr/tree_arrow_open.png); background-position:0px bottom;}/*所有父节点的折叠按钮的图片-展开*/
+*+html .right .ztree li span.button.noline_close{height:19px; background-image:url(../images/shr/tree_arrow_close.png); background-position:1px bottom;}/*所有父节点的折叠按钮的图片-折叠*/
+/*图标*/
+
+.right .ztree li a.level0 span.button.ico_open, .right .ztree li a.level0 span.button.ico_close{ width:26px; height:16px; background-image:url(../images/shr/tree_icon1.png); background-position: center 1px;}/*一级节点的图标-展开和折叠*/
+.right .ztree li a.level1 span.button.ico_open{ width:26px; height:16px; background-image:url(../images/shr/tree_icon2_on.png); background-position: center 1px;}/*二级节点的图标-展开*/
+.right .ztree li a.level1 span.button.ico_close{ width:26px; height:16px; background-image:url(../images/shr/tree_icon2.png); background-position: center 1px;}/*二级节点的图标-折叠*/
+.right .ztree li.level1 span.button.ico_docu{ width:18px; height:15px; margin-top:2px; background-image:url(../images/shr/tree_icon3.png); background-position: center 0px;}/*三级节点的图标*/
+/*左右间距*/
+.right .ztree li.level0{ margin-left:20%; }
+.right .ztree li.level0 ul.level0{ margin-left:30px; }
+.right .ztree li.level0 ul.level0 ul.level1{ margin-left:26px;}
+/*上下间距*/
+.right .ztree li span.button.noline_docu{ display:none;}
+.right .ztree li.level0 ul.level0{  margin-top:4px;}
+.right .ztree li.level1{ padding-bottom:7px;}
+.right .ztree li a{ padding-top:2px;}
+.right .ztree li.level2{padding-top:5px;}
+/*复选框*/
+.right .ztree li span.button.chk{ display:inline-block; height:15px; margin-top:2px;}
+.right .ztree li span.button.chk.checkbox_false_full, .right .ztree li span.button.chk.checkbox_false_full_focus{ background-image:url(../images/shr/tree_checkbox.png); background-position:0px 2px;}
+.right .ztree li span.button.chk.checkbox_true_full, .right .ztree li span.button.chk.checkbox_true_full_focus{background-image:url(../images/shr/tree_checkbox_on.png); background-position:0px 2px;}
+/*选中时的背景及二级的图标*/
+.right .ztree li a.curSelectedNode{ background:none; border:none;}

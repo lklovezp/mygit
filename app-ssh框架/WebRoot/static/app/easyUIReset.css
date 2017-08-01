@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+
+/*下拉框*/
+.combo{border-color:#acacac;}/*框体的边框颜色*/
+.combo-arrow {background-color: #eaeaea;}/*框体右侧箭头的背景色*/
+.panel-body{border-color:#acacac;} /*下拉框的边框颜色*/
+.combo .combo-text{padding-left:7px;padding-right:7px; font-size:14px;}/*框体的文字的左右间距和字体大小*/
+.combobox-item{padding-top:5px; padding-bottom:5px; font-size:14px;}/*下拉框选项的上下间距及字体大小*/
+.combobox-item-hover{background-color: #f5fbfd;}/*下拉框选项的鼠标滑过时的背景颜色*/
+.combobox-item-selected{background-color:#ebf7fc;}/*下拉框选项的选中时的背景颜色*/
+
+/*数据表格*/
+.datagrid-btable tr{ height:36px;}/*表格数据行的高度*/
+.datagrid-htable tr{ height:36px;}/*表格表头的高度*/
+.datagrid-htable, .datagrid-btable, .datagrid-ftable{ color:#262626;}/*表格数据文字的字体颜色*/
+.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber{ font-size:14px;}/*表格数据文字的字体大小*/
+
+.datagrid-htable, .datagrid-header-row{background-color: #cff1ff;}/*表格的表头的背景颜色*/
+.panel-body-noheader{ border-color:#d4d4d4;}/*表格的最外边一圈边框的颜色*/
+
+.datagrid-header td.datagrid-header-over{background-color: #cff1ff; }/*表格中的表头的每个单元格当鼠标滑过时，单元格的背景颜色*/
+.datagrid-row-over{background-color: #f5fbfd;}/*表格中的数据行当鼠标滑过时行的背景颜色*/
+.datagrid-row-selected{background-color: #ebf7fc;}/*表格中点击选中的行的背景颜色*/
+
+/*为combobox添加clear按钮*/
+.combo-clear {
+  background-color: #E0ECFF;
+  width: 18px;
+  height: 20px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  background:url(images/combo_clear.png) no-repeat center center;
+}
+.combo-clear-hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  background-color: #eaf2ff;
+}

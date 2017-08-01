@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap{width:90%; margin:0px auto 25px; padding:3px 0px 30px; border:1px solid #acacac;}
+.titi{ width:90%; margin:0 auto; border-right:1px solid #D4D4D4; }
+.titi .t_p{height:48px; line-height:48px; background:#cff1ff; border:1px solid #D4D4D4; text-indent:18px; border-right:0px; border-bottom:0px;}
+
+.randow_add, .randow_remove, .randow_removeAll{display:inline-block;height:32px; cursor:pointer; overflow:hidden; background-repeat:no-repeat; text-indent:-9999px;margin:4px 10px 1px;}
+.randow_add{  width:90px;  background-image:url(../images/random_add.png); margin-left:20px;}
+.randow_remove{  width:90px;  background-image:url(../images/random_remove.png);}
+.randow_removeAll{  width:115px;  background-image:url(../images/random_removeAll.png);}
+
+
+.datagrid-toolbar{ background:#ffffff;}
+.datagrid-header, .datagrid-td-rownumber{ background:#ffffff; filter:none;}
+.datagrid-htable, .datagrid-header-row{background-color: #ffffff;}/*表格的表头的背景颜色*/
+.datagrid-header td.datagrid-header-over{background-color: #ffffff; }
+.datagrid-wrap.panel-body-noheader{ border-color:#d4d4d4; border-right-width:0px;}
+.datagrid-cell span{ font-weight:normal;}
+.datagrid-body tr { height:35px;}
+.datagrid-body .datagrid-editable .datagrid-editable-input{ border-color:#d4d4d4;}
+.combo{border-color:#d4d4d4;}
+
+
+.footerBtn{ padding-top:30px;}

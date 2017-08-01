@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqls>
+    <sql name="roleList">
+      <countSql>
+       select count(*)
+		from
+		   SYS_ROLEFUNCOPER rfo,
+		   SYS_FUNCOPER fo left join
+		   SYS_FUNCTION f on fo.sys_function_id_ = f.id_
+		where
+		   rfo.SYS_FUNCOPER_ID_ = fo.ID_
+      </countSql>
+      <listSql>
+         select
+			rfo.id_ OPERATEID_,
+			   rfo.SYS_ROLE_ID_ roleid_,
+			   fo.SYS_FUNCTION_ID_ functionid_,
+			   fo.ONCLICK_EVENT_ ONCLICK_EVENT_,
+			   fo.LINK_ADDR_ LINK_ADDR_,
+			   fo.note_ note_,
+			   f.linkaddr_ funlink_,
+			   fo.fashion_
+			from
+			   SYS_ROLEFUNCOPER rfo,
+			   SYS_FUNCOPER fo left join
+			   SYS_FUNCTION f on fo.sys_function_id_ = f.id_
+			where
+			   rfo.SYS_FUNCOPER_ID_ = fo.ID_
+      </listSql>
+      <notBlank name="note">
+         and o.note like :note
+      </notBlank>
+      <endSql>
+          order by rfo.SYS_ROLE_ID_
+      </endSql>
+    </sql>
+</sqls>
